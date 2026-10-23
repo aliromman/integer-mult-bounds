@@ -2,7 +2,7 @@
   "schema_version": 1,
   "task_id": "formal-interface-lemma",
   "priority_revision": 7,
-  "base_commit": "7c472563474e60185e6ca101a17622133d047e56",
+  "base_commit": "49373a6f433fef560a4297f65f3826a8add7cd44",
   "original_card": {
     "id": "formal-interface-lemma",
     "question": "Can one uncovered interface implication be formalized with exact caller and certificate bindings?",
@@ -74,22 +74,22 @@
       }
     ]
   },
-  "scope_status": "refined",
-  "actual_scope": "Prove and construct the whole ordered Schur residual for arbitrary H by Fitting decomposition of the original factor systems.",
-  "scope_change_reason": "PR5348 leaves general-H gluing open. The original sector00 factor system must be split before primary normal forms can be combined.",
-  "bottleneck_link": "A complete ordered residual state is needed for later guards; central spectra alone do not determine the transition.",
-  "budget_minutes": 75,
-  "stop_rule": "One all-field algebraic contract and exact corroboration; no physical header, probability, supplier or kappa claim.",
+  "scope_status": "changed",
+  "actual_scope": "Replace the compressed-matrix enumeration in the exact one-block Schur header law with polynomial joint-nullity incidence inversion over every finite field.",
+  "scope_change_reason": "A concurrent gluing claim was found before publication; the independent gluing artifact was shared as corroboration. The complementary counting scope removes the exponential matrix enumeration in PR4678 rather than repeating its factor-count theorem.",
+  "bottleneck_link": "The retained exact header law cannot scale when it enumerates every compressed matrix. The joint-nullity law preserves dependence and removes that exponential step.",
+  "budget_minutes": 90,
+  "stop_rule": "One exact joint-nullity and header-count algorithm. No later-guard, physical generator, supplier or kappa claim.",
   "outcome": "completed",
-  "evidence": "PROOF.md, normal.py, verify.py, RESULT.json",
+  "evidence": "PROOF.md, counts.py, verify.py, RESULT.json",
   "author": "Ali Romman",
-  "ai_assistance": "Substantial OpenAI Codex assistance in proof, implementation, review and verification; no independent human or proof-kernel acceptance.",
+  "ai_assistance": "Substantial OpenAI Codex assistance in derivation, implementation, review and verification; no independent human or proof-kernel acceptance.",
   "open_questions": [
     {
-      "question": "What is the exact fixed-H complete-header weight for arbitrary H?",
-      "why_it_matters": "The ordered representative alone supplies no transition probability.",
-      "first_step": "Count unrestricted sector00 factors by rank and multiply the three full-rank factor counts.",
-      "blocked_by": "Coincident residual orbits must be summed before an unconditional orbit probability."
+      "question": "Can a source-bound profile use this count in a state-aware later-guard recursion?",
+      "why_it_matters": "One-block mass does not give full-guard survival.",
+      "first_step": "Use a small binary profile and preserve full residual states.",
+      "blocked_by": "Residuals need not commute; physical header generation remains unpriced."
     }
   ]
 }

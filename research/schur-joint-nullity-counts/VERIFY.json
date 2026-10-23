@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/schur-header-count/README.md",
+    "research/schur-header-count/verify.py",
+    "research/schur-nilpotent-extension/README.md"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 90,
+      "checks": "Independent complete matrix/factor domains over prime and extension fields, retained binary header law, all GL4 literal headers, large exact counts, empty and odd-field controls, source hashes and typed receipt."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-W",
+        "error",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 90,
+      "checks": "Independent complete matrix/factor domains over prime and extension fields, retained binary header law, all GL4 literal headers, large exact counts, empty and odd-field controls, source hashes and typed receipt."
+    }
+  ]
+}
