@@ -2,7 +2,7 @@
   "schema_version": 1,
   "task_id": "formal-interface-lemma",
   "priority_revision": 7,
-  "base_commit": "49373a6f433fef560a4297f65f3826a8add7cd44",
+  "base_commit": "7c472563474e60185e6ca101a17622133d047e56",
   "original_card": {
     "id": "formal-interface-lemma",
     "question": "Can one uncovered interface implication be formalized with exact caller and certificate bindings?",
