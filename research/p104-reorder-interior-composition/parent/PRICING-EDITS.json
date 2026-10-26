@@ -1,0 +1,26 @@
+[
+  [
+    "Q('.00310676333'), Q('.003106763335')",
+    "Q('.00310815849'), Q('.003108158495')"
+  ],
+  [
+    "PREVIOUS = Q('.00310644469')",
+    "PREVIOUS = Q('.00310676333')"
+  ],
+  [
+    "== 66474",
+    "== 66402"
+  ],
+  [
+    "'kappa_decimal':'.00310676333'",
+    "'kappa_decimal':'.00310815849'"
+  ],
+  [
+    "previous_open_pr5651",
+    "previous_open_pr5660"
+  ],
+  [
+    "Ali Romman PR5644. The four-gate change is by Ali Romman with Codex assistance.",
+    "Ali Romman PR5644. The four-gate change is by Ali Romman with Codex assistance.\nThe four interior basis changes are by Ali Romman with Codex assistance."
+  ]
+]

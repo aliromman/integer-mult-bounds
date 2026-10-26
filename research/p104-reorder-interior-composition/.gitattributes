@@ -1,0 +1,3 @@
+# Preserve every pinned source byte.
+parent/** -text -whitespace
+reorder/** -text -whitespace

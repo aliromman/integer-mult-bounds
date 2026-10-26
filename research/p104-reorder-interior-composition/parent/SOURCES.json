@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "base_commit": "df0137efd35e11b4445734bf612bdd4c7ebc330c",
+  "files": [
+    {
+      "path": "certificates/selected-result.json",
+      "usage": "provenance",
+      "git_blob": "581f8d87008354eb5b869f7ed9de1317ad837ce8",
+      "sha256": "2a0220e866417774606e0f991e41b9c1d26b1f43b97857238cf478dbc7d330b5"
+    },
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "git_blob": "f126dd2e2dad2b669e75d1d0d0bd05c600725602",
+      "sha256": "f7a48bfa2659b88378282a8eee7d9fe52cdf505594124c4d1686b58510fffd72"
+    },
+    {
+      "path": "research/p104-paid-interior-bases/inputs/pr5660-source.tar",
+      "usage": "input",
+      "pin": "head:89c7e069d6b93b7802f946d01886d92970303f86:research/p104-paid-interior-bases/inputs/pr5660-source.tar",
+      "git_blob": "5b84cf23231082376660b7295744b64655039d8c",
+      "sha256": "397b1f99061f670ed904198d0458808769c0a8693394bee0d9648f1f280d88d3"
+    }
+  ],
+  "source_export": {
+    "commit": "3b0b4f37d5005f381ed9cfcccebfbe1ab35c71aa",
+    "files": 23,
+    "git_blob": "5b84cf23231082376660b7295744b64655039d8c",
+    "sha256": "397b1f99061f670ed904198d0458808769c0a8693394bee0d9648f1f280d88d3",
+    "local_path": "inputs/pr5660-source.tar",
+    "package": "research/p104-contact-rewrite",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/5660"
+  },
+  "predecessors": {
+    "PR5627": "ed4dc88a09a7d201971f6603b8c2074e95dd9c32",
+    "PR5643": "a3ff5c628bfc8825553d62d913f3e91f75d6825f",
+    "PR5644": "c5871955d89bf73506fd68b0a5bf1cf2b3153c02",
+    "PR5650": "7916490124ac946704339a6a332bb76f06e5db5c",
+    "PR5651": "853192167b27d44aea0d4bc2b0d52d695fadc7c6",
+    "PR5660": "3b0b4f37d5005f381ed9cfcccebfbe1ab35c71aa"
+  },
+  "attribution": "PR5660 supplies the complete input word and retains the P104, helper, scalar, native, caller and compiler source chain. Four paid interior basis changes and their exact certificates are new work by Ali Romman with substantial OpenAI Codex assistance. No subagents."
+}

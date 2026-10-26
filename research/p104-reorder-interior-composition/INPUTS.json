@@ -1,0 +1,128 @@
+[
+  {
+    "local": "parent/NOTICE",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/NOTICE",
+    "sha256": "e8e0cabef6cf40d63f3cea3b6403dfd1af8727e40df03f09b2932718bcddc1b0"
+  },
+  {
+    "local": "parent/PRICING-EDITS.json",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/PRICING-EDITS.json",
+    "sha256": "a4b4ca656610e07573bc5c058f91d3afe2a8b12d4d7cb1497f435c185063bff0"
+  },
+  {
+    "local": "parent/PROOF.md",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/PROOF.md",
+    "sha256": "a599f482ec35ddf84b1ddf72da92a6edbb77b9c4eccab6ffe31fdece2419f099"
+  },
+  {
+    "local": "parent/README.md",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/README.md",
+    "sha256": "35b252cc37339041c4cf8851134781fe8e79739170b3bd6e536dc87d962cbd24"
+  },
+  {
+    "local": "parent/RESULT.json",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/RESULT.json",
+    "sha256": "ab036dc5fd6c1b19255d03007a858325a18bb7de12843687db74d85f146f5020"
+  },
+  {
+    "local": "parent/SOURCES.json",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/SOURCES.json",
+    "sha256": "d87d48095d56bdc26a2f86e05760915b2b341000e53c1f877d6348331f66dded"
+  },
+  {
+    "local": "parent/TASK.json",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/TASK.json",
+    "sha256": "e9d942a3f062d1a183cbd947a968146c6a38102e1463f065e7fc1d0f24fc95cd"
+  },
+  {
+    "local": "parent/VALIDATION.md",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/VALIDATION.md",
+    "sha256": "e5de967a8c8a0bde2436fa0b39778690bed1fe7751228a8ec6985053aa017e3f"
+  },
+  {
+    "local": "parent/VERIFY.json",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/VERIFY.json",
+    "sha256": "2a70cf3a09fd82a92d12d9417223ef65a2dcb8e80b5b900d21ecf4d1f43257b0"
+  },
+  {
+    "local": "parent/WITNESS.json",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/WITNESS.json",
+    "sha256": "0753bc9933fbb954ec79b3d054b4f60bb3ee5c97801f426d4104da5fc5bc38b3"
+  },
+  {
+    "local": "parent/WORD.json.gz",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/WORD.json.gz",
+    "sha256": "b56281a67f84832198be2f2ad36d87b75244d424f1e0a6f4dda2df74f20cc08d"
+  },
+  {
+    "local": "parent/construct.py",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/construct.py",
+    "sha256": "ab9b0e00e67caac137477c0b8e646ba5604d02a7a0a297c4e3fce9e20105812e"
+  },
+  {
+    "local": "parent/inputs/pr5660-source.tar",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/inputs/pr5660-source.tar",
+    "sha256": "397b1f99061f670ed904198d0458808769c0a8693394bee0d9648f1f280d88d3"
+  },
+  {
+    "local": "parent/pricing.py",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/pricing.py",
+    "sha256": "0f333369792e7cbec5bbcfb5a6ec6577c2e766598bd6b7f3a9b5c7c3a616a52d"
+  },
+  {
+    "local": "parent/sources.py",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/sources.py",
+    "sha256": "9c02f057d1153f202c142c543ef83c3e1555b771621d1da434069f8317b9f787"
+  },
+  {
+    "local": "parent/verify.py",
+    "commit": "af814f6f3c477fdd13b8f04380a33cf32004966b",
+    "path": "research/p104-paid-interior-bases/verify.py",
+    "sha256": "28c11370ae7a11e073c58c75055085191358702256061bd963f0fd8ee16457da"
+  },
+  {
+    "local": "reorder/construct.py",
+    "commit": "693a2203a4f84f8ff3d99daef07432004b717d06",
+    "path": "research/p104-reframe-r22/construct.py",
+    "sha256": "753d082a459f3bf04d548d1adc644d673671b41f94234c60eea17252be713131"
+  },
+  {
+    "local": "reorder/verify.py",
+    "commit": "693a2203a4f84f8ff3d99daef07432004b717d06",
+    "path": "research/p104-reframe-r22/verify.py",
+    "sha256": "f34bc4d829b429b3762069477238ba63ffd366db07b04adbe232702da5377985"
+  },
+  {
+    "local": "reorder/WORD.json.gz",
+    "commit": "693a2203a4f84f8ff3d99daef07432004b717d06",
+    "path": "research/p104-reframe-r22/WORD.json.gz",
+    "sha256": "885850a20f04c1e788b432c376179e4c3e06a198e464f709ccb1f36eab44a367"
+  },
+  {
+    "local": "reorder/README.md",
+    "commit": "693a2203a4f84f8ff3d99daef07432004b717d06",
+    "path": "research/p104-reframe-r22/README.md",
+    "sha256": "b9d137789c8f2f89e33c3eca2ca6094949755b159ee4d0b9c87b58c430babcb0"
+  },
+  {
+    "local": "reorder/NOTICE",
+    "commit": "693a2203a4f84f8ff3d99daef07432004b717d06",
+    "path": "research/p104-reframe-r22/NOTICE",
+    "sha256": "5cb6cca9cfa0fa54b7d20f30143b49004054c103afb790f423639cf1c50cadd2"
+  }
+]
