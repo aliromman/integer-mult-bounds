@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "base_commit": "df0137efd35e11b4445734bf612bdd4c7ebc330c",
+  "files": [
+    {
+      "path": "certificates/selected-result.json",
+      "usage": "provenance",
+      "sha256": "2a0220e866417774606e0f991e41b9c1d26b1f43b97857238cf478dbc7d330b5",
+      "git_blob": "581f8d87008354eb5b869f7ed9de1317ad837ce8"
+    },
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "sha256": "f7a48bfa2659b88378282a8eee7d9fe52cdf505594124c4d1686b58510fffd72",
+      "git_blob": "f126dd2e2dad2b669e75d1d0d0bd05c600725602"
+    },
+    {
+      "path": "research/p104-paid-helper-subdivisions/inputs/pr5718-source.tar",
+      "usage": "input",
+      "pin": "head:4d51db4eaf53c336867bee9e5efa45fb061276f6:research/p104-paid-helper-subdivisions/inputs/pr5718-source.tar",
+      "sha256": "2ed859e3cad00ed9ece1bb58792e78a623d49cd37eeca9f6b49c3c7345415f75",
+      "git_blob": "55423a4a2c22d45e1ec1a8bfd77b65bfcba0e170"
+    }
+  ],
+  "direct_sources": [],
+  "archived_files": [
+    {
+      "path": "research/p104-two-boundary-helper-split/NOTICE",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/NOTICE",
+      "sha256": "c474479a870ae53ae0bcb84f656c2b222380395bbee767ee15e5f9c5b4ce7e79",
+      "git_blob": "f83cecccf587acfa313c8259c0bf6db05d60b52d"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/PRICING-EDITS.json",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/PRICING-EDITS.json",
+      "sha256": "dbb82f4b4a8d472c42ba22441d2db9dc26580b5f42347c608d093c14c00f5bfd",
+      "git_blob": "43c33c00cc05755e2f0f0cdb4c8249a849f9c4ce"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/PROOF.md",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/PROOF.md",
+      "sha256": "83c86475a632a92497d2c7a149cca189b08412dfbb59efeac5a0967326ef567e",
+      "git_blob": "0eeb4ce7ecb8a558cf62f3052ed4e80c5da198a2"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/README.md",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/README.md",
+      "sha256": "82268387d28d74afbbb528fdce139d169011baa90d3d2280d60045210d0a1d41",
+      "git_blob": "d86aa5b78cb28135e8dce9148d293530ef84614c"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/RESULT.json",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/RESULT.json",
+      "sha256": "8e62f19bc795cac7712d31f955b71587e251dc94f1a02a20235e1ea740015db7",
+      "git_blob": "a83d70e025254e217c01ca413f6823937e82f3d9"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/SOURCES.json",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/SOURCES.json",
+      "sha256": "e0910ccba102ee174aed44e3eae9249f91e215e3bfcf3517938b144d514b2d40",
+      "git_blob": "8ac6a642e01fb7bf391a1de1c31d52352a47c3f9"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/TASK.json",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/TASK.json",
+      "sha256": "49277d8555473c6e1a9bee4c4e4d2f14ca8ed0ddd3472e6eb82e94d41a9b9834",
+      "git_blob": "a37c6de3ba76511438f4988325ac8749b8f3f142"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/VALIDATION.md",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/VALIDATION.md",
+      "sha256": "100d249e47c9630e77ca31a4aac85f4ef84df5ddcfc9977daf1ac42d160e9a38",
+      "git_blob": "241904e35dd9cf5fbb25a24e06c448f4391aa34e"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/VERIFY.json",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/VERIFY.json",
+      "sha256": "eee6981e3c3243dd69d19c68042e6087dc97780016a6aa56a74fb438af1f9fd5",
+      "git_blob": "5550c891e8c17cdefe14b5dd585f4bfeaf887943"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/WITNESS.json",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/WITNESS.json",
+      "sha256": "0e78b2fbc34b52662f7b05733e3a3132599c55486dd215d7b96aaaf0c1bff804",
+      "git_blob": "88d25590010052ebe4da2b575803f618241500eb"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/WORD.json.gz",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/WORD.json.gz",
+      "sha256": "cff7196f8b168c4ebf8227185eed98387b66ec5db0179108adfea4045775cc31",
+      "git_blob": "4db015aca34ea957dd8b3b4d7ae4fa12b89934f8"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/checks.py",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/checks.py",
+      "sha256": "5ac66d250b7cc244003706e621d1cefff7c5d27f6055c5a9ce9bd40fac0e7fa8",
+      "git_blob": "308805a32d707e8e5da11991e8a51da8992ea4ce"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/construct.py",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/construct.py",
+      "sha256": "c6bc6ee170373e52d8bdba3bdd9d435be3062fab3999e5c6f8ca817d8feb77a2",
+      "git_blob": "4109dca1e26840f5a778f0cadbbe095632c2eace"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/evidence/independent-boundary-receipt.json",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/evidence/independent-boundary-receipt.json",
+      "sha256": "f043c9068edb8daef9a2efa1e4d4d20b0a1793b58af2c6ee444467393890aad8",
+      "git_blob": "2ff3807f9d6aa395eb0aa6020cd7c89a5f2fa93a"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/evidence/independent-caller-receipt.json",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/evidence/independent-caller-receipt.json",
+      "sha256": "df4530f2b2a609d3b8ca41bd95d0077aa25f8e76b44a8d2c53060f75bf9bd2c8",
+      "git_blob": "f5dc48b2dc3b65aca3a8f3689a175d2472a688b8"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/evidence/independent-scalar-receipt.json",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/evidence/independent-scalar-receipt.json",
+      "sha256": "dc5cbe2b73cb622e42a9185a6a5f5e1e1524e7d135774d209b68d86d5343e34f",
+      "git_blob": "5ab83bf2affdd661b7ab773781dd419e25960ffd"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/evidence/independent-version-receipt.json",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/evidence/independent-version-receipt.json",
+      "sha256": "5b94a636a1065b2fde72fe02c9d4220395bbea6a9f15793f6db5d0703a577eec",
+      "git_blob": "8e967beadc9bc775de2a7c907db117b48ac66865"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/inputs/pr5713-source.tar",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/inputs/pr5713-source.tar",
+      "sha256": "c4d8d0bcd6231eb4539a76d66b0dbd465313cbc50d279ca974a55fecb935d544",
+      "git_blob": "ec8f4bccaca147bc80cec078147fb95bc515036e"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/pricing.py",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/pricing.py",
+      "sha256": "1f074ad6b2512755f73bf5276e304838e2228aa4e96bcd580dc5de726894c587",
+      "git_blob": "737aa1906e5cb5b8606c89c6b8c1ba1639e1bd1d"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/sources.py",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/sources.py",
+      "sha256": "415213c90554877cc4b0c8a6c4a36286346cb8eb33c7ea11516b48fa3aa48186",
+      "git_blob": "65b9ac26abba46f52c070f7fbc7a71b24bb17108"
+    },
+    {
+      "path": "research/p104-two-boundary-helper-split/verify.py",
+      "usage": "provenance",
+      "pin": "head:a1534ac45401c9a9c80c07aa65c89e00e33594f8:research/p104-two-boundary-helper-split/verify.py",
+      "sha256": "abefcebe874d093487497b8eea1e726739c070fa1460ea173abcaaee086e9eba",
+      "git_blob": "77f203216ad4d4e05203c915886babfbc367db5a"
+    }
+  ],
+  "source_export": {
+    "commit": "a1534ac45401c9a9c80c07aa65c89e00e33594f8",
+    "package": "research/p104-two-boundary-helper-split",
+    "files": 21,
+    "local_path": "inputs/pr5718-source.tar",
+    "sha256": "2ed859e3cad00ed9ece1bb58792e78a623d49cd37eeca9f6b49c3c7345415f75",
+    "git_blob": "55423a4a2c22d45e1ec1a8bfd77b65bfcba0e170",
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/5718"
+  },
+  "derived_local_sha256": "716d01a342467f87b14d67853d8de30740f9f2fa881afe271db0df5ef8b19697",
+  "source_custody": "The exact source export is retained in this branch at 4d51db4eaf53c336867bee9e5efa45fb061276f6. archived_files preserve every original PR5718 Git pin and payload hash. The loader authenticates the archive and payloads before imports. The authenticated nested loader supplies the owned-aware local engine; LOCAL-EDITS.json changes only its two finite bounds. The export hash is an integrity hash, not an upstream archive object.",
+  "attribution": [
+    "flyingviper PR5718 with substantial OpenAI Codex assistance",
+    "Ali Romman PR5713, PR5678 and the retained P104 caller lineage",
+    "Joel Pulikkan/GamingPuzzled PR5684 with Claude assistance",
+    "All notices in the frozen source closure remain."
+  ]
+}

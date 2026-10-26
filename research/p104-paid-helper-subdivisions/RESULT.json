@@ -1,0 +1,354 @@
+{
+  "canonical_word_sha256": "b4e326f4aa24a54f079bfe4de8d9d4ee87392e1426af1521edf8a3169d00f3d8",
+  "complete_cost": {
+    "compiler": {
+      "H": 80511200000000000,
+      "N": "2^80511200000000000",
+      "eta": {
+        "lower": "0.000000128973964542438727512871",
+        "upper": "0.000000128973964542438727512872"
+      },
+      "gap": "1/1400000000000",
+      "integer_test_exponent": 57508,
+      "logarithm_power": 1024,
+      "theta": "63/64",
+      "uniform_saving": "217857039/70000000000",
+      "word_materialized": false
+    },
+    "full_forward_calls": 18,
+    "gain": "199771/100000000000",
+    "kappa": "311224341/100000000000",
+    "kappa_decimal": "0.00311224341",
+    "margin_at_previous": {
+      "lower": "0.484594103789836558626914139845",
+      "upper": "0.484594103789836558626914139846"
+    },
+    "negative_controls": {
+      "old_BIT": "Rejected by outer inequalities",
+      "old_cutoff": "Rejected by completion-tail ratio greater than one"
+    },
+    "nonrecursive": {
+      "fixed_scalar_growth_bound": "At most 2^(16*28000) before native factors; a declared constant, not an attained norm.",
+      "local_paid_rank_mass": 5987,
+      "local_routes": 5217000,
+      "local_scalar": 244338,
+      "peak_owned_fields": 2,
+      "raw_budget": 1000000000,
+      "raw_scalar_upper": 184647552,
+      "tensor_native_growth_bound": "Each rank-r Gaussian has row l1 norm at most 2^(rf); use local_paid_rank_mass for the whole word."
+    },
+    "ordinary_BIT": {
+      "admitted": "17/5000",
+      "after_cover": "69/20000",
+      "atom": "1/250",
+      "before_cover": "3459/1000000",
+      "ordinary_saving": "8590884599/2500000000000",
+      "prime_rule": "odd q > 2^26*N^5 avoiding all fixed denominators and rank witnesses"
+    },
+    "outer": {
+      "functional_checks": {
+        "actual_new_BIT_stock_sublinear": "348599999999253/350000000000000",
+        "fixed_halo_explicit_metadata_branch": "26950000000001/350000000000",
+        "new_BIT_row_stock_sublinear_in_active_group": "1395799999997009/1400000000000000",
+        "new_semantic_group_guard": "3/1400000000000"
+      },
+      "margins": {
+        "boundary_algebraic_matrix": "6099997089195642859223/1960000000000000000000000",
+        "fused_gaussian": "6099997089186928577669/1960000000000000000000000",
+        "global_coordinate_router": "2178570389/700000000000",
+        "group_bit_router": "3049998545293464288833/980000000000000000000000",
+        "group_scans": "699999999999/700000000000",
+        "main_transform": "6099997087795642859223/1960000000000000000000000",
+        "microbox_face_corrections": "26950000000001/350000000000",
+        "polynomial_products": "1399999999999/1400000000000",
+        "sparse_union_movement": "802349997089195642859223/1960000000000000000000000"
+      },
+      "parameters": {
+        "a": "2178570389/700000000000",
+        "b": "4357140779/1400000000000",
+        "beta": "1399999999997/1400000000000",
+        "bit_saving": "17/5000",
+        "cap_xi": "1782349997087795642859223/1960000000000000000000000",
+        "complex_uniform_saving": "217857039/70000000000",
+        "d": "1/1400000000000",
+        "epsilon": "1399999999999/1400000000000",
+        "kappa": "311224341/100000000000",
+        "lambda_": "79751020527/80000000000",
+        "lambda_prime": "1395642859223/1400000000000",
+        "layout": "1/1400000000000",
+        "q": "4357140777/1400000000000",
+        "r0": "1/14000000000000",
+        "stop": "1/1400000000000",
+        "tested_saving": "622448683/200000000000"
+      },
+      "strict_checks": {
+        "actual_bit_above_effective": "201429611/700000000000",
+        "actual_logarithmic_gamma_guard": "1/1400000000000",
+        "actual_logarithmic_group_guard": "177650002914304357140777/980000000000000000000000",
+        "alpha_logarithm_absorption": "1/14000000000000",
+        "boundary_algebraic_matrix_above_kappa": "5595642859223/1960000000000000000000000",
+        "cap_above_band": "802349997087795642859223/1960000000000000000000000",
+        "cap_below_cell": "177650002910804357140777/1960000000000000000000000",
+        "cap_below_phase_cell_power": "2137650002912204357140777/1960000000000000000000000",
+        "complex_above_effective": "1/1400000000000",
+        "complex_below_one_over_32": "39392859221/1400000000000",
+        "complex_endpoint": "1/700000000000",
+        "epsilon_below_one": "1/1400000000000",
+        "epsilon_positive": "1399999999999/1400000000000",
+        "fine_prime_halo_umbrella": "7/2",
+        "fused_gaussian_above_kappa": "5586928577669/1960000000000000000000000",
+        "gaussian_above_main": "695642859223/980000000000000000000000",
+        "global_coordinate_router_above_kappa": "1/350000000000",
+        "global_gamma_power_slack": "9/14000000000000",
+        "group_below_dimension": "1/700000000000",
+        "group_bit_router_above_kappa": "3493464288833/980000000000000000000000",
+        "group_gauge_power_slack": "177650002914234357140777/980000000000000000000000",
+        "group_key_fits_record": "1/700000000000",
+        "group_positive": "1399999999997/1400000000000",
+        "group_scans_above_kappa": "174455357403/175000000000",
+        "halo_covers_generic_inverse_radius": "5",
+        "improvement_over_user_baseline": "690636495400418148631/500000000000000000000000",
+        "lambda_above_internal": "1/2800000000000",
+        "lambda_above_sigma": "3/2800000000000",
+        "lambda_above_tau": "1/2800000000000",
+        "lambda_prime_above_lambda": "1/2800000000000",
+        "lambda_prime_above_leaf": "2795642859221/1960000000000000000000000",
+        "leaf_saving_above_effective": "1395642859221/1960000000000000000000000",
+        "main_transform_above_kappa": "4195642859223/1960000000000000000000000",
+        "membership_arithmetic_fits_record": "1/1400000000000",
+        "microbox_face_corrections_above_kappa": "10779564285923/140000000000",
+        "microbox_halo_volume": "110600000000003/1400000000000",
+        "new_complex_uniform_saving_above_b": "1/1400000000000",
+        "new_semantic_guard_with_C1_one": "1/1400000000000",
+        "polynomial_products_above_kappa": "55825714369/56000000000",
+        "positive_layout_slack": "1/1400000000000",
+        "q_below_effective": "1/1400000000000",
+        "q_below_internal": "1/1400000000000",
+        "q_below_leaf": "2795642859221/1960000000000000000000000",
+        "q_positive": "4357140777/1400000000000",
+        "short_record_fallback": "1395642859221/1400000000000",
+        "source_axis_superpolynomial": "1/1400000000000",
+        "sparse_union_movement_above_kappa": "796250000005595642859223/1960000000000000000000000",
+        "stop_below_one": "1399999999999/1400000000000",
+        "stop_positive": "1/1400000000000",
+        "strassen_integer_power_gap": "1951441519231",
+        "support_router_span": "3/1400000000000",
+        "theta_positive_polynomial_power": "2",
+        "union_header_fits_record": "3/1400000000000",
+        "union_tag_work_per_visit_fits_record": "3/1400000000000"
+      }
+    },
+    "paid": {
+      "1": 41196,
+      "16": 416,
+      "2": 8244,
+      "24": 416,
+      "3": 8910,
+      "32": 416,
+      "4": 1656,
+      "40": 416,
+      "48": 416,
+      "5": 3150,
+      "56": 416,
+      "6": 108,
+      "64": 416,
+      "7": 270,
+      "72": 208
+    },
+    "paid_calls": 66654,
+    "previous_open_pr5718": "31102457/10000000000",
+    "productive_fields": 13282,
+    "query_shears": 15,
+    "rank_mass_surplus": 760,
+    "raw_ceiling": {
+      "derivative_upper": "-738802261784711202138902792706988589555397913452590063650532069/3138550867693340381917894711603833208051177722232017256448",
+      "interval": [
+        "0",
+        "17/5000"
+      ]
+    },
+    "raw_headroom": [
+      "269/12500000000000",
+      "2153/100000000000000"
+    ],
+    "raw_root_interval": [
+      "19451521447/6250000000000",
+      "311224343153/100000000000000"
+    ],
+    "relative_gain_percent": "1997710/31102457",
+    "strictification": {
+      "alpha": {
+        "lower": "0.999999999983223032330514874510",
+        "upper": "0.999999999983223032330514874511"
+      },
+      "cutoff": 16,
+      "delta": {
+        "lower": "0.936724728289985271710889269084",
+        "upper": "0.936724728289985271710889269085"
+      },
+      "floor": 17,
+      "gamma": {
+        "lower": "0.975623625359102786173183551858",
+        "upper": "0.975623625359102786173183551859"
+      },
+      "normalized_paid_upper": "1048576000976562501/1048576001073741824",
+      "power": 1024,
+      "reserve": "1/1000000000000",
+      "tail_block": 128,
+      "tail_decay": "122/125",
+      "tail_offset": "7/50",
+      "tested": "622448683/200000000000"
+    },
+    "targets": {
+      "1": 342,
+      "145": 208,
+      "17": 416,
+      "2": 90,
+      "25": 416,
+      "33": 416,
+      "4": 1638,
+      "41": 416,
+      "49": 416,
+      "5": 108,
+      "57": 416,
+      "65": 416,
+      "7": 108,
+      "73": 208,
+      "8": 576,
+      "9": 7092
+    },
+    "whole_idle_jobs": 3120
+  },
+  "delta_paid_local": {
+    "1": 18,
+    "2": -1,
+    "5": 16,
+    "6": -16
+  },
+  "delta_targets_local": {
+    "1": 17,
+    "8": 17,
+    "9": -17
+  },
+  "instructions": 27502,
+  "limits": [
+    "The five inherited framework assumptions remain.",
+    "The improvement is modest and conditional; no selected-frontier admission is claimed.",
+    "The huge uniform word and complete rounded multiplier are not materialized.",
+    "The final package has not received independent human or formal acceptance.",
+    "The fixed discovery search is not a global optimality proof."
+  ],
+  "local": {
+    "endpoint_coefficients": 592900,
+    "helpers": {
+      "1": 19,
+      "2": 5,
+      "4": 91,
+      "5": 6,
+      "7": 6,
+      "8": 32,
+      "9": 394
+    },
+    "owned_fields": 9,
+    "owned_lifetimes": 11,
+    "paid": {
+      "1": 2202,
+      "2": 458,
+      "3": 495,
+      "4": 92,
+      "5": 175,
+      "6": 6,
+      "7": 15
+    },
+    "paid_rank_mass": 5987,
+    "peak_owned_fields": 2,
+    "public_inputs": 761,
+    "real_scalar_allowance": 244338
+  },
+  "native": {
+    "distinct_maps": 2912,
+    "helper_normalizers": 1106,
+    "helpers": {
+      "1": 19,
+      "2": 5,
+      "4": 91,
+      "5": 6,
+      "7": 6,
+      "8": 32,
+      "9": 394
+    },
+    "main_adapters": 208,
+    "proof": "Every signed Pauli image and exact global phase; frame induction at every positive tensor width",
+    "recipe_payload_sha256": "021ec12ab5577f23c8d1c0af22a8d1cce6cc9743dce38afb880a1eb6e26e626f",
+    "wrong_phase_rejected": true
+  },
+  "negative_controls": {
+    "crossed_scalar_dependency": "No crossed scalar read or write",
+    "invented_extra_H9_target": "Every productive helper has a native target",
+    "missing_central_translation": "Rejected by the complete Laurent endpoint",
+    "missing_output_restoration": "All public and owned rows",
+    "missing_owned_clear": "All public and owned exits",
+    "missing_paid_subdivision": "Common scalar chart",
+    "uncharged_original_H9_target": "All public and owned exits",
+    "unpaid_rank1_query": "Complete field and call counts",
+    "wrong_fresh_input_chart": "Transport source and ownership",
+    "wrong_retirement_sign": "Legal input basis coframe",
+    "wrong_terminal_correction_sign": "All public and owned rows"
+  },
+  "physical_caller": {
+    "central_square_columns": 53248,
+    "full_calls": 18,
+    "main_targets": {
+      "145": 208,
+      "17": 416,
+      "25": 416,
+      "33": 416,
+      "41": 416,
+      "49": 416,
+      "57": 416,
+      "65": 416,
+      "73": 208
+    },
+    "new_paid_jobs": 0,
+    "physical_contacts": 7488,
+    "ports": 104,
+    "route_payload_sha256": "7f4f0ca768ffbc4f93dcff575592c4c67411f46b4289e45b73f715a2ad47b142",
+    "tensor_rule": "Factorwise native maps; scalar signs stay outside the tensor power.",
+    "whole_idle_jobs": {
+      "16": 416,
+      "24": 416,
+      "32": 416,
+      "40": 416,
+      "48": 416,
+      "56": 416,
+      "64": 416,
+      "72": 208
+    },
+    "wrapper_sites": [
+      1,
+      3,
+      5,
+      7,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      27,
+      29,
+      31
+    ]
+  },
+  "separate_columns": {
+    "arithmetic": "Dense integer rows with binary denominators; reverse chronology",
+    "coefficients": 592900,
+    "columns": 770
+  },
+  "source_commit": "a1534ac45401c9a9c80c07aa65c89e00e33594f8",
+  "status": "PASS_P104_PAID_HELPER_SUBDIVISIONS_KAPPA_00311224341",
+  "steps": 17
+}

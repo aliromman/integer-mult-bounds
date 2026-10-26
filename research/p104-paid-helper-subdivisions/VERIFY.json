@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/p104-paid-helper-subdivisions/inputs/pr5718-source.tar"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "checks": "Authenticate sources, construct all seventeen paid cuts, replay all columns and phases, and verify the complete caller, price, compiler and rejection controls.",
+      "timeout_seconds": 600
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "checks": "Repeat the complete scientific checks with assertions disabled.",
+      "timeout_seconds": 600
+    }
+  ]
+}
