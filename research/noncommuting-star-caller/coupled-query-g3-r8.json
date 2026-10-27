@@ -1,0 +1,41 @@
+{
+  "scope": "nested B=0 stage projections; all 210 rank-two full-query nilpotents",
+  "parameters": {
+    "g": 3,
+    "thin_rank": 8,
+    "rank_per_gap": 2,
+    "trials": 1,
+    "timeout": 45000,
+    "seed": 5747,
+    "output": "research/noncommuting-star-caller/coupled-query-g3-r8.json"
+  },
+  "trials": [
+    {
+      "trial": 0,
+      "projections": [
+        [
+          1,
+          9,
+          0,
+          8
+        ],
+        [
+          5,
+          14,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          12
+        ]
+      ],
+      "status": "unknown",
+      "constraints": 768,
+      "seconds": 45.19854079198558,
+      "reason": "timeout"
+    }
+  ]
+}

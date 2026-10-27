@@ -1,0 +1,127 @@
+{
+  "domain": {
+    "g": 3,
+    "d": 2,
+    "rank_per_gap": 1,
+    "gaps": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "order": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "seed": 5747,
+    "trials": 4,
+    "timeout_ms_per_trial": 45000
+  },
+  "trials": [
+    {
+      "trial": 0,
+      "projections": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "constraints": 192,
+      "status": "unsat",
+      "seconds": 0.05951512500178069
+    },
+    {
+      "trial": 1,
+      "projections": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "constraints": 192,
+      "status": "unsat",
+      "seconds": 0.034922208986245096
+    },
+    {
+      "trial": 2,
+      "projections": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "constraints": 192,
+      "status": "unsat",
+      "seconds": 0.03699162497650832
+    },
+    {
+      "trial": 3,
+      "projections": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      "constraints": 192,
+      "status": "unsat",
+      "seconds": 0.02997479191981256
+    }
+  ]
+}

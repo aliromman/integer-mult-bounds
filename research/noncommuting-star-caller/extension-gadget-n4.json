@@ -1,0 +1,463 @@
+{
+  "status": "NUMERICAL_DISCOVERY_ONLY",
+  "seconds": 2.2811702920589596,
+  "parameters": {
+    "trials": 50,
+    "steps": 1000,
+    "seed": 5786,
+    "output": "research/noncommuting-star-caller/extension-gadget-n4.json"
+  },
+  "best": {
+    "trial": 18,
+    "norm": 5.736375638532167,
+    "max_residual": 1.5353890419237644,
+    "max_parameter": 0.9382606122300929,
+    "evaluations": 55,
+    "parameters": [
+      -0.2569070056111953,
+      -0.3614096500423504,
+      0.2889216938675676,
+      -0.9382606122300929,
+      0.8468989240788848,
+      0.023207253800721753,
+      0.012259934751821591,
+      0.8317382608380606,
+      0.6677448647139747,
+      0.20194649089963035,
+      -0.2417971817400247,
+      0.8056747967090439
+    ]
+  },
+  "records": [
+    {
+      "trial": 0,
+      "norm": 5.736375638535645,
+      "max_residual": 1.535388545525147,
+      "max_parameter": 0.9382611579578916,
+      "evaluations": 57
+    },
+    {
+      "trial": 1,
+      "norm": 5.773943681985277,
+      "max_residual": 1.842603499506949,
+      "max_parameter": 0.881282157045688,
+      "evaluations": 44
+    },
+    {
+      "trial": 2,
+      "norm": 5.736375638532208,
+      "max_residual": 1.535389021395837,
+      "max_parameter": 0.9382605862667583,
+      "evaluations": 51
+    },
+    {
+      "trial": 3,
+      "norm": 5.736375638534101,
+      "max_residual": 1.5353885239317444,
+      "max_parameter": 0.9382615610512469,
+      "evaluations": 67
+    },
+    {
+      "trial": 4,
+      "norm": 5.73637563853512,
+      "max_residual": 1.5353886319858647,
+      "max_parameter": 0.938260348923646,
+      "evaluations": 60
+    },
+    {
+      "trial": 5,
+      "norm": 5.7739436819859336,
+      "max_residual": 1.8426029328685467,
+      "max_parameter": 0.881282204274279,
+      "evaluations": 36
+    },
+    {
+      "trial": 6,
+      "norm": 5.736375638532361,
+      "max_residual": 1.5353889214443481,
+      "max_parameter": 0.9382610529662015,
+      "evaluations": 55
+    },
+    {
+      "trial": 7,
+      "norm": 5.736375638533334,
+      "max_residual": 1.5353886668883288,
+      "max_parameter": 0.9382613235917916,
+      "evaluations": 52
+    },
+    {
+      "trial": 8,
+      "norm": 5.736375638533935,
+      "max_residual": 1.5353886536730066,
+      "max_parameter": 0.938261301827233,
+      "evaluations": 66
+    },
+    {
+      "trial": 9,
+      "norm": 5.736375638533209,
+      "max_residual": 1.5353887316481896,
+      "max_parameter": 0.9382613006455609,
+      "evaluations": 54
+    },
+    {
+      "trial": 10,
+      "norm": 5.7363756385350575,
+      "max_residual": 1.5353884701805574,
+      "max_parameter": 0.9382605776604332,
+      "evaluations": 49
+    },
+    {
+      "trial": 11,
+      "norm": 5.736375638533368,
+      "max_residual": 1.5353886298904353,
+      "max_parameter": 0.9382612970458886,
+      "evaluations": 67
+    },
+    {
+      "trial": 12,
+      "norm": 5.736375638533681,
+      "max_residual": 1.5353887547570932,
+      "max_parameter": 0.9382605295902589,
+      "evaluations": 55
+    },
+    {
+      "trial": 13,
+      "norm": 5.773943681985604,
+      "max_residual": 1.8426029636934662,
+      "max_parameter": 0.8812822319128888,
+      "evaluations": 42
+    },
+    {
+      "trial": 14,
+      "norm": 5.736375638532174,
+      "max_residual": 1.5353890148890894,
+      "max_parameter": 0.9382606089084501,
+      "evaluations": 64
+    },
+    {
+      "trial": 15,
+      "norm": 5.736375638534313,
+      "max_residual": 1.5353884557854465,
+      "max_parameter": 0.9382611029676328,
+      "evaluations": 71
+    },
+    {
+      "trial": 16,
+      "norm": 5.736375638534674,
+      "max_residual": 1.5353886455684735,
+      "max_parameter": 0.9382610704641179,
+      "evaluations": 64
+    },
+    {
+      "trial": 17,
+      "norm": 5.736375638534166,
+      "max_residual": 1.535388606833675,
+      "max_parameter": 0.9382613113465286,
+      "evaluations": 67
+    },
+    {
+      "trial": 18,
+      "norm": 5.736375638532167,
+      "max_residual": 1.5353890419237644,
+      "max_parameter": 0.9382606122300929,
+      "evaluations": 55
+    },
+    {
+      "trial": 19,
+      "norm": 5.736375638534983,
+      "max_residual": 1.5353886569857458,
+      "max_parameter": 0.9382610918347567,
+      "evaluations": 61
+    },
+    {
+      "trial": 20,
+      "norm": 5.773943681986329,
+      "max_residual": 1.8426034035842134,
+      "max_parameter": 0.8812822346739331,
+      "evaluations": 63
+    },
+    {
+      "trial": 21,
+      "norm": 5.736375638535581,
+      "max_residual": 1.5353886946791975,
+      "max_parameter": 0.9382601823103751,
+      "evaluations": 58
+    },
+    {
+      "trial": 22,
+      "norm": 5.736375638533867,
+      "max_residual": 1.5353886388388145,
+      "max_parameter": 0.9382607469734279,
+      "evaluations": 65
+    },
+    {
+      "trial": 23,
+      "norm": 5.736375638534606,
+      "max_residual": 1.535388688143997,
+      "max_parameter": 0.9382610316127087,
+      "evaluations": 72
+    },
+    {
+      "trial": 24,
+      "norm": 5.73637563853461,
+      "max_residual": 1.5353883822346872,
+      "max_parameter": 0.9382614520725552,
+      "evaluations": 57
+    },
+    {
+      "trial": 25,
+      "norm": 5.736375638534472,
+      "max_residual": 1.535388508672851,
+      "max_parameter": 0.9382614619085332,
+      "evaluations": 58
+    },
+    {
+      "trial": 26,
+      "norm": 5.736375638534776,
+      "max_residual": 1.535388596038915,
+      "max_parameter": 0.9382604556203339,
+      "evaluations": 72
+    },
+    {
+      "trial": 27,
+      "norm": 5.736375638532808,
+      "max_residual": 1.5353888661164876,
+      "max_parameter": 0.9382607366084926,
+      "evaluations": 59
+    },
+    {
+      "trial": 28,
+      "norm": 5.736375638533311,
+      "max_residual": 1.5353888057521248,
+      "max_parameter": 0.9382605787227142,
+      "evaluations": 64
+    },
+    {
+      "trial": 29,
+      "norm": 5.736375638535163,
+      "max_residual": 1.5353886414940083,
+      "max_parameter": 0.9382605170028789,
+      "evaluations": 74
+    },
+    {
+      "trial": 30,
+      "norm": 5.73637563853345,
+      "max_residual": 1.5353886422989795,
+      "max_parameter": 0.9382611472210496,
+      "evaluations": 59
+    },
+    {
+      "trial": 31,
+      "norm": 5.773943681985039,
+      "max_residual": 1.8426033725546387,
+      "max_parameter": 0.8812821296164178,
+      "evaluations": 51
+    },
+    {
+      "trial": 32,
+      "norm": 5.736375638532544,
+      "max_residual": 1.5353888262457807,
+      "max_parameter": 0.9382610252164078,
+      "evaluations": 54
+    },
+    {
+      "trial": 33,
+      "norm": 5.736375638534639,
+      "max_residual": 1.5353887118795366,
+      "max_parameter": 0.9382609696326425,
+      "evaluations": 63
+    },
+    {
+      "trial": 34,
+      "norm": 5.73637563853403,
+      "max_residual": 1.5353886963171322,
+      "max_parameter": 0.9382610241271138,
+      "evaluations": 62
+    },
+    {
+      "trial": 35,
+      "norm": 5.736375638535502,
+      "max_residual": 1.535388616748695,
+      "max_parameter": 0.9382611085144197,
+      "evaluations": 77
+    },
+    {
+      "trial": 36,
+      "norm": 5.736375638536898,
+      "max_residual": 1.5353884498343784,
+      "max_parameter": 0.9382606251293815,
+      "evaluations": 53
+    },
+    {
+      "trial": 37,
+      "norm": 5.73637563853297,
+      "max_residual": 1.5353887899836631,
+      "max_parameter": 0.9382607179161646,
+      "evaluations": 58
+    },
+    {
+      "trial": 38,
+      "norm": 5.773943681986935,
+      "max_residual": 1.8426037280861516,
+      "max_parameter": 0.8812821444175765,
+      "evaluations": 41
+    },
+    {
+      "trial": 39,
+      "norm": 5.7363756385339295,
+      "max_residual": 1.5353888208108373,
+      "max_parameter": 0.9382609662065616,
+      "evaluations": 60
+    },
+    {
+      "trial": 40,
+      "norm": 5.736375638533877,
+      "max_residual": 1.5353886857252084,
+      "max_parameter": 0.9382608113289328,
+      "evaluations": 56
+    },
+    {
+      "trial": 41,
+      "norm": 5.773943681985322,
+      "max_residual": 1.8426027585563023,
+      "max_parameter": 0.8812822818893159,
+      "evaluations": 44
+    },
+    {
+      "trial": 42,
+      "norm": 5.736375638533294,
+      "max_residual": 1.5353886468274855,
+      "max_parameter": 0.9382610975667821,
+      "evaluations": 60
+    },
+    {
+      "trial": 43,
+      "norm": 5.736375638535646,
+      "max_residual": 1.5353887764237721,
+      "max_parameter": 0.9382610641536147,
+      "evaluations": 61
+    },
+    {
+      "trial": 44,
+      "norm": 5.7363756385336,
+      "max_residual": 1.5353886522417657,
+      "max_parameter": 0.9382614168812645,
+      "evaluations": 65
+    },
+    {
+      "trial": 45,
+      "norm": 5.736375638534058,
+      "max_residual": 1.535388800080188,
+      "max_parameter": 0.938261045113998,
+      "evaluations": 75
+    },
+    {
+      "trial": 46,
+      "norm": 5.736375638538383,
+      "max_residual": 1.5353885256222815,
+      "max_parameter": 0.9382602327266272,
+      "evaluations": 57
+    },
+    {
+      "trial": 47,
+      "norm": 5.736375638534287,
+      "max_residual": 1.5353884988165218,
+      "max_parameter": 0.9382615232814505,
+      "evaluations": 49
+    },
+    {
+      "trial": 48,
+      "norm": 5.736375638536298,
+      "max_residual": 1.5353887347769875,
+      "max_parameter": 0.9382599651958153,
+      "evaluations": 49
+    },
+    {
+      "trial": 49,
+      "norm": 7.614680129125881,
+      "max_residual": 2.135511126358816,
+      "max_parameter": 1.0492827797094488,
+      "evaluations": 88
+    }
+  ],
+  "queries": [
+    [
+      [
+        0,
+        1,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        -1
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ]
+    ],
+    [
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        0,
+        1,
+        1,
+        1
+      ]
+    ]
+  ]
+}

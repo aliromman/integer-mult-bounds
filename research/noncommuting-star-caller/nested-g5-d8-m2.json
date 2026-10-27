@@ -1,0 +1,15 @@
+{
+  "parameters": {
+    "g": 5,
+    "d": 8,
+    "thin": 2,
+    "trials": 10,
+    "seed": 5747,
+    "graph": false,
+    "output": "research/noncommuting-star-caller/nested-g5-d8-m2.json"
+  },
+  "status": "bounded_screen",
+  "systems": 550,
+  "successes": [],
+  "seconds": 1.3038632910465822
+}

@@ -1,0 +1,70 @@
+{
+  "scope": "nested B=0 stage projections; all 210 rank-two full-query nilpotents",
+  "parameters": {
+    "g": 1,
+    "thin_rank": 8,
+    "rank_per_gap": 8,
+    "trials": 1,
+    "timeout": 20000,
+    "seed": 5747,
+    "output": "research/noncommuting-star-caller/coupled-query-positive-g1.json"
+  },
+  "trials": [
+    {
+      "trial": 0,
+      "projections": [
+        [
+          1,
+          9,
+          0,
+          8
+        ]
+      ],
+      "status": "sat",
+      "constraints": 96,
+      "seconds": 1.4617360410047695,
+      "full_queries": [
+        8716,
+        56768
+      ],
+      "thin": [
+        [
+          0,
+          171,
+          117,
+          171,
+          171,
+          208,
+          171,
+          222
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          145,
+          57,
+          129,
+          163,
+          179,
+          11,
+          16,
+          86
+        ]
+      ],
+      "thin_ranks": [
+        3,
+        0,
+        5
+      ],
+      "thin_rank": 8
+    }
+  ]
+}

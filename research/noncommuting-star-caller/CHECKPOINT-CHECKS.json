@@ -1,0 +1,11 @@
+{
+  "status": "PASS_LOCAL_CHECKPOINT_COMPONENTS",
+  "new_kappa": false,
+  "two_map_normal_optimized_equal": true,
+  "known_pr5601_normal_optimized_equal": true,
+  "full_contact_graph_decompressed_sha256": "6d79e07bab3f7ce47a8e7d75f4afafe9cfdbc92ed8ba34e4d717b1d0f3fa5818",
+  "full_contact_graph_regeneration_equal": true,
+  "verification_boundary": "These component checks do not prove a new native caller, complete cost advantage, compiler admission, or independent acceptance.",
+  "involution_normal_optimized_equal": true,
+  "involution_component": "widths1..6; all65536 eight-axis entries"
+}

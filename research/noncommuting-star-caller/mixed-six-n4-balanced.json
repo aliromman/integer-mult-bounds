@@ -1,0 +1,45 @@
+{
+  "parameters": {
+    "n": 6,
+    "period": 0,
+    "blocks": null,
+    "types": "0,1,2,3,4,5",
+    "shifted": true,
+    "order": "alternating",
+    "balanced": true,
+    "timeout": 45000,
+    "seed": 5786,
+    "output": "research/noncommuting-star-caller/mixed-six-n4-balanced.json"
+  },
+  "status": "unsat",
+  "solve_seconds": 0.07276679191272706,
+  "scope": "Binary multi-simplex query frame; no characteristic-zero lift or complete price",
+  "query_frame": [
+    [
+      1,
+      10
+    ],
+    [
+      2,
+      9
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      11,
+      13
+    ]
+  ],
+  "effective_period": 7,
+  "formal_stage": true
+}

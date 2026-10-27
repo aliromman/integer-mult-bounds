@@ -1,0 +1,58 @@
+[
+  {
+    "repository_path": "research/p104-helper-subspace-splits/WORD.json.gz",
+    "local_path": "sources/selected-word.json.gz",
+    "commit": "de5ec2e7a6074068452f45b1a191b5c72832df4a",
+    "git_blob": "e325091e3051afe37a2d9c82f85afe9028510edb",
+    "sha256": "bbb072bced5824a8d9094c49be2fc51fbfdd05fb2b7dab8106e1275053075099"
+  },
+  {
+    "repository_path": "research/p104-helper-subspace-splits/local.py",
+    "local_path": "sources/selected-local.py",
+    "commit": "de5ec2e7a6074068452f45b1a191b5c72832df4a",
+    "git_blob": "e6e28bacdad7cb51400d827b9a6e02f2b605d357",
+    "sha256": "ef430511ce36fc658ab711bd84cd2d7b484b8af173238ff89cbfec6139fefbad"
+  },
+  {
+    "repository_path": "research/p104-native-channel/vendor/clifford_exact.py",
+    "local_path": "sources/clifford_exact.py",
+    "commit": "de5ec2e7a6074068452f45b1a191b5c72832df4a",
+    "git_blob": "166841a037f069249f6f7f6dedb89248812f59e2",
+    "sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962"
+  },
+  {
+    "repository_path": "research/p104-native-channel/vendor/native_verify.py",
+    "local_path": "sources/native_verify.py",
+    "commit": "de5ec2e7a6074068452f45b1a191b5c72832df4a",
+    "git_blob": "2c209dfa9cfade3bc20ac5fc9d876b433a147f8c",
+    "sha256": "3049471905b47b385c88378a1a3be7a18b8858aadd035b8a6da2f4a03b470f38"
+  },
+  {
+    "local_path": "sources/simplex_search.cpp",
+    "source_path": "research/shortest-controller-stage-capacity/discovery/simplex_search.cpp",
+    "source_commit": "de5ec2e7a6074068452f45b1a191b5c72832df4a",
+    "git_blob": "c978b6af764df7e0cc8fc30572c97da15d046772",
+    "sha256": "663f624b0eab5a184035d23eb6b2e27d5210eec258ffb54ac43df20a9027deac"
+  },
+  {
+    "local_path": "sources/pair_search.py",
+    "source_path": "research/shortest-controller-stage-capacity/discovery/pair_search.py",
+    "source_commit": "de5ec2e7a6074068452f45b1a191b5c72832df4a",
+    "git_blob": "429b50b7f9e75e5f86d1259c274011bb8e87d5c8",
+    "sha256": "0105afff8c4fbe5130873d772836f177a5f69713e7d85e1c21d4244859a9fcec"
+  },
+  {
+    "source_kind": "retained local research archive; no Git source object claimed",
+    "source_path": "work/kappa-publication-closeout-20261024/raw/controller/research/kappa-corank-two-controller-20261023/tangent_screen.py",
+    "local_path": "sources/corank_two_tangent.py",
+    "sha256": "8b6521718b05a5d5917e448215a0ea5ac569e5b5bdbaa1b106218cf90326b0ba",
+    "attribution": "Ali Romman with OpenAI Codex assistance; six-type Gram model from the released 2026-10-23 controller investigation"
+  },
+  {
+    "repository_path": "research/p104-productive-controller/PROOF.md",
+    "local_path": "sources/p104-productive-PROOF.md",
+    "commit": "de5ec2e7a6074068452f45b1a191b5c72832df4a",
+    "git_blob": "e0bb34fbef6b412b572818d669150b54a13ea30d",
+    "sha256": "f4c4e400092954562252df6c4dd157a9b4c1642252168ce72738cdbecfc5ad41"
+  }
+]

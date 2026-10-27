@@ -1,0 +1,52 @@
+{
+  "parameters": {
+    "n": 6,
+    "period": 0,
+    "blocks": "2,4",
+    "order": "alternating",
+    "balanced": false,
+    "timeout": 120000,
+    "seed": 5786,
+    "output": "research/noncommuting-star-caller/two-simplex-n6-query.json"
+  },
+  "status": "unknown",
+  "solve_seconds": 120.02811458299402,
+  "scope": "Binary multi-simplex query frame; no characteristic-zero lift or complete price",
+  "query_frame": [
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      56
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      8,
+      52
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      16,
+      44
+    ],
+    [
+      32,
+      28
+    ],
+    [
+      60,
+      60
+    ]
+  ],
+  "effective_period": 9,
+  "formal_stage": true,
+  "reason": "timeout"
+}

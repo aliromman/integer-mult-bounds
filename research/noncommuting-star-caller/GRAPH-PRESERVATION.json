@@ -1,0 +1,9 @@
+{
+  "original_file": "p104-full-contact-graph.json",
+  "retained_file": "p104-full-contact-graph.json.gz",
+  "original_bytes": 38883552,
+  "retained_bytes": 804336,
+  "original_sha256": "6d79e07bab3f7ce47a8e7d75f4afafe9cfdbc92ed8ba34e4d717b1d0f3fa5818",
+  "retained_sha256": "d8d3386cefcda96f0107f46838acc35e3216a1c424c8bbfbc69b29403b0a442f",
+  "verification": "Exact decompressed byte equality"
+}

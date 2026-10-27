@@ -1,0 +1,69 @@
+{
+  "domain": {
+    "g": 3,
+    "d": 2,
+    "rank_per_gap": 4,
+    "gaps": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "order": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "seed": 5747,
+    "trials": 1,
+    "timeout_ms_per_trial": 60000,
+    "total_rank_bound": 7
+  },
+  "trials": [
+    {
+      "trial": 0,
+      "projections": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "constraints": 192,
+      "status": "unknown",
+      "seconds": 60.225763959111646,
+      "reason": "timeout"
+    }
+  ]
+}

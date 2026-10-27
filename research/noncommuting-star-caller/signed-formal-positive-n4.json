@@ -1,0 +1,122 @@
+{
+  "parameters": {
+    "n": 4,
+    "period": 0,
+    "blocks": null,
+    "types": null,
+    "shifted": false,
+    "inverse_mask": 10,
+    "degrees": "0,0,1,1",
+    "order": "alternating",
+    "balanced": false,
+    "timeout": 20000,
+    "seed": 5786,
+    "output": "research/noncommuting-star-caller/signed-formal-positive-n4.json"
+  },
+  "status": "sat",
+  "solve_seconds": 0.10422274994198233,
+  "scope": "Binary multi-simplex query frame; no characteristic-zero lift or complete price",
+  "query_frame": [
+    [
+      1,
+      14
+    ],
+    [
+      2,
+      13
+    ],
+    [
+      4,
+      11
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      15,
+      15
+    ]
+  ],
+  "effective_period": 6,
+  "formal_stage": true,
+  "normalizing_degree": 2,
+  "projectors": [
+    [
+      3,
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      11,
+      13,
+      0
+    ],
+    [
+      0,
+      11,
+      13,
+      0
+    ],
+    [
+      7,
+      7,
+      7,
+      8
+    ],
+    [
+      7,
+      7,
+      7,
+      8
+    ]
+  ],
+  "coefficients": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      10,
+      8
+    ],
+    [
+      3,
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "coefficient_ranks": [
+    0,
+    0,
+    2,
+    2,
+    0,
+    0
+  ]
+}

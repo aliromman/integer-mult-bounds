@@ -1,0 +1,54 @@
+{
+  "scope": "nested B=0 stage projections; all 210 rank-two full-query nilpotents",
+  "parameters": {
+    "g": 5,
+    "thin_rank": 10,
+    "rank_per_gap": 5,
+    "gaps": "1,4",
+    "trials": 1,
+    "timeout": 60000,
+    "seed": 5747,
+    "output": "research/noncommuting-star-caller/coupled-query-g5-gap14-r10.json"
+  },
+  "trials": [
+    {
+      "trial": 0,
+      "projections": [
+        [
+          1,
+          9,
+          0,
+          8
+        ],
+        [
+          5,
+          14,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          12
+        ],
+        [
+          7,
+          2,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          12,
+          0
+        ]
+      ],
+      "status": "unknown",
+      "constraints": 966,
+      "seconds": 60.378486125031486,
+      "reason": "timeout"
+    }
+  ]
+}

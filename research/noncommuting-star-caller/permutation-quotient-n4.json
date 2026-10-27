@@ -1,0 +1,94 @@
+{
+  "parameters": {
+    "n": 4,
+    "period": 2,
+    "blocks": null,
+    "types": null,
+    "shifted": false,
+    "inverse_mask": 0,
+    "degrees": "1,1,0,0",
+    "order": "alternating",
+    "balanced": false,
+    "timeout": 30000,
+    "seed": 5786,
+    "output": "research/noncommuting-star-caller/permutation-quotient-n4.json"
+  },
+  "status": "sat",
+  "solve_seconds": 0.18214895797427744,
+  "scope": "Binary multi-simplex query frame; no characteristic-zero lift or complete price",
+  "query_frame": [
+    [
+      1,
+      14
+    ],
+    [
+      2,
+      13
+    ],
+    [
+      4,
+      11
+    ],
+    [
+      8,
+      7
+    ],
+    [
+      15,
+      15
+    ]
+  ],
+  "effective_period": 2,
+  "formal_stage": false,
+  "normalizing_degree": 0,
+  "projectors": [
+    [
+      3,
+      0,
+      14,
+      0
+    ],
+    [
+      0,
+      3,
+      13,
+      0
+    ],
+    [
+      0,
+      0,
+      6,
+      11
+    ],
+    [
+      7,
+      7,
+      7,
+      11
+    ],
+    [
+      4,
+      4,
+      4,
+      11
+    ]
+  ],
+  "coefficients": [
+    [
+      1,
+      2,
+      2,
+      3
+    ],
+    [
+      0,
+      0,
+      6,
+      11
+    ]
+  ],
+  "coefficient_ranks": [
+    2,
+    2
+  ]
+}

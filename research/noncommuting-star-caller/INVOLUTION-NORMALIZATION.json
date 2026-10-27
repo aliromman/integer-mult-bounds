@@ -1,0 +1,48 @@
+{
+  "status": "PASS_CENTRAL_INVOLUTION_NORMALIZATION",
+  "new_kappa": false,
+  "width_checks": [
+    {
+      "width": 1,
+      "addresses": 2,
+      "checked_kernel_pairs": 4,
+      "negative_eigenvalues": 0
+    },
+    {
+      "width": 2,
+      "addresses": 4,
+      "checked_kernel_pairs": 16,
+      "negative_eigenvalues": 1
+    },
+    {
+      "width": 3,
+      "addresses": 8,
+      "checked_kernel_pairs": 64,
+      "negative_eigenvalues": 4
+    },
+    {
+      "width": 4,
+      "addresses": 16,
+      "checked_kernel_pairs": 256,
+      "negative_eigenvalues": 10
+    },
+    {
+      "width": 5,
+      "addresses": 32,
+      "checked_kernel_pairs": 1024,
+      "negative_eigenvalues": 20
+    },
+    {
+      "width": 6,
+      "addresses": 64,
+      "checked_kernel_pairs": 4096,
+      "negative_eigenvalues": 36
+    }
+  ],
+  "eight_axis_entries": 65536,
+  "controls": [
+    "factorwise G differs at width two",
+    "G inverse differs at width one"
+  ],
+  "scope": "Exact component identities; no complete native caller or price improvement"
+}

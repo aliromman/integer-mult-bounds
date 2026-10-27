@@ -1,0 +1,14 @@
+{
+  "parameters": {
+    "n": 6,
+    "period": 4,
+    "balanced": false,
+    "timeout": 60000,
+    "seed": 5786,
+    "output": "research/noncommuting-star-caller/cyclic-stage-n6-p4-query.json"
+  },
+  "status": "unknown",
+  "solve_seconds": 60.53429250000045,
+  "scope": "Binary cyclic-stage model; no characteristic-zero lift or complete price",
+  "reason": "timeout"
+}

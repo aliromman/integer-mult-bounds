@@ -1,0 +1,37 @@
+{
+  "endpoint_coefficients": 571536,
+  "helpers": {
+    "1": 2,
+    "2": 5,
+    "4": 90,
+    "5": 10,
+    "7": 5,
+    "8": 16,
+    "9": 412
+  },
+  "native_delta": {
+    "changed_maps_checked": 90,
+    "recipe_sha256": "bc4611d7d8fba9199cb00ee2b2f9e957dc04d51c8805c879fbfd1ef5be3b4499"
+  },
+  "owned_lifetimes": 8,
+  "paid": {
+    "1": 2203,
+    "2": 457,
+    "3": 495,
+    "4": 90,
+    "5": 169,
+    "6": 18,
+    "7": 14
+  },
+  "paid_rank_mass": 6013,
+  "peak_owned_fields": 1,
+  "public_inputs": 748,
+  "real_scalar_allowance": 220232,
+  "status": "KNOWN_PR5601_HELPER307_POSITIVE_CONTROL; NO_NEW_KAPPA",
+  "transpose": {
+    "arithmetic": "Dense integer rows with binary denominators; reverse chronology",
+    "coefficients": 571536,
+    "columns": 756
+  },
+  "word_sha256": "48a76d50761d81bfafe4961fd2198a47080ad9a47d664d3d45deca31f7a1c9dc"
+}

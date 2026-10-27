@@ -1,0 +1,150 @@
+{
+  "scope": "Optimistic floating invoices for unconstructed callers; not certified kappa",
+  "native_source": "09dd0965711ca7eeb169057a420abab1c9052137",
+  "two_simplex_formal": [
+    {
+      "n": 6,
+      "calls": 8,
+      "targets": {
+        "17": 2,
+        "25": 4
+      },
+      "rank_margin": 176,
+      "crossing": 0.002207458892090119,
+      "margin_0034": -94.58712222496979
+    },
+    {
+      "n": 8,
+      "calls": 10,
+      "targets": {
+        "17": 4,
+        "25": 4
+      },
+      "rank_margin": 272,
+      "crossing": 0.00275495873034276,
+      "margin_0034": -63.35804991670739
+    },
+    {
+      "n": 12,
+      "calls": 14,
+      "targets": {
+        "17": 8,
+        "25": 4
+      },
+      "rank_margin": 464,
+      "crossing": 0.0033933850589366594,
+      "margin_0034": -0.8999053001898574
+    },
+    {
+      "n": 16,
+      "calls": 18,
+      "targets": {
+        "17": 12,
+        "25": 4
+      },
+      "rank_margin": 656,
+      "crossing": 0.003754065674037188,
+      "margin_0034": 61.55823931633495
+    },
+    {
+      "n": 24,
+      "calls": 26,
+      "targets": {
+        "17": 20,
+        "25": 4
+      },
+      "rank_margin": 1040,
+      "crossing": 0.00414738514270746,
+      "margin_0034": 186.47452854938456
+    },
+    {
+      "n": 32,
+      "calls": 34,
+      "targets": {
+        "17": 28,
+        "25": 4
+      },
+      "rank_margin": 1424,
+      "crossing": 0.004357697679230832,
+      "margin_0034": 311.39081778243417
+    },
+    {
+      "n": 64,
+      "calls": 66,
+      "targets": {
+        "17": 60,
+        "25": 4
+      },
+      "rank_margin": 2960,
+      "crossing": 0.004692068965294226,
+      "margin_0034": 811.0559747145744
+    }
+  ],
+  "one_simplex_order4": [
+    {
+      "n": 64,
+      "calls": 65,
+      "targets": {
+        "17": 62,
+        "9": 2
+      },
+      "rank_margin": -312,
+      "crossing": null
+    },
+    {
+      "n": 72,
+      "calls": 73,
+      "targets": {
+        "17": 70,
+        "9": 2
+      },
+      "rank_margin": 72,
+      "crossing": 0.00010468859807494235,
+      "margin_0034": -2255.2239113120013
+    },
+    {
+      "n": 128,
+      "calls": 129,
+      "targets": {
+        "17": 126,
+        "9": 2
+      },
+      "rank_margin": 2760,
+      "crossing": 0.0022624906401854106,
+      "margin_0034": -1380.8098866807995
+    },
+    {
+      "n": 256,
+      "calls": 257,
+      "targets": {
+        "17": 254,
+        "9": 2
+      },
+      "rank_margin": 8904,
+      "crossing": 0.003654868270598077,
+      "margin_0034": 617.8507410483435
+    },
+    {
+      "n": 512,
+      "calls": 513,
+      "targets": {
+        "17": 510,
+        "9": 2
+      },
+      "rank_margin": 21192,
+      "crossing": 0.004352602446789533,
+      "margin_0034": 4615.171996505465
+    },
+    {
+      "n": 1024,
+      "calls": 1025,
+      "targets": {
+        "17": 1022,
+        "9": 2
+      },
+      "rank_margin": 45768,
+      "crossing": 0.004701857847056179,
+      "margin_0034": 12609.814507420175
+    }
+  ]
+}

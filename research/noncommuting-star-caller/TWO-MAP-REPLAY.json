@@ -1,0 +1,1 @@
+{"status": "PASS_LITERAL_BINARY_TWO_MAP_WORD", "matrix_entries": 576, "full_calls": 10, "thin_ranks": [5, 22], "mutation_controls": 3, "optimistic_linear_margin": -716, "scope": "Exact binary polynomial endpoint; no native lift or kappa"}

@@ -1,0 +1,238 @@
+{
+  "scope": "nested B=0 stages; all binary full-query frames; unrestricted thin ranks",
+  "parameters": {
+    "g": 5,
+    "d": 4,
+    "thin": 2,
+    "trials": 1,
+    "timeout": 3000,
+    "seed": 5747,
+    "output": "research/noncommuting-star-caller/variable-query-g5-d4-two-maps.json"
+  },
+  "trials": [
+    {
+      "trial": 0,
+      "projections": [
+        [
+          1,
+          9,
+          0,
+          8
+        ],
+        [
+          5,
+          14,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          12
+        ],
+        [
+          7,
+          2,
+          2,
+          7
+        ],
+        [
+          0,
+          2,
+          12,
+          0
+        ]
+      ],
+      "systems": [
+        {
+          "status": "unsat",
+          "full_linear_constraints": 73,
+          "gaps": [
+            0,
+            1
+          ],
+          "seconds": 0.09530583303421736
+        },
+        {
+          "status": "unsat",
+          "full_linear_constraints": 63,
+          "gaps": [
+            0,
+            2
+          ],
+          "seconds": 0.07547512499149889
+        },
+        {
+          "status": "unsat",
+          "full_linear_constraints": 52,
+          "gaps": [
+            0,
+            3
+          ],
+          "seconds": 0.07588849996682256
+        },
+        {
+          "status": "unsat",
+          "full_linear_constraints": 50,
+          "gaps": [
+            0,
+            4
+          ],
+          "seconds": 0.07404212502297014
+        },
+        {
+          "status": "unsat",
+          "full_linear_constraints": 65,
+          "gaps": [
+            0,
+            5
+          ],
+          "seconds": 0.0783979999832809
+        },
+        {
+          "status": "unsat",
+          "full_linear_constraints": 50,
+          "gaps": [
+            0,
+            6
+          ],
+          "seconds": 0.08031420898623765
+        },
+        {
+          "status": "unsat",
+          "full_linear_constraints": 48,
+          "gaps": [
+            0,
+            7
+          ],
+          "seconds": 0.07862483302596956
+        },
+        {
+          "status": "unsat",
+          "full_linear_constraints": 57,
+          "gaps": [
+            0,
+            8
+          ],
+          "seconds": 0.07579866703599691
+        },
+        {
+          "status": "unsat",
+          "full_linear_constraints": 63,
+          "gaps": [
+            0,
+            9
+          ],
+          "seconds": 0.07764233299531043
+        },
+        {
+          "status": "unsat",
+          "full_linear_constraints": 74,
+          "gaps": [
+            0,
+            10
+          ],
+          "seconds": 0.07889416697435081
+        },
+        {
+          "status": "unsat",
+          "full_linear_constraints": 63,
+          "gaps": [
+            1,
+            2
+          ],
+          "seconds": 0.0884441250236705
+        },
+        {
+          "status": "unsat",
+          "full_linear_constraints": 49,
+          "gaps": [
+            1,
+            3
+          ],
+          "seconds": 0.08855879097245634
+        },
+        {
+          "status": "sat",
+          "full_linear_constraints": 37,
+          "full_queries": [
+            2295,
+            43692,
+            52422,
+            53325,
+            384,
+            53405,
+            2050,
+            2099,
+            2050,
+            52240
+          ],
+          "thin": [
+            [
+              772,
+              52879,
+              2067,
+              51333,
+              0,
+              0,
+              0,
+              0,
+              14,
+              14,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              9570325,
+              327687,
+              4524048,
+              8566803,
+              144,
+              80,
+              176,
+              128,
+              1792,
+              1024,
+              3072,
+              2048,
+              20480,
+              24576,
+              16384,
+              61440,
+              393221,
+              327685,
+              196613,
+              589829,
+              1048576,
+              2097154,
+              13631489,
+              1048577
+            ]
+          ],
+          "thin_ranks": [
+            5,
+            22
+          ],
+          "gaps": [
+            1,
+            4
+          ],
+          "seconds": 0.08752879209350795
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "saving": 0.0034,
+  "cap": null,
+  "scope": "all monotone frames; main boundaries fixed",
+  "status": 0,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "elapsed_seconds": 34.57717549998779,
+  "interval_dimensions": {
+    "0": 308,
+    "1": 645,
+    "2": 24,
+    "3": 1,
+    "5": 30
+  },
+  "choices": 12954,
+  "variables": 183927,
+  "constraints": 137091,
+  "paid": {
+    "1": 2203,
+    "2": 457,
+    "3": 495,
+    "4": 90,
+    "5": 169,
+    "6": 18,
+    "7": 14
+  },
+  "helpers": {
+    "1": 2,
+    "2": 5,
+    "4": 90,
+    "5": 10,
+    "7": 5,
+    "8": 16,
+    "9": 412
+  },
+  "paid_cost_delta": -0.011097904189227847,
+  "changed": [
+    {
+      "node": 562,
+      "old": [
+        30,
+        44,
+        76,
+        391
+      ],
+      "new": [
+        30,
+        44,
+        459
+      ]
+    },
+    {
+      "node": 999,
+      "old": [
+        6,
+        24,
+        42,
+        74,
+        385
+      ],
+      "new": [
+        30,
+        44,
+        74,
+        385
+      ]
+    }
+  ],
+  "lower_bound_delta": -0.011097904189000474
+}

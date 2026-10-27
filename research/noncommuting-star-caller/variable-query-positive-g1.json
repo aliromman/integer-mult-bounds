@@ -1,0 +1,62 @@
+{
+  "scope": "nested B=0 projectors; all rank-one full query frames; rank-factored thin maps at all gaps",
+  "g": 1,
+  "thin_rank_bound": 4,
+  "seed": 5747,
+  "rank_per_gap": 4,
+  "timeout_ms": 15000,
+  "trials": [
+    {
+      "trial": 0,
+      "projections": [
+        [
+          1,
+          0
+        ]
+      ],
+      "order": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "constraints": 24,
+      "status": "sat",
+      "seconds": 0.03854708292055875,
+      "full_types": [
+        0,
+        2
+      ],
+      "thin": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          8,
+          4,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "thin_ranks": [
+        0,
+        4,
+        0
+      ],
+      "thin_rank": 4
+    }
+  ]
+}

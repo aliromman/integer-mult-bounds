@@ -1,0 +1,15 @@
+{
+  "parameters": {
+    "g": 5,
+    "d": 4,
+    "thin": 2,
+    "trials": 25,
+    "seed": 5786,
+    "graph": true,
+    "output": "research/noncommuting-star-caller/nested-graph-g5-d4-two-maps.json"
+  },
+  "status": "bounded_screen",
+  "systems": 1375,
+  "successes": [],
+  "seconds": 0.2408112499397248
+}
