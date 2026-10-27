@@ -1,0 +1,53 @@
+{
+  "parameters": {
+    "n": 6,
+    "period": 6,
+    "blocks": null,
+    "types": null,
+    "shifted": false,
+    "inverse_mask": 0,
+    "degrees": null,
+    "order": "alternating",
+    "balanced": true,
+    "timeout": 180000,
+    "seed": 5786,
+    "output": "research/noncommuting-star-caller/cyclic-stage-n6-p6-balanced.json"
+  },
+  "status": "unknown",
+  "solve_seconds": 180.3315302080009,
+  "scope": "Binary multi-simplex query frame; no characteristic-zero lift or complete price",
+  "query_frame": [
+    [
+      1,
+      62
+    ],
+    [
+      2,
+      61
+    ],
+    [
+      4,
+      59
+    ],
+    [
+      8,
+      55
+    ],
+    [
+      16,
+      47
+    ],
+    [
+      32,
+      31
+    ],
+    [
+      63,
+      63
+    ]
+  ],
+  "effective_period": 6,
+  "formal_stage": false,
+  "normalizing_degree": 0,
+  "reason": "timeout"
+}

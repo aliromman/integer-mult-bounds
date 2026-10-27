@@ -37,8 +37,12 @@ Canonical main was fetched again and remainsde5ec2e7a6074068452f45b1a191b5c72832
 
 Checkpoint and scope renewal at2026-10-27T02:36UTC: canonical main remainsde5ec2e7a6074068452f45b1a191b5c72832df4a and priority8 after fetch. The latest bounded readback includes PR5811/5812 gains, the productive-owned-lifetime claim in5600, reachable-value preparation in5645, immutable rank8/9 repair in5125, and sparse Walsh G20 bases in5804. These are separate scopes. I renew only the advancing caller and permutation-dependent frame investigation. The four-field group-algebra test timed out; the six numerical balanced runs did not close. The next bounded test allows a query endpoint before testing independent input/output target adapters. No Gaussian credit is assigned until those adapters are proved. A component proof now normalizes the central Q to an involution at every width, with exact kernel checks through width6 and a checked eight-axis Hadamard phase. Its full104-port source route and complete caller accounting remain open. A checkpoint will preserve the scripts, negative and unknown receipts, source pins and verification limits. No new kappa is claimed.
 
+Public checkpoint: [87f4ba61cd6dbac4b3157fb9239876e5c7ebe27a](https://github.com/aliromman/integer-mult-bounds/tree/87f4ba61cd6dbac4b3157fb9239876e5c7ebe27a/research/noncommuting-star-caller). This is an exploratory archive, not a new kappa or a submitted caller. It preserves the exact losing binary word, source pins, bounded search receipts, the central involution proof and component checks. The next same-scope test uses U^6=1 with two U^3 Q and four U^2 Q targets on six fields. The valid three-block stage distinguishes this from the earlier order-four tests.
+
+Scope extension at2026-10-27T02:49UTC: test a raw-query advancing caller whose endpoint is an invertible ordinary mixing of Gaussian outputs plus a fixed ordinary linear combination of the original main inputs. Retained copies of those original inputs can subtract that residual. This changes the consumer boundary: all retained-input COPY, subtraction, storage and erasure must be charged. A residual containing a Hadamard stage is not ordinary and receives no credit. First screen: four fields, four full calls, U^6=1, target U^2 S times an invertible constant bank matrix, and a constant residual independent of U. It has only an optimistic price until exact endpoints and all source/consumer costs pass. It does not take productive completion of native owned lifetimes in5600; the retained fields here are caller-level main inputs.
+
 ```json
-{"schema": "integer-mult-coordination/v1", "kind": "CLAIM", "task": "noncommuting-star-caller", "scope": "Variable-query paired-stage callers and rational full projectors for a common advancing stage; exact endpoints and complete price required", "base": "de5ec2e7a6074068452f45b1a191b5c72832df4a", "expiry": "2026-10-27T08:00:00+00:00", "artifact": null}
+{"schema": "integer-mult-coordination/v1", "kind": "CLAIM", "task": "noncommuting-star-caller", "scope": "Variable-query paired-stage callers and rational full projectors for a common advancing stage; exact endpoints and complete price required", "base": "de5ec2e7a6074068452f45b1a191b5c72832df4a", "expiry": "2026-10-27T08:00:00+00:00", "artifact": "https://github.com/aliromman/integer-mult-bounds/tree/87f4ba61cd6dbac4b3157fb9239876e5c7ebe27a/research/noncommuting-star-caller"}
 ```
 
 ## Open next questions
@@ -48,3 +52,16 @@ Checkpoint and scope renewal at2026-10-27T02:36UTC: canonical main remainsde5ec2
 - Can the advancing stage be bound to the complete native source with all helpers, phases, routes and ordinary costs? This remains open.
 
 Read LAB.md for experiment coverage and verification limits.
+
+Scope extension at2026-10-27T03:50UTC: I will test higher-order Clifford advancers of the form U=R H_0, where R is an ordinary linear-address permutation with quadratic phases, rather than only a permutation of whole axis blocks. The first screen enumerates two- and three-coordinate symplectic cells, checks the exact power ranks and scalar phase, and then uses eight parallel cells to bind the native rank-eight advance. A cyclic identity alone cannot assign Gaussian rank to its powers. The caller still needs an exact endpoint and complete source bill. The separate reduced-basis ordinary-residual search continues on six fields.
+
+The two-call small-residual identity overlaps the existing Yiyang/Dillon border lineage, including research/two-full-border-paid-precision and research/bounded-lane-border-core. It is retained as an attributed local control, not claimed as new. Its independent-error precision bill and recursive native coherence remain unresolved here. The latest bounded main/PR/Discussion refresh at03:40UTC includes PR5827, the current historical-value scope in5645, productive native owned lifetimes in5600 and released all-rank immutable repair5823. Those scopes remain separate. No new kappa.
+
+
+
+Scope update at2026-10-27T05:00UTC: the initialized-work contract in OWNED-CALLER-CONTRACT.md is now subject to the sharp MINIMAL-QUERY-DEGREE.md theorem. For exactly n queries and n independent outputs, the formal target determinant degree is at most n, regardless of the number of initialized work fields. Exact integer transfer, exterior and sharpness controls pass. This closes the proposed four-call target and its two-call degrees(2,1) variant. It does not close signed or cyclic stages, or the current four-input/five-call balanced test. The original user goal still requires a major useful contribution and a large kappa increase; the latter has not been achieved. No selected-frontier change or new complete caller is claimed.
+
+Checkpoint: the five-call initialized-work and six-input formal-tangent
+searches have finished without an endpoint. MINIMAL-QUERY-DEGREE.md now
+includes arbitrary-rank chronological layers and exact P104 price
+exclusions through h=101 at .003 and h=102 at .0034. No new kappa.

@@ -19,6 +19,26 @@ normalization and describes a changed advancing-stage contract. The exact
 component check is `python3 -I -B involution_normalization.py` from this
 directory. This component does not provide a profitable caller.
 
+[ODD-ORDER-ADVANCERS.md](ODD-ORDER-ADVANCERS.md) adds exact order-seven and
+order-nine advancing stages, with complete phase and power-rank checks.
+[CYCLIC-REDUCTION.md](CYCLIC-REDUCTION.md) proves when a cyclic stage search
+is equivalent to a formal-stage search, over every field. These are component
+results. The subsequent exact and numerical caller searches remain unresolved.
+
+[MINIMAL-QUERY-DEGREE.md](MINIMAL-QUERY-DEGREE.md) proves a sharp formal-stage
+bound with any number of initialized work fields and a final output projection.
+For n rank-one queries and n independent central-involution outputs, the
+target determinant has stage degree at most n. The exact transfer identity is
+det M(z,t)=t^n det T(z). Integer controls and a sharp construction pass. This
+excludes the proposed four-call target with four rank17 outputs, even with
+arbitrary zero work. The extension to total query rank Q and n=Q-h outputs
+gives degree(det T)<=A_full+min(Q,mh), where m is the query-layer count.
+For the pinned P104 source, every formal forward caller with h<=101 fails
+to beat the selected exponent; h<=102 fails at .0034. These bounds permit
+any full-call count and constant mixing between ports. Signed stages,
+cyclic identities and changed helper use remain separate questions.
+No new kappa is established.
+
 ## Open next questions
 
 - Can ordinary permutation-dependent frames produce an exact endpoint?

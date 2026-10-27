@@ -1,0 +1,29 @@
+{
+  "status": "PASS_SECOND_CHECKPOINT_COMPONENTS",
+  "new_kappa": false,
+  "component_checks": {
+    "clifford_advancers": {
+      "normal_optimized_retained_equal": true,
+      "sha256": "7f13b4b1f449db3093f4192eceb571d31228d9c98671bdab5d79ceae68bff8c2"
+    },
+    "cyclic_reduction": {
+      "normal_optimized_retained_equal": true,
+      "sha256": "8e63b39ee3338faf2fc9cc94953a1d2d0efd84ff70e8bd66adaf0fd02f9fcfe0"
+    },
+    "border": {
+      "normal_optimized_retained_equal": true,
+      "sha256": "a9e8c0c28fcfd9356e44ce4b3ecb1ca3b6eebd83158903f019fbd53633d7abe2"
+    },
+    "minimal_query_degree": {
+      "normal_optimized_retained_equal": true,
+      "sha256": "6cc1e93475760915474153b42a9d0b2f435ae7ec07d560da4a36afb0fce32509"
+    }
+  },
+  "source_pins_checked": 8,
+  "python_ast_files": 37,
+  "json_files_parsed": 122,
+  "minimum_query_read_only_git_free_optimized": true,
+  "source_word_mutant": "REJECT",
+  "source_profiles_reconstructed": true,
+  "scientific_boundary": "Written scoped proofs and exact component controls; no new native caller, profitable complete invoice, compiler admission, hosted qualification or independent acceptance."
+}

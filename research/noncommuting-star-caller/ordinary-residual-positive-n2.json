@@ -1,0 +1,107 @@
+{
+  "status": "NUMERICAL_DISCOVERY_ONLY",
+  "parameters": {
+    "n": 2,
+    "calls": null,
+    "period": 2,
+    "exponent": 2,
+    "trials": 1,
+    "steps": 20,
+    "scale": 0.2,
+    "seed": 5786,
+    "output": "research/noncommuting-star-caller/ordinary-residual-positive-n2.json"
+  },
+  "seconds": 0.013215917046181858,
+  "best": {
+    "trial": 0,
+    "residual_norm": 7.745346429080775e-16,
+    "max_residual": 4.898587196589413e-16,
+    "evaluations": 1,
+    "max_parameter": 1.0,
+    "target_condition": 1.0,
+    "parameters": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0
+    ]
+  },
+  "records": [
+    {
+      "trial": 0,
+      "residual_norm": 7.745346429080775e-16,
+      "max_residual": 4.898587196589413e-16,
+      "evaluations": 1,
+      "max_parameter": 1.0,
+      "target_condition": 1.0
+    }
+  ],
+  "projectors": [
+    [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ]
+  ],
+  "queries": [
+    [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ]
+  ],
+  "target_bank_matrix": [
+    [
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      0.0
+    ]
+  ],
+  "ordinary_residual": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      2.0
+    ]
+  ]
+}

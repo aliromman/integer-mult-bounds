@@ -1,0 +1,19 @@
+{
+  "status": "unknown",
+  "solve_seconds": 30.052379208034836,
+  "parameters": {
+    "inverse_mask": 0,
+    "residual_degree": 2,
+    "timeout": 30000,
+    "output": "research/noncommuting-star-caller/ordinary-residual-mod5-control.json"
+  },
+  "scope": "Four-field F5 Laurent screen with a fixed first native frame; no kappa claim",
+  "residual_degree": 2,
+  "normalized_target_degrees": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "reason": "timeout"
+}

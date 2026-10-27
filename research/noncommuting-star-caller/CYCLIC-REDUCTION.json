@@ -1,0 +1,27 @@
+{
+  "status": "PASS_CYCLIC_REDUCTION_CONTROLS",
+  "new_kappa": false,
+  "projectors": 8,
+  "words": 37448,
+  "hypothesis_tests": 84912,
+  "passing_hypotheses": 10232,
+  "sharpness_controls": [
+    {
+      "period": 2,
+      "k": 1,
+      "length": 3
+    },
+    {
+      "period": 3,
+      "k": 2,
+      "length": 5
+    },
+    {
+      "period": 7,
+      "k": 2,
+      "length": 9
+    }
+  ],
+  "eight_field_high_rank_target": "REJECT_INTEGER_DETERMINANT_DEGREE",
+  "scope": "Finite controls for the written all-field lemma; no new caller"
+}

@@ -1,5 +1,5 @@
 {
-  "status": "EXPLORATORY_CHECKPOINT_NOT_A_CALLER",
+  "status": "SCOPED_PROOFS_AND_SEARCH_CHECKPOINT_NOT_A_CALLER",
   "files": [
     {
       "path": "ADVANCING-CONTRACT.md",
@@ -7,9 +7,29 @@
       "sha256": "14e116271f3f8e993fa5601a9bdc91bb8379980c19476d6d6b987c922551ce66"
     },
     {
+      "path": "BORDER-CALLER.json",
+      "bytes": 446,
+      "sha256": "a9e8c0c28fcfd9356e44ce4b3ecb1ca3b6eebd83158903f019fbd53633d7abe2"
+    },
+    {
+      "path": "BORDER-CALLER.md",
+      "bytes": 2915,
+      "sha256": "9f13d852794d4d078bdbfbec6b694a36a29d427e180f41f524237f31760ec369"
+    },
+    {
       "path": "CHECKPOINT-CHECKS.json",
       "bytes": 596,
       "sha256": "1386704e52c4b55de5ff5e809fc6d921d707f64709d0aa0fdd4525bb0f9c25d2"
+    },
+    {
+      "path": "CYCLIC-REDUCTION.json",
+      "bytes": 538,
+      "sha256": "8e63b39ee3338faf2fc9cc94953a1d2d0efd84ff70e8bd66adaf0fd02f9fcfe0"
+    },
+    {
+      "path": "CYCLIC-REDUCTION.md",
+      "bytes": 4770,
+      "sha256": "fdefb7802d4618e8757b124e87b59100d5348aee8c0af86afb55542eaaf0287b"
     },
     {
       "path": "FRAME-CANDIDATE-REPLAY.json",
@@ -33,18 +53,48 @@
     },
     {
       "path": "LAB.md",
-      "bytes": 7054,
-      "sha256": "7f7be0eb066487da8f3e99ab32674e517257d1c47a587ce34482dc5f1c8f415d"
+      "bytes": 13016,
+      "sha256": "025b58a1b16ee1bc76ad9724ef84f5013c82c1b6ac6e59e16ce1538877c5d1aa"
+    },
+    {
+      "path": "MINIMAL-QUERY-DEGREE.json",
+      "bytes": 4225,
+      "sha256": "6cc1e93475760915474153b42a9d0b2f435ae7ec07d560da4a36afb0fce32509"
+    },
+    {
+      "path": "MINIMAL-QUERY-DEGREE.md",
+      "bytes": 12270,
+      "sha256": "48ce1660cc6fa7344db2b9edc8e4194a4ff2b6fe71ff5ba7db1aa90bf4d6076c"
     },
     {
       "path": "NOTICE.md",
-      "bytes": 722,
-      "sha256": "e7b1d978b0bf65b1d9558f723b137b43f640022ecf5f712c5ad57848d87c494a"
+      "bytes": 1093,
+      "sha256": "c975f59134e124d917479c9b3d69985f217a0cbc73bb8322b9df5c39a721ea20"
+    },
+    {
+      "path": "ODD-ORDER-ADVANCERS.md",
+      "bytes": 4996,
+      "sha256": "2204c26912c1e22c31a2c25f22b3a29c27f46c98be6f9bbe035cbf1cb9c4ad3d"
+    },
+    {
+      "path": "ORDINARY-RESIDUAL-BOUND.md",
+      "bytes": 2962,
+      "sha256": "d5bd00ad147e03f5bc39785045f6f5f9fc80a464eb4bb01930c961a556031f6d"
+    },
+    {
+      "path": "OWNED-CALLER-CONTRACT.md",
+      "bytes": 3113,
+      "sha256": "cb38f0c7c220e5010b7db186702bd8e7af9921e32dfee7f29188672d7db00676"
     },
     {
       "path": "README.md",
-      "bytes": 1376,
-      "sha256": "6cb7e0e5cfa26182c89be9847eabe1671bc45996789f27588e5f3a915d92c2ad"
+      "bytes": 2686,
+      "sha256": "c3b80e85371906ca395c2fa327490c2c78a90eebbdb8aed8ab4d5eb97ff0689d"
+    },
+    {
+      "path": "ROUND2-CHECKS.json",
+      "bytes": 1160,
+      "sha256": "1e2c08288a8d9d7ccbc9bc03bf2be7c4d17bd242c6e6dd96d0b812037cf64e8c"
     },
     {
       "path": "SOURCE-PINS.json",
@@ -58,13 +108,48 @@
     },
     {
       "path": "WORK.md",
-      "bytes": 10860,
-      "sha256": "2e92342ae5bf4f941c20ce6db48ec819ac0cfa7684bb985c52e5b927eeaf482f"
+      "bytes": 14627,
+      "sha256": "34381861f9a2ae50fbe96503bae2bae9d754c3fad75922c087234b7be4a7e1fe"
     },
     {
       "path": "binary_subspaces.py",
       "bytes": 856,
       "sha256": "22ce333220f1a3715b9c902095cca7b8e22a611f856c7a703cbd811525e909f8"
+    },
+    {
+      "path": "border_caller.py",
+      "bytes": 2481,
+      "sha256": "7227e4e911c9d7550a8d4e09298f0d791d0e37fece06376268acb7b914ba0c08"
+    },
+    {
+      "path": "chain-caller-n4-p5-signed.json",
+      "bytes": 7562,
+      "sha256": "cc4c26c4fed906e896869c136b968925cca02a0cc24ef894f76d24aa50b14d4b"
+    },
+    {
+      "path": "chain-caller-n4-p5.json",
+      "bytes": 7500,
+      "sha256": "1e69e254d1ea147a897c11f2502b5e198dedb3eb8a3e5a7412209138a32dff8d"
+    },
+    {
+      "path": "chain-caller-n6-p5.json",
+      "bytes": 12116,
+      "sha256": "650eedf7b8179f95f12b502669652df11241fe491be42dc78fa0179e8a74832d"
+    },
+    {
+      "path": "chain_caller_search.py",
+      "bytes": 5266,
+      "sha256": "3251907e881141a8443fbc7b4c72322afb4ca70d00582f77883597a12b846771"
+    },
+    {
+      "path": "clifford-advancer-census-3.json",
+      "bytes": 58624,
+      "sha256": "7f13b4b1f449db3093f4192eceb571d31228d9c98671bdab5d79ceae68bff8c2"
+    },
+    {
+      "path": "clifford_advancers.py",
+      "bytes": 5696,
+      "sha256": "45e5dcd5b590734b46f4cf550cb45278b78a465ac3539c59178a61ff0b6b378f"
     },
     {
       "path": "complex-cyclic-general-n4.json",
@@ -92,6 +177,11 @@
       "sha256": "78fc0c8ef2416f9d2d166aa2b58a1dbcb1eecadf12a92920cbd96cf204f3fd32"
     },
     {
+      "path": "cyclic-orbit-n8-p7-complex.json",
+      "bytes": 7884,
+      "sha256": "9ebd0470b795c8e87ca26663b6f83821a988ba0317c421d694d70df87d81b34f"
+    },
+    {
       "path": "cyclic-pair-n6-p4.json",
       "bytes": 738,
       "sha256": "88f790a9e5a5452651d0b8521ee7cd34fae122aac18f97419b136038ba8d2bf4"
@@ -117,9 +207,54 @@
       "sha256": "c56c57165fd4da8bf415f2003779318889536bd00cff38d9cf1f484aca09e590"
     },
     {
+      "path": "cyclic-stage-n6-p6-balanced.json",
+      "bytes": 832,
+      "sha256": "d89c95bcf0140679b42ca8f480806e983236668d8921f9fa86fe408fa021547d"
+    },
+    {
+      "path": "cyclic-stage-n6-p7-balanced.json",
+      "bytes": 832,
+      "sha256": "06fa0e42b0326f802d65970566c3759fb95f22e5eea400469c47c16603b8dbce"
+    },
+    {
+      "path": "cyclic-stage-n8-p7-balanced.json",
+      "bytes": 908,
+      "sha256": "6ef85bc368eae936d3873f7c8ee34cf75b9111a06825753faac88701356b64d0"
+    },
+    {
+      "path": "cyclic-stage-n8-p7-high-rank.json",
+      "bytes": 947,
+      "sha256": "8e7bd58642d7c81061e91db2197b27a3506f5812670299028f64870f46e52aeb"
+    },
+    {
+      "path": "cyclic-stage-n8-p7-signed-high.json",
+      "bytes": 956,
+      "sha256": "83a87c0a4b4a3a47d96964edd7440c3158e31f1452bd82fb65ff7c0e53ed3041"
+    },
+    {
+      "path": "cyclic-stage-n8-p7-symplectic.json",
+      "bytes": 934,
+      "sha256": "51c437aa3fef49851989bb1e72a6e8980495238b91d9d78389b4d694fbc42e09"
+    },
+    {
+      "path": "cyclic-stage-p7-control.json",
+      "bytes": 1120,
+      "sha256": "f522fd863fe0c0cd405428018407231d8acc4cef8f6431cf741790c31de4bc9d"
+    },
+    {
+      "path": "cyclic_orbit_search.py",
+      "bytes": 4900,
+      "sha256": "86f3e00299db3af5538cba62544ed76f47bb6e8ba0392b6606cfe8cc9bdbbe38"
+    },
+    {
       "path": "cyclic_pair_search.py",
       "bytes": 4235,
       "sha256": "0289c2083ec7d46a9332b3f356d52e20afb23adc0765a8fb5ccbba8d491223a6"
+    },
+    {
+      "path": "cyclic_reduction_check.py",
+      "bytes": 2862,
+      "sha256": "b80e02e9a3ef04545b92c40e03e43bc9abc5dad6939e816799dada53d7c2d66b"
     },
     {
       "path": "cyclic_simplex.cpp",
@@ -128,8 +263,43 @@
     },
     {
       "path": "cyclic_stage_search.py",
-      "bytes": 12329,
-      "sha256": "a5564ef869a7e471b5fd82723ccc8799bcafdea45af87bc95422c88f95ecbdbd"
+      "bytes": 13064,
+      "sha256": "0ce76a278a78f82f18971302b02ee038f789d27c1538a0f1bb5d1745b59c7be7"
+    },
+    {
+      "path": "dihedral-residual-fixed-augmentation.json",
+      "bytes": 640,
+      "sha256": "14b7b0927b3571ba216ba5898210e2e3aead56c58a6c784edaac680e40858d64"
+    },
+    {
+      "path": "dihedral-residual-known-control.json",
+      "bytes": 2106,
+      "sha256": "45bc9797332bc83be9c027a6e30e860c0c4be884b2554b28267c1865fa1d0809"
+    },
+    {
+      "path": "dihedral-residual-n4.json",
+      "bytes": 616,
+      "sha256": "31558a8d9552ae1ce474061451acc03281a3a265b5e18cf2e7c0512155a08be0"
+    },
+    {
+      "path": "dihedral-residual-numeric-control.json",
+      "bytes": 2082,
+      "sha256": "c58d0d0fd6fd91856b05e92064324b7ec69d3dfb225f33a464bbfff78de56116"
+    },
+    {
+      "path": "dihedral-residual-numeric-n4.json",
+      "bytes": 5847,
+      "sha256": "2d861577ceabb6d67e605ccecfb3b4650bd28805062a674a103f1d90e527ee1d"
+    },
+    {
+      "path": "dihedral_residual_numeric.py",
+      "bytes": 5814,
+      "sha256": "5d6730e6685eb17b872561dc37f05cbcf26b0f5f1da43350342c9278413fa10f"
+    },
+    {
+      "path": "dihedral_residual_search.py",
+      "bytes": 7088,
+      "sha256": "5d4612833aa652ce1b160c219db0cd79dc0d6e21bc852ccadfd1e82a733a1aa0"
     },
     {
       "path": "dirty-promotion-probe.json",
@@ -160,6 +330,11 @@
       "path": "fixed-query-g5-d4-r10.json",
       "bytes": 1245,
       "sha256": "d1f719ebd6fbd59262f7b834c655b020d7fabda54e8329bb10a6fe29b13d67e2"
+    },
+    {
+      "path": "formal-tangent-n6-complex.json",
+      "bytes": 68221,
+      "sha256": "1b1c1fd848363c6c207fea839f8bf6ce2334d2a0e7242e78467a9095c7764e16"
     },
     {
       "path": "full-contact-axis511.json",
@@ -202,6 +377,21 @@
       "sha256": "d7fb2e152f7a56e43ceca95371b13ad5224b5f9e88cbe66150c54da6c48849ee"
     },
     {
+      "path": "image-basis-complex-n6-p4.json",
+      "bytes": 38553,
+      "sha256": "6cf167cc7502de3d60106fd2f27bf1abd36bd2dbb8f8ff1a79a89cb0d2d8c8bc"
+    },
+    {
+      "path": "image-basis-complex-n6-p5-relative.json",
+      "bytes": 37849,
+      "sha256": "dc448e3ca352bf0a3a671fd1d1d8c1f597e2596a783ac6074fef1502b768c720"
+    },
+    {
+      "path": "image-basis-control.json",
+      "bytes": 1573,
+      "sha256": "db490f064de153e6a4a87f6fcdd0698f1b29c368e56b2cef10102e42192f3c24"
+    },
+    {
       "path": "involution_normalization.py",
       "bytes": 3627,
       "sha256": "cd7dcb4159e70542634589a11e3a8568fa273b50230881fcd91459680010fd94"
@@ -230,6 +420,11 @@
       "path": "minimal-frame-candidate.json",
       "bytes": 1073,
       "sha256": "471175e71cedc9799842ac75b709f7aca42c7bd4222fe8dc2125c6d6d64e33d7"
+    },
+    {
+      "path": "minimal_query_degree_check.py",
+      "bytes": 13165,
+      "sha256": "243fcb1356aa04ce149a188ed32f0d2f200d124017f025a2ef4b2921569c0d91"
     },
     {
       "path": "mixed-six-n4-balanced.json",
@@ -330,6 +525,116 @@
       "path": "new-query-price-screens.json",
       "bytes": 2967,
       "sha256": "b3a68b94af8cd0602729cfb09070797ca0fa2ed03057b203476e4d9fa4b3e393"
+    },
+    {
+      "path": "ordinary-residual-binary-n4-p4.json",
+      "bytes": 344,
+      "sha256": "a9f501b865ec365e4f44bcad9482f199038263a028786ddd12537c793edb6d70"
+    },
+    {
+      "path": "ordinary-residual-binary-n4.json",
+      "bytes": 326,
+      "sha256": "ee51410fdc13c7b0fa9d48684e4f8325c8958a1a62a47bbcffcc8456b5e9a0bc"
+    },
+    {
+      "path": "ordinary-residual-binary-signed-n4.json",
+      "bytes": 334,
+      "sha256": "72f5b66fc23fcf0d2eebfae135261c50cecf763088e4dc67fecfcb21d9bf3508"
+    },
+    {
+      "path": "ordinary-residual-complex-control.json",
+      "bytes": 2606,
+      "sha256": "41ed39a54bdb331b45f606a286270d157efccaa00706680a454e50331c0ad52e"
+    },
+    {
+      "path": "ordinary-residual-complex-n4-p4.json",
+      "bytes": 18497,
+      "sha256": "1a01237e915881d6b190f435d9fee05223502b570b32e5eef5835cf9bd53f41d"
+    },
+    {
+      "path": "ordinary-residual-mod5-control.json",
+      "bytes": 448,
+      "sha256": "784924522cf173cc11c6af76f9b08cc082844ca81da6b8085660e5b921f6f8d6"
+    },
+    {
+      "path": "ordinary-residual-mod5-known-control.json",
+      "bytes": 5037,
+      "sha256": "c969e3704be5386fa966090ba0e6c26d006db2cc97802fe481c772cf413ca678"
+    },
+    {
+      "path": "ordinary-residual-mod5-signed-n4.json",
+      "bytes": 482,
+      "sha256": "b52cf69e9675a73d21d8c128bb4cdd8f9599d3e7490dda5218588c9f375e71b2"
+    },
+    {
+      "path": "ordinary-residual-n4-p4.json",
+      "bytes": 13053,
+      "sha256": "0690463f4a9ae57232ab2bd046285a5cb249274d836ce7d72d78f8c794cf7c85"
+    },
+    {
+      "path": "ordinary-residual-n4.json",
+      "bytes": 10962,
+      "sha256": "e3fbfbdd3afd1684e91c54ceea657395121dbe00b8fae91e37b5f6aa091c39b6"
+    },
+    {
+      "path": "ordinary-residual-n6-p6.json",
+      "bytes": 24109,
+      "sha256": "4b73340a92cab05474626fcce41335a0c2418197e24aaa56372cc25416a72c0f"
+    },
+    {
+      "path": "ordinary-residual-positive-n2.json",
+      "bytes": 1476,
+      "sha256": "c06ba69943bd60b681c42f5b67a1eb3bc195cc4f8cd2818a6fe71ab90630b4b4"
+    },
+    {
+      "path": "ordinary-residual-signed-n4-continued.json",
+      "bytes": 7774,
+      "sha256": "35e76515edf537566e81d60ffc7ef277d449c875d825bb3f5cf1fdd51e176b0f"
+    },
+    {
+      "path": "ordinary-residual-signed-n4.json",
+      "bytes": 11118,
+      "sha256": "40c2209212506fdd8f5159da4e6bedde7034725a8beaa68c73868cf8379d73d8"
+    },
+    {
+      "path": "ordinary_residual_binary.py",
+      "bytes": 6767,
+      "sha256": "899ac4f43007df922e05e81e1fd5a1f60741cc1071b296d9bbe54d41af27c688"
+    },
+    {
+      "path": "ordinary_residual_mod5.py",
+      "bytes": 8789,
+      "sha256": "e747819fbd4bf1d1798d0a9466199e26249fb900a8d8ad0123c047db7489dde1"
+    },
+    {
+      "path": "ordinary_residual_search.py",
+      "bytes": 7835,
+      "sha256": "fcdc2b3eb7d8b7dc209b35821ff2fdef7b2bd6697736ececf187314f5106e351"
+    },
+    {
+      "path": "owned-caller-n2-w2-l2-d21.json",
+      "bytes": 11904,
+      "sha256": "04d9d9780121898f41eae08f5888d2e73f253eb88b5c26ac804372d4f693e32d"
+    },
+    {
+      "path": "owned-caller-n4-w2-l4.json",
+      "bytes": 23056,
+      "sha256": "2e577c7119c2a4c4ccde9dc23f8faf514da81eb44bbd4ec4f635d9bea22aeb7c"
+    },
+    {
+      "path": "owned-caller-n4-w2-l5-balanced.json",
+      "bytes": 28311,
+      "sha256": "b012f7db2e0cde1acd984cd5eab740cc0e1401dfef4a94e3d2c3a46e51bb958b"
+    },
+    {
+      "path": "owned-caller-triangle-control.json",
+      "bytes": 5770,
+      "sha256": "d56d11126c6fc110bce2ab0594bf90ade1a284e8d239398c9efbf509a0f699c6"
+    },
+    {
+      "path": "owned_caller_search.py",
+      "bytes": 5148,
+      "sha256": "6f5b36c8921f5accd34c840c0f471831fc9808d406ecee1e3c84f7d26aa82a31"
     },
     {
       "path": "p104-contact-graph.json",
@@ -442,14 +747,29 @@
       "sha256": "9dc3c1629861fced7b592e873f1152dcd1e356588b4b81d88be8f40ccd024010"
     },
     {
+      "path": "rational-cyclic-n6-p6-balanced.json",
+      "bytes": 61165,
+      "sha256": "704fa10b27c441d2244af0d622a6d1ed3b6687bc58d68b8b897cc72ab9fccee8"
+    },
+    {
+      "path": "rational-cyclic-n6-p7-balanced.json",
+      "bytes": 62988,
+      "sha256": "ccdcfbf72fcb1d8c42e414c7243fe3c1d085f7abed38a99bcd24fa2947715d84"
+    },
+    {
       "path": "rational-cyclic-n6.json",
       "bytes": 36037,
       "sha256": "5862e8d909492c7dbc6a5b72671fc835f569566456c7c32a14d05218934b8b9d"
     },
     {
+      "path": "rational-cyclic-n8-p7-balanced.json",
+      "bytes": 178407,
+      "sha256": "bde5ba5f89840643ced657f7f46f5e959599250cf4c689ae278d84f24f58d673"
+    },
+    {
       "path": "rational_cyclic_search.py",
-      "bytes": 7158,
-      "sha256": "fb1cb31571e11af34b9c7a8661f9c315dffa283dfa6943a38112708b2ce21a48"
+      "bytes": 9856,
+      "sha256": "e50491270641485d843ffe3c530211a1511b0a11012da6e59922c56bfafae01c"
     },
     {
       "path": "replay_two_map_word.py",

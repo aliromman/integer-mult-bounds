@@ -1,0 +1,61 @@
+{
+  "parameters": {
+    "n": 8,
+    "period": 7,
+    "blocks": null,
+    "types": null,
+    "shifted": false,
+    "inverse_mask": 0,
+    "degrees": null,
+    "order": "alternating",
+    "balanced": true,
+    "timeout": 180000,
+    "seed": 5786,
+    "output": "research/noncommuting-star-caller/cyclic-stage-n8-p7-balanced.json"
+  },
+  "status": "unknown",
+  "solve_seconds": 180.12932904192712,
+  "scope": "Binary multi-simplex query frame; no characteristic-zero lift or complete price",
+  "query_frame": [
+    [
+      1,
+      254
+    ],
+    [
+      2,
+      253
+    ],
+    [
+      4,
+      251
+    ],
+    [
+      8,
+      247
+    ],
+    [
+      16,
+      239
+    ],
+    [
+      32,
+      223
+    ],
+    [
+      64,
+      191
+    ],
+    [
+      128,
+      127
+    ],
+    [
+      255,
+      255
+    ]
+  ],
+  "effective_period": 7,
+  "formal_stage": false,
+  "normalizing_degree": 0,
+  "reason": "timeout"
+}

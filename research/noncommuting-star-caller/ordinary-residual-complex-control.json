@@ -1,0 +1,191 @@
+{
+  "status": "NUMERICAL_DISCOVERY_ONLY",
+  "parameters": {
+    "n": 2,
+    "calls": null,
+    "period": 2,
+    "exponent": 2,
+    "inverse_mask": 0,
+    "signed_target": false,
+    "complex_parameters": true,
+    "trials": 1,
+    "steps": 20,
+    "scale": 0.2,
+    "seed": 5786,
+    "output": "research/noncommuting-star-caller/ordinary-residual-complex-control.json",
+    "start": null
+  },
+  "seconds": 0.012671874952502549,
+  "best": {
+    "trial": 0,
+    "residual_norm": 7.745346429080775e-16,
+    "max_residual": 4.898587196589413e-16,
+    "evaluations": 1,
+    "max_parameter": 1.0,
+    "target_condition": 1.0,
+    "parameters": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "records": [
+    {
+      "trial": 0,
+      "residual_norm": 7.745346429080775e-16,
+      "max_residual": 4.898587196589413e-16,
+      "evaluations": 1,
+      "max_parameter": 1.0,
+      "target_condition": 1.0
+    }
+  ],
+  "projectors": [
+    {
+      "real": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "imag": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "real": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "imag": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "queries": [
+    {
+      "real": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "imag": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "real": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "imag": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "target_bank_matrix": {
+    "real": [
+      [
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "imag": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "ordinary_residual": {
+    "real": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        2.0
+      ]
+    ],
+    "imag": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ]
+  }
+}

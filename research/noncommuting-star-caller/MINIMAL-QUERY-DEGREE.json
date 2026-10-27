@@ -1,0 +1,216 @@
+{
+  "status": "PASS_MINIMAL_QUERY_DEGREE_CONTROLS",
+  "new_kappa": false,
+  "exact_transfer_cases": 20,
+  "exact_exterior_minors": 483,
+  "excess_query_controls": [
+    {
+      "layers": 3,
+      "query_rank_per_layer": 2,
+      "output_count": 5,
+      "excess_query_rank": 1,
+      "proved_minimum_t_order": 3,
+      "actual_t_order": 3
+    },
+    {
+      "layers": 2,
+      "query_rank_per_layer": 3,
+      "output_count": 5,
+      "excess_query_rank": 1,
+      "proved_minimum_t_order": 4,
+      "actual_t_order": 4
+    },
+    {
+      "layers": 3,
+      "query_rank_per_layer": 2,
+      "output_count": 4,
+      "excess_query_rank": 2,
+      "proved_minimum_t_order": 0,
+      "actual_t_order": 1
+    }
+  ],
+  "rank_two_query_exterior_minors": 400,
+  "sharp_initialized_controls": [
+    {
+      "inputs": 1,
+      "work_fields": 1,
+      "calls": 1,
+      "target_degree_sum": 1
+    },
+    {
+      "inputs": 2,
+      "work_fields": 2,
+      "calls": 2,
+      "target_degree_sum": 2
+    },
+    {
+      "inputs": 3,
+      "work_fields": 3,
+      "calls": 3,
+      "target_degree_sum": 3
+    },
+    {
+      "inputs": 4,
+      "work_fields": 4,
+      "calls": 4,
+      "target_degree_sum": 4
+    }
+  ],
+  "additional_query_triangle": "PASS",
+  "nonnilpotent_query_mutant": "REJECT",
+  "source_word_sha256": "bbb072bced5824a8d9094c49be2fc51fbfdd05fb2b7dab8106e1275053075099",
+  "source_commit": "de5ec2e7a6074068452f45b1a191b5c72832df4a",
+  "source_paid": {
+    "1": 2203,
+    "2": 459,
+    "3": 493,
+    "4": 92,
+    "5": 168,
+    "6": 18,
+    "7": 14
+  },
+  "source_helpers": {
+    "1": 2,
+    "2": 5,
+    "4": 89,
+    "5": 11,
+    "7": 5,
+    "8": 16,
+    "9": 412
+  },
+  "net_linear_mass": 1720,
+  "hinges": {
+    "1": -1187,
+    "2": -1893,
+    "3": -2145,
+    "4": -1904,
+    "5": -1660,
+    "6": -1259,
+    "7": -840,
+    "8": -412,
+    "9": 0
+  },
+  "complete_margin_per_full_call_upper_bound": -784,
+  "strict_exclusion_max_excess_rank": 98,
+  "first_possible_full_call_counts": {
+    "99": 13,
+    "100": 7,
+    "101": 5,
+    "102": 4,
+    "103": 3,
+    "104": 3
+  },
+  "power_tariff_exclusions": [
+    {
+      "excess_query_rank": 101,
+      "tariff_exponent": [
+        997,
+        1000
+      ],
+      "interval_scale": 1000000000,
+      "margin_numerator_interval": [
+        -4337733179,
+        -4337729312
+      ],
+      "power_numerator_bounds": {
+        "1": [
+          1000000000,
+          1000000001
+        ],
+        "2": [
+          1995845437,
+          1995845438
+        ],
+        "3": [
+          2990128765,
+          2990128766
+        ],
+        "4": [
+          3983399012,
+          3983399013
+        ],
+        "5": [
+          4975916619,
+          4975916620
+        ],
+        "6": [
+          5967834855,
+          5967834856
+        ],
+        "7": [
+          6959254931,
+          6959254932
+        ],
+        "8": [
+          7950248746,
+          7950248747
+        ],
+        "9": [
+          8940870033,
+          8940870034
+        ],
+        "17": [
+          16856118456,
+          16856118457
+        ]
+      },
+      "excludes_every_full_call_count": true
+    },
+    {
+      "excess_query_rank": 102,
+      "tariff_exponent": [
+        4983,
+        5000
+      ],
+      "interval_scale": 1000000000,
+      "margin_numerator_interval": [
+        -193489064,
+        -193485197
+      ],
+      "power_numerator_bounds": {
+        "1": [
+          1000000000,
+          1000000001
+        ],
+        "2": [
+          1995292148,
+          1995292149
+        ],
+        "3": [
+          2988815057,
+          2988815058
+        ],
+        "4": [
+          3981190759,
+          3981190760
+        ],
+        "5": [
+          4972714278,
+          4972714279
+        ],
+        "6": [
+          5963559217,
+          5963559218
+        ],
+        "7": [
+          6953840205,
+          6953840206
+        ],
+        "8": [
+          7943638665,
+          7943638666
+        ],
+        "9": [
+          8933015445,
+          8933015446
+        ],
+        "17": [
+          16837026484,
+          16837026485
+        ]
+      },
+      "excludes_every_full_call_count": true
+    }
+  ],
+  "scope": "Exact integer controls for the written general proof; no new profitable caller"
+}

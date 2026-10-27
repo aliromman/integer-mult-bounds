@@ -1,0 +1,356 @@
+{
+  "status": "NUMERICAL_DISCOVERY_ONLY",
+  "parameters": {
+    "n": 8,
+    "period": 7,
+    "symplectic": false,
+    "complex": true,
+    "trials": 32,
+    "steps": 600,
+    "scale": 0.3,
+    "seed": 5833,
+    "output": "research/noncommuting-star-caller/cyclic-orbit-n8-p7-complex.json"
+  },
+  "seconds": 46.328752500005066,
+  "best": {
+    "trial": 26,
+    "residual_norm": 31.73491297105836,
+    "max_residual": 3.477645513503204,
+    "evaluations": 102,
+    "max_parameter": 0.44699564990785684,
+    "parameters": [
+      0.10673856276541935,
+      -0.2859821602994435,
+      0.16891198279802555,
+      -0.2986113216494936,
+      0.154584850430966,
+      -0.44699564990785684,
+      -0.40904136361377946,
+      -0.15083790355171314,
+      -0.3007084886692028,
+      -0.15336475935612068,
+      -0.2849624728368344,
+      -0.03232272413212161,
+      0.009173287277251599,
+      -0.06706945334100611,
+      0.013352497082591059,
+      -0.045219900690575396,
+      0.0734877381435122,
+      0.00859469882388506,
+      0.03143744680141863,
+      0.01915603888745147,
+      0.01795755905914008,
+      0.0252119453626164,
+      0.025707427045552327,
+      0.038467660767521346
+    ]
+  },
+  "records": [
+    {
+      "trial": 0,
+      "residual_norm": 31.910864925162784,
+      "max_residual": 3.7624694516085357,
+      "evaluations": 59,
+      "max_parameter": 0.45858568459219196
+    },
+    {
+      "trial": 1,
+      "residual_norm": 37.537468484070494,
+      "max_residual": 4.497882479799509,
+      "evaluations": 116,
+      "max_parameter": 0.5900325832207346
+    },
+    {
+      "trial": 2,
+      "residual_norm": 36.452254589306534,
+      "max_residual": 3.2959950881775657,
+      "evaluations": 88,
+      "max_parameter": 0.8165940520657703
+    },
+    {
+      "trial": 3,
+      "residual_norm": 33.61891788187327,
+      "max_residual": 2.986990179685249,
+      "evaluations": 153,
+      "max_parameter": 0.6292259496835266
+    },
+    {
+      "trial": 4,
+      "residual_norm": 34.70190505542118,
+      "max_residual": 3.592408457244954,
+      "evaluations": 64,
+      "max_parameter": 0.5442518427040557
+    },
+    {
+      "trial": 5,
+      "residual_norm": 36.45225458930614,
+      "max_residual": 3.295994867445226,
+      "evaluations": 70,
+      "max_parameter": 0.8165940596945906
+    },
+    {
+      "trial": 6,
+      "residual_norm": 33.45594781932132,
+      "max_residual": 3.210904603819158,
+      "evaluations": 44,
+      "max_parameter": 0.6273701241236362
+    },
+    {
+      "trial": 7,
+      "residual_norm": 33.33049722648012,
+      "max_residual": 3.770017984978759,
+      "evaluations": 118,
+      "max_parameter": 0.5160849120819411
+    },
+    {
+      "trial": 8,
+      "residual_norm": 33.455947819320706,
+      "max_residual": 3.2109056458391017,
+      "evaluations": 57,
+      "max_parameter": 0.6273700935118378
+    },
+    {
+      "trial": 9,
+      "residual_norm": 34.829682809565725,
+      "max_residual": 3.4936675187782247,
+      "evaluations": 93,
+      "max_parameter": 0.740800763116395
+    },
+    {
+      "trial": 10,
+      "residual_norm": 33.09462675772738,
+      "max_residual": 2.923207531693361,
+      "evaluations": 75,
+      "max_parameter": 0.5790287910748069
+    },
+    {
+      "trial": 11,
+      "residual_norm": 34.70190505541727,
+      "max_residual": 3.592408162515829,
+      "evaluations": 39,
+      "max_parameter": 0.5442516583647958
+    },
+    {
+      "trial": 12,
+      "residual_norm": 31.910864925171865,
+      "max_residual": 3.762465428710265,
+      "evaluations": 68,
+      "max_parameter": 0.45858576168359877
+    },
+    {
+      "trial": 13,
+      "residual_norm": 33.61891788186816,
+      "max_residual": 2.9869901758123127,
+      "evaluations": 149,
+      "max_parameter": 0.6292259502121667
+    },
+    {
+      "trial": 14,
+      "residual_norm": 35.26180434532605,
+      "max_residual": 3.35897191349279,
+      "evaluations": 78,
+      "max_parameter": 0.5940312299140483
+    },
+    {
+      "trial": 15,
+      "residual_norm": 33.85554711560105,
+      "max_residual": 3.675607633892988,
+      "evaluations": 171,
+      "max_parameter": 0.5653694446963159
+    },
+    {
+      "trial": 16,
+      "residual_norm": 33.87951063755425,
+      "max_residual": 3.5051258211550564,
+      "evaluations": 107,
+      "max_parameter": 0.6922037483795114
+    },
+    {
+      "trial": 17,
+      "residual_norm": 34.78759937259849,
+      "max_residual": 3.2078598780814485,
+      "evaluations": 57,
+      "max_parameter": 0.8208823622972342
+    },
+    {
+      "trial": 18,
+      "residual_norm": 35.26180434532795,
+      "max_residual": 3.358971690532221,
+      "evaluations": 83,
+      "max_parameter": 0.5940312662037479
+    },
+    {
+      "trial": 19,
+      "residual_norm": 35.26180434532848,
+      "max_residual": 3.358971827062713,
+      "evaluations": 88,
+      "max_parameter": 0.5940313090233011
+    },
+    {
+      "trial": 20,
+      "residual_norm": 37.136997635047365,
+      "max_residual": 3.3200769029843222,
+      "evaluations": 65,
+      "max_parameter": 0.8742808709350676
+    },
+    {
+      "trial": 21,
+      "residual_norm": 35.64696487672987,
+      "max_residual": 3.0679543306499903,
+      "evaluations": 54,
+      "max_parameter": 0.8791726112404652
+    },
+    {
+      "trial": 22,
+      "residual_norm": 32.52091647090474,
+      "max_residual": 4.5539780582356215,
+      "evaluations": 52,
+      "max_parameter": 0.40539104980424184
+    },
+    {
+      "trial": 23,
+      "residual_norm": 37.14407944101837,
+      "max_residual": 3.3316933450988575,
+      "evaluations": 82,
+      "max_parameter": 0.9161512581274887
+    },
+    {
+      "trial": 24,
+      "residual_norm": 33.85554711560539,
+      "max_residual": 3.675606781694512,
+      "evaluations": 130,
+      "max_parameter": 0.5653694583278442
+    },
+    {
+      "trial": 25,
+      "residual_norm": 33.09462675770822,
+      "max_residual": 2.9232074909303316,
+      "evaluations": 47,
+      "max_parameter": 0.5790287196128291
+    },
+    {
+      "trial": 26,
+      "residual_norm": 31.73491297105836,
+      "max_residual": 3.477645513503204,
+      "evaluations": 102,
+      "max_parameter": 0.44699564990785684
+    },
+    {
+      "trial": 27,
+      "residual_norm": 33.45594781932211,
+      "max_residual": 3.2109057170099025,
+      "evaluations": 57,
+      "max_parameter": 0.6273700690078555
+    },
+    {
+      "trial": 28,
+      "residual_norm": 36.45225458930461,
+      "max_residual": 3.2959947382747066,
+      "evaluations": 70,
+      "max_parameter": 0.8165940244481132
+    },
+    {
+      "trial": 29,
+      "residual_norm": 34.787599372598606,
+      "max_residual": 3.2078584380045645,
+      "evaluations": 44,
+      "max_parameter": 0.8208824390329137
+    },
+    {
+      "trial": 30,
+      "residual_norm": 32.43685679319903,
+      "max_residual": 3.3565282522057327,
+      "evaluations": 159,
+      "max_parameter": 0.6041022747367916
+    },
+    {
+      "trial": 31,
+      "residual_norm": 36.047169814159375,
+      "max_residual": 3.4622269622720716,
+      "evaluations": 60,
+      "max_parameter": 0.5565972005894808
+    }
+  ],
+  "cyclic_map": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      -1.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ]
+  ]
+}

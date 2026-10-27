@@ -1,0 +1,45 @@
+{
+  "status": "unknown",
+  "solve_seconds": 180.0781786669977,
+  "parameters": {
+    "timeout": 180000,
+    "known_control": false,
+    "output": "research/noncommuting-star-caller/dihedral-residual-n4.json"
+  },
+  "group_elements": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "scope": "Binary dihedral group algebra with arbitrary ordinary swap-dependent full frames; no lift or kappa",
+  "reason": "timeout"
+}

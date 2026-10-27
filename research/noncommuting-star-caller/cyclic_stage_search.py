@@ -69,6 +69,10 @@ def search(args):
     period = args.period or calls+1
     inverse_count = args.inverse_mask.bit_count()
     degrees = [int(x)+inverse_count for x in args.degrees.split(',')] if args.degrees else None
+    if args.inverse_mask >= 1 << calls:
+        raise ValueError('An inverse-stage bit is outside the full word')
+    if degrees and args.period:
+        degrees = [d % period for d in degrees]
     if degrees and (len(degrees) != n or min(degrees) < 0 or max(degrees) >= period):
         raise ValueError('The declared normalized target degrees do not fit')
     target_rank = 2*(calls-n)
@@ -95,6 +99,14 @@ def search(args):
     for stage, (u, v) in enumerate(query_frame):
         backwards = bool(args.inverse_mask >> stage & 1)
         a, b = z3.BitVec(f'a_{stage}', n), z3.BitVec(f'b_{stage}', n)
+        if args.symplectic:
+            form_a = a
+            block_offset = 0
+            for size in blocks:
+                mask = ((1 << size)-1) << block_offset
+                form_a = form_a ^ z3.If(parity(a & mask), z3.BitVecVal(mask, n), zero)
+                block_offset += size
+            solver.add(b == form_a)
         solver.add(parity(a & v), parity(b & u), z3.Not(parity(a & b)))
         solver.add(z3.Not(bit(a, (u & -u).bit_length()-1)))
         projectors.append((u, v, a, b))
@@ -217,6 +229,7 @@ if __name__ == '__main__':
     p.add_argument('--degrees', help='Comma-separated Laurent degrees of independent main targets')
     p.add_argument('--order', choices=('alternating', 'serial'), default='alternating')
     p.add_argument('--balanced', action='store_true')
+    p.add_argument('--symplectic', action='store_true', help='Use the alternating-form projector subfamily')
     p.add_argument('--timeout', type=int, default=60000)
     p.add_argument('--seed', type=int, default=5786)
     p.add_argument('--output', type=Path, required=True)
@@ -225,8 +238,10 @@ if __name__ == '__main__':
         p.error('Use a positive even field count; period zero means a formal stage')
     if args.shifted and args.period not in (0, 4):
         p.error('Shifted coordinates require period zero or four')
-    if args.inverse_mask and args.period:
-        p.error('Inverse-stage targets currently use formal polynomial coordinates')
+    if args.inverse_mask and not args.degrees:
+        p.error('Specify the target degrees for inverse stages')
     if args.degrees and args.balanced:
         p.error('Use either explicit degrees or the balanced template')
+    if args.symplectic and args.types:
+        p.error('The alternating form is specified only for the simplex blocks')
     search(args)

@@ -1,0 +1,11 @@
+{
+  "status": "unsat",
+  "solve_seconds": 4.84960487508215,
+  "parameters": {
+    "inverse_mask": 0,
+    "period": 4,
+    "timeout": 60000,
+    "output": "research/noncommuting-star-caller/ordinary-residual-binary-n4-p4.json"
+  },
+  "scope": "Four-field binary Laurent screen; first full frame fixed by conjugation; no native or kappa claim"
+}

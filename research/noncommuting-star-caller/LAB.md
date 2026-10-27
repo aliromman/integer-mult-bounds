@@ -123,3 +123,102 @@ whole-caller checks remain open.
 The norm-six lattice package was read as an alternative. Its19648-term
 factorization is predecessor work. No new side circuit or price for that
 geometry was constructed here.
+
+## Second checkpoint: cyclic stages and initialized work
+
+The new component proof in ODD-ORDER-ADVANCERS.md gives exact order-seven
+and order-nine advances, each with ranks8,16,24 at its first three powers.
+The census checks all10752 three-coordinate address/phase cells. Literal
+integer complex matrices separately check the22 retained rank profiles
+and their scalar phases. Eight copies remove the recorded scalar phase.
+This does not bind a new104-port caller to the native source.
+
+CYCLIC-REDUCTION.md proves the no-wrap test over every field. Its finite
+controls cover37448 binary words and84912 hypotheses. It rejects the
+eight-field, nine-call, period-seven target(3,3,3,3,3,3,3,4) by an integer
+determinant degree mismatch. The balanced eight-field target remains
+outside that test. The forward and signed binary searches timed out;
+they are unknown rather than exclusions. The two-field triangle control
+passes literal replay. The cyclic-orbit numeric search restricts all
+projectors to one signed simplex orbit; it gives no endpoint.
+
+BORDER-CALLER.md and border_caller.py retain the exact two-call Laurent
+border identity. The unpaid-error linear margin is96, while one exact
+query repair costs104 and changes it to-8. This is an attributed control,
+not a new construction. Credit Dillon/Discussion4623 and Yiyang's
+two-full-border-paid-precision and bounded-lane-border-core work. The
+independent rounded-error and recursive native-coherence obligations are
+not removed by an exact inverse relation.
+
+The ordinary-residual, dihedral and fixed-chain searches have no exact
+new endpoint. Their numerical receipts retain actual residuals and large
+parameters. The --relative-residual mode scales the endpoint error by the
+inverse target basis; it avoids treating a shrinking target matrix as a
+small-error candidate. All these receipts remain discovery evidence.
+The fixed chain has an invertible odd query part and only one ordinary
+residue before the advancing stages. ORDINARY-RESIDUAL-BOUND.md proves
+that this does not reduce the formal forward square-word query count.
+
+OWNED-CALLER-CONTRACT.md changes the boundary to initialized work fields
+and an ordinary final output projection. The four-call/four-input target
+with all powers two did not close numerically. The exact proof in
+MINIMAL-QUERY-DEGREE.md then excludes it for any finite work-field count.
+For n queries and n independent outputs, det M(z,t)=t^n det T(z), while
+the full-call exterior map has total degree at most2n. Thus the total
+target stage degree is at most n. Separate initialized one-call readers
+attain this bound. The temporarily proposed two-call powers(2,1) target
+is excluded by the final bound too. The proof does not decide the next
+four-input/five-call balanced test. No profitable native caller is found.
+
+The minimum-query verifier uses exact integer arithmetic for20 transfer
+identities,483 exterior minors, four sharp initialized controls and the
+three-call triangle outside the theorem's hypothesis. It rejects a
+nonnilpotent query mutant. Normal and optimized runs agree. Finite controls
+support the written general proof; they are not independent acceptance.
+
+The component commands, run from the repository root, are:
+
+```sh
+python3 -I -B research/noncommuting-star-caller/clifford_advancers.py --coordinates 3 --output /tmp/advancers.json
+python3 -I -B research/noncommuting-star-caller/cyclic_reduction_check.py --output /tmp/cyclic-reduction.json
+python3 -I -B research/noncommuting-star-caller/minimal_query_degree_check.py --output /tmp/minimal-query-degree.json
+python3 -I -B research/noncommuting-star-caller/border_caller.py --output /tmp/border.json
+```
+
+Add -O for the separate optimized runs. ROUND2-CHECKS.json records byte
+comparison with retained receipts and source-pin checks. The discovery
+scripts use the same Python3.12.13, Z3 or SciPy/NumPy environments stated
+above. The first period-six balanced numerical receipt predates the
+primitive-root projector residual in rational_cyclic_search.py. Its old
+loss used E=(I-A(-1))/2. The exact zero set at period six is unchanged,
+but the floating trajectory is not a bit-for-bit replay claim. Later
+owned-caller receipts add explicit target-degree fields. No numerical
+receipt is promoted to an exact polynomial certificate.
+
+Main was refreshed at04:36UTC and remainsde5ec2e7a6074068452f45b1a191b5c72832df4a.
+The live board check includes PR5833/5834/5838 and separate native decoder,
+historical-value, G20 and q-adic route claims. The related Discussion4902
+handoff concerns arbitrary returned dirty scratch, unlike the initialized
+work tested here. New proof and search work is by Ali Romman with OpenAI
+Codex assistance, without subagents. Prior source and idea credit remains.
+
+The extended proof also permits total query rank Q and n=Q-h outputs.
+A complementary-minor identity gives t^max(0,Q-mh) as a determinant
+factor, where m is the chronological query-layer count. For any number
+of full P104 calls, h<=98 fails every normalized increasing concave
+tariff. Exact integer-power intervals exclude h<=101 at kappa .003
+and h<=102 at .0034; the signs prove persistence for larger kappa.
+This is a scoped proof, not a caller or an exponent improvement.
+
+The four-input/five-call initialized-work search finished20 trials
+with residual norm0.0251578589. The six-input formal tangent search
+finished32 complex trials with residual norm71.87247. Neither result
+is an exact endpoint or an infeasibility proof. The latter first
+solves the necessary mixed derivative equations and then tests the
+remaining full endpoint. The receipts retain all search parameters.
+
+The final degree verifier adds400 rank-two exterior minors, three
+rectangular extra-query controls and exact source tariff intervals.
+The sharp minimum-query bound and all stated corank price exclusions
+are separate from finite numerical search failures. Main and the
+live board were refreshed at05:23UTC. Main remains unchanged.

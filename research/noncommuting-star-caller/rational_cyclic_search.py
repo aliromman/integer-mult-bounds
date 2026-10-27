@@ -1,4 +1,4 @@
-"""Search rational symplectic full projectors with an order-four stage.
+"""Search rational symplectic full projectors with a finite-order stage.
 
 This is a numerical search. A small residual is not an exact endpoint.
 The skew simplex follows from the minimum transvection Gram identity.
@@ -81,10 +81,29 @@ def search(args):
         basis = np.array(cols).T
         bases.append((basis, np.linalg.inv(basis)))
     width = (n-2)*(2 if args.general else 1)
+    tangent_origin, tangent_basis = None, None
+    if args.formal_tangent:
+        tail, tails = ident.copy(), []
+        for q in reversed(queries):
+            tails.append(tail.copy())
+            tail = tail @ (ident-2*q)
+        tails.reverse()
+        constant = sum(t @ p @ np.linalg.inv(t)-p for t, (p, _) in zip(tails, affine))
+        columns = [(t @ d @ np.linalg.inv(t)-d).ravel()
+                   for t, (_, ds) in zip(tails, affine) for d in ds]
+        matrix = np.array(columns).T
+        _, singular, right = np.linalg.svd(matrix, full_matrices=True)
+        rank = int(sum(singular > 1e-8))
+        tangent_origin = np.linalg.lstsq(matrix, -constant.ravel(), rcond=1e-8)[0]
+        tangent_basis = right[rank:].T
+        if np.max(abs(matrix @ tangent_origin+constant.ravel())) > 1e-8:
+            raise ValueError('The first mixed equation has no numerical solution')
     def projectors(x):
         if args.complex:
             real, imag = np.split(x, 2)
             x = real+1j*imag
+        if tangent_origin is not None:
+            x = tangent_origin+tangent_basis @ x
         if args.general:
             result = []
             for row, (basis, inverse) in zip(x.reshape(sites, width), bases):
@@ -104,6 +123,20 @@ def search(args):
             a, b = stage @ a, stage @ (ident-2*q) @ b
         return a, b
     def residual(x):
+        if args.balanced:
+            probe = np.exp(2j*np.pi/args.period)
+            ap, _ = endpoints(x, probe)
+            e = sum(projectors(x))-2*ident if args.formal_tangent else (ap-probe**2*ident)/(probe**3-probe**2)
+            values = [e @ e-e]
+            if not args.complex:
+                values.append(1j*e.imag)
+            for j in range(1, args.period if args.complex else args.period//2+1):
+                d = np.exp(2j*np.pi*j/args.period)
+                a, b = endpoints(x, d)
+                target = d*d*(ident-e)+d*d*d*e
+                values.extend((a-target, b+target))
+            packed = np.concatenate([part.reshape(-1) for a in values for part in (a.real, a.imag)])
+            return np.append(packed, np.trace(e).real-2*(sites-n))
         values = [sum(endpoints(x, d)) for d in ((-1, 1j, -1j) if args.complex else (-1, 1j))]
         return np.concatenate([part.reshape(-1) for a in values for part in (a.real, a.imag)])
     rng = np.random.default_rng(args.seed)
@@ -111,7 +144,7 @@ def search(args):
     start = time.monotonic()
     records = []
     for trial in range(args.trials):
-        size = sites*width*(2 if args.complex else 1)
+        size = (tangent_basis.shape[1] if args.formal_tangent else sites*width)*(2 if args.complex else 1)
         x = np.zeros(size) if trial == 0 else rng.normal(.5, args.scale, size)
         answer = least_squares(residual, x, max_nfev=args.steps, ftol=1e-12,
                                xtol=1e-12, gtol=1e-12)
@@ -125,6 +158,8 @@ def search(args):
         if best['max_residual'] < 1e-9:
             break
     result = {'status': 'NUMERICAL_DISCOVERY_ONLY', 'n': n, 'frame': args.frame, 'general_projectors': args.general,
+              'period': args.period, 'balanced': args.balanced,
+              'formal_tangent': args.formal_tangent,
               'complex_parameters': args.complex, 'trials': len(records),
               'seed': args.seed, 'seconds': time.monotonic()-start,
               'best': best, 'records': records,
@@ -132,8 +167,11 @@ def search(args):
               'affine_projectors': [[p.tolist(), ds.tolist()] for p, ds in affine]}
     if args.general:
         result['bases'] = [basis.tolist() for basis, _ in bases]
+    if args.formal_tangent:
+        result['tangent_origin'] = tangent_origin.tolist()
+        result['tangent_basis'] = tangent_basis.tolist()
     args.output.write_text(json.dumps(result, indent=2)+'\n')
-    print(json.dumps({k: v for k, v in result.items() if k not in ('best', 'records', 'query_matrices', 'affine_projectors', 'bases')}))
+    print(json.dumps({k: v for k, v in result.items() if k not in ('best', 'records', 'query_matrices', 'affine_projectors', 'bases', 'tangent_origin', 'tangent_basis')}))
 
 
 if __name__ == '__main__':
@@ -144,6 +182,9 @@ if __name__ == '__main__':
     p.add_argument('--scale', type=float, default=.5)
     p.add_argument('--general', action='store_true', help='Use all compatible rank-two projectors')
     p.add_argument('--complex', action='store_true', help='Allow complex projector parameters')
+    p.add_argument('--period', type=int, default=4)
+    p.add_argument('--balanced', action='store_true', help='Require the balanced D^2/D^3 target modulo the stage order')
+    p.add_argument('--formal-tangent', action='store_true', help='Eliminate the first mixed equation for a formal symplectic target')
     p.add_argument('--frame', choices=('simplex', 'polygon', 'dyadic'), default='simplex')
     p.add_argument('--seed', type=int, default=5786)
     p.add_argument('--output', type=Path, required=True)
@@ -152,4 +193,8 @@ if __name__ == '__main__':
         p.error('The dimension must be even and at least four')
     if args.frame == 'dyadic' and not args.general:
         p.error('Use general projectors for the nonsymmetric dyadic Gram frame')
+    if args.period < 4:
+        p.error('Use a period of at least four')
+    if args.formal_tangent and (args.general or not args.balanced or args.frame != 'simplex' or args.period <= args.n+1):
+        p.error('The tangent chart needs a balanced symplectic simplex and more roots than calls')
     search(args)

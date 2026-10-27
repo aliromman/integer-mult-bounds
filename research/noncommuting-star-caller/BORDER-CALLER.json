@@ -1,0 +1,12 @@
+{
+  "status": "PASS_TWO_CALL_BORDER_IDENTITY",
+  "new_kappa": false,
+  "full_calls": 2,
+  "exact_first_output": "U^2 S x",
+  "second_output": "U^2 S y - e U^2 x",
+  "input_scaling": "e^-1 on y",
+  "ordinary_residual": false,
+  "counterfactual_linear_margin_without_error_fee": 96,
+  "linear_margin_with_one_exact_query_repair": -8,
+  "scope": "Exact identity with a retained error term; recursive precision and a profitable repair remain open"
+}

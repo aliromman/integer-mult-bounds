@@ -1,0 +1,90 @@
+{
+  "parameters": {
+    "n": 2,
+    "period": 7,
+    "blocks": null,
+    "types": null,
+    "shifted": false,
+    "inverse_mask": 0,
+    "degrees": null,
+    "order": "alternating",
+    "balanced": true,
+    "symplectic": true,
+    "timeout": 10000,
+    "seed": 5786,
+    "output": "research/noncommuting-star-caller/cyclic-stage-p7-control.json"
+  },
+  "status": "sat",
+  "solve_seconds": 0.00486929202452302,
+  "scope": "Binary multi-simplex query frame; no characteristic-zero lift or complete price",
+  "query_frame": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "effective_period": 7,
+  "formal_stage": false,
+  "normalizing_degree": 0,
+  "projectors": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "coefficients": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "coefficient_ranks": [
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ]
+}
