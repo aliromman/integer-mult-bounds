@@ -65,6 +65,7 @@ def search(args):
     queries, affine = frame(n, args.frame)
     ident = np.eye(n)
     sites = len(queries)
+    signs = [-1 if args.inverse_mask >> i & 1 else 1 for i in range(sites)]
     bases = []
     for q in queries:
         pivot = int(np.argmax(np.sum(abs(q)**2, axis=0)))
@@ -88,9 +89,10 @@ def search(args):
             tails.append(tail.copy())
             tail = tail @ (ident-2*q)
         tails.reverse()
-        constant = sum(t @ p @ np.linalg.inv(t)-p for t, (p, _) in zip(tails, affine))
-        columns = [(t @ d @ np.linalg.inv(t)-d).ravel()
-                   for t, (_, ds) in zip(tails, affine) for d in ds]
+        constant = sum(s*(t @ p @ np.linalg.inv(t)-p)
+                       for s, t, (p, _) in zip(signs, tails, affine))
+        columns = [s*(t @ d @ np.linalg.inv(t)-d).ravel()
+                   for s, t, (_, ds) in zip(signs, tails, affine) for d in ds]
         matrix = np.array(columns).T
         _, singular, right = np.linalg.svd(matrix, full_matrices=True)
         rank = int(sum(singular > 1e-8))
@@ -118,25 +120,28 @@ def search(args):
     def endpoints(x, value):
         a = ident.astype(complex)
         b = a.copy()
-        for p, q in zip(projectors(x), queries):
-            stage = ident+(value-1)*p
+        for p, q, sign in zip(projectors(x), queries, signs):
+            stage = ident+(value**sign-1)*p
             a, b = stage @ a, stage @ (ident-2*q) @ b
         return a, b
     def residual(x):
         if args.balanced:
             probe = np.exp(2j*np.pi/args.period)
             ap, _ = endpoints(x, probe)
-            e = sum(projectors(x))-2*ident if args.formal_tangent else (ap-probe**2*ident)/(probe**3-probe**2)
+            lo, hi = args.lower_degree, args.upper_degree
+            e = ((sum(s*p for s, p in zip(signs, projectors(x)))-lo*ident)/(hi-lo)
+                 if args.formal_tangent else (ap-probe**lo*ident)/(probe**hi-probe**lo))
             values = [e @ e-e]
             if not args.complex:
                 values.append(1j*e.imag)
             for j in range(1, args.period if args.complex else args.period//2+1):
                 d = np.exp(2j*np.pi*j/args.period)
                 a, b = endpoints(x, d)
-                target = d*d*(ident-e)+d*d*d*e
+                target = d**lo*(ident-e)+d**hi*e
                 values.extend((a-target, b+target))
             packed = np.concatenate([part.reshape(-1) for a in values for part in (a.real, a.imag)])
-            return np.append(packed, np.trace(e).real-2*(sites-n))
+            target_rank = args.upper_rank if args.upper_rank is not None else 2*(sites-n)
+            return np.append(packed, np.trace(e).real-target_rank)
         values = [sum(endpoints(x, d)) for d in ((-1, 1j, -1j) if args.complex else (-1, 1j))]
         return np.concatenate([part.reshape(-1) for a in values for part in (a.real, a.imag)])
     rng = np.random.default_rng(args.seed)
@@ -160,6 +165,9 @@ def search(args):
     result = {'status': 'NUMERICAL_DISCOVERY_ONLY', 'n': n, 'frame': args.frame, 'general_projectors': args.general,
               'period': args.period, 'balanced': args.balanced,
               'formal_tangent': args.formal_tangent,
+              'inverse_mask': args.inverse_mask,
+              'target_degrees': [args.lower_degree, args.upper_degree],
+              'upper_target_rank': args.upper_rank,
               'complex_parameters': args.complex, 'trials': len(records),
               'seed': args.seed, 'seconds': time.monotonic()-start,
               'best': best, 'records': records,
@@ -184,6 +192,10 @@ if __name__ == '__main__':
     p.add_argument('--complex', action='store_true', help='Allow complex projector parameters')
     p.add_argument('--period', type=int, default=4)
     p.add_argument('--balanced', action='store_true', help='Require the balanced D^2/D^3 target modulo the stage order')
+    p.add_argument('--inverse-mask', type=int, default=0)
+    p.add_argument('--lower-degree', type=int, default=2)
+    p.add_argument('--upper-degree', type=int, default=3)
+    p.add_argument('--upper-rank', type=int)
     p.add_argument('--formal-tangent', action='store_true', help='Eliminate the first mixed equation for a formal symplectic target')
     p.add_argument('--frame', choices=('simplex', 'polygon', 'dyadic'), default='simplex')
     p.add_argument('--seed', type=int, default=5786)
@@ -195,6 +207,10 @@ if __name__ == '__main__':
         p.error('Use general projectors for the nonsymmetric dyadic Gram frame')
     if args.period < 4:
         p.error('Use a period of at least four')
+    if args.lower_degree >= args.upper_degree or (args.upper_degree-args.lower_degree) % args.period == 0:
+        p.error('Use distinct target powers at the primitive probe')
+    if args.inverse_mask < 0 or args.inverse_mask >= 1 << (args.n+2):
+        p.error('The inverse mask is out of range')
     if args.formal_tangent and (args.general or not args.balanced or args.frame != 'simplex' or args.period <= args.n+1):
         p.error('The tangent chart needs a balanced symplectic simplex and more roots than calls')
     search(args)

@@ -65,3 +65,8 @@ Checkpoint: the five-call initialized-work and six-input formal-tangent
 searches have finished without an endpoint. MINIMAL-QUERY-DEGREE.md now
 includes arbitrary-rank chronological layers and exact P104 price
 exclusions through h=101 at .003 and h=102 at .0034. No new kappa.
+
+October28: signed searches finished without an endpoint. The exact joint
+owned operator and a losing complete recursive price for its direct block
+completion are saved. Main is3f0152a32, selected .003125804. The public
+checkpoint remains a scoped research archive, not a completed donor goal.

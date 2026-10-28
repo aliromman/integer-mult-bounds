@@ -222,3 +222,24 @@ rectangular extra-query controls and exact source tariff intervals.
 The sharp minimum-query bound and all stated corank price exclusions
 are separate from finite numerical search failures. Main and the
 live board were refreshed at05:23UTC. Main remains unchanged.
+
+## October 28 continuation
+
+The signed five-call four-field target has two degree-three and two
+degree-minus-two outputs. The complex symplectic tangent search ran24
+trials; its best norm was10.217813396122555. The general compatible-projector
+search ran24 trials; its best norm was13.151262375119062. Neither found an
+endpoint. The signed mask is10 and the seven evaluation roots determine
+the Laurent coefficients in this bounded word. No global exclusion is
+inferred from these numerical failures.
+
+JOINT-OWNED-OPERATOR.md records the complete eight-input extension of the
+pinned old source, all756 forward and transpose axes, and an explicit
+Schur completion. Its additional16H8 cost against8H7 targets loses72
+linear rank units. This closes that completion, not all joint callers.
+
+Canonical main refreshed on October28 is3f0152a32; its selected result is
+PR6030 at kappa .003125804. Priority revision8 still cites the old selected
+value, so the selected certificate and its admission review control. The
+older proofs and source bill in this package remain explicitly pinned to
+PR5599. New work will start from the refreshed base. No new kappa.

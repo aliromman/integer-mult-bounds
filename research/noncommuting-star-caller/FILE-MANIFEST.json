@@ -52,9 +52,19 @@
       "sha256": "e7d5d900ddde09e0cdccc0c2c823d19f1523f6870d6d5a72aa83d7cb10503dfd"
     },
     {
+      "path": "JOINT-OWNED-OPERATOR.json",
+      "bytes": 321914,
+      "sha256": "f81d151682db98bbb29ab53fa0532bfda5d7df544cd7bc6b4cf84cf80eb6fd8c"
+    },
+    {
+      "path": "JOINT-OWNED-OPERATOR.md",
+      "bytes": 3219,
+      "sha256": "4b68b8dd7787f1f2cb8b231576362a5ca6a2d8d5771ab8fd7a9d285e34ffd42f"
+    },
+    {
       "path": "LAB.md",
-      "bytes": 13016,
-      "sha256": "025b58a1b16ee1bc76ad9724ef84f5013c82c1b6ac6e59e16ce1538877c5d1aa"
+      "bytes": 14167,
+      "sha256": "81ad145e3bd381b58b70f59b638d510c1c1c14544d25f47a6c783f75c5809b6d"
     },
     {
       "path": "MINIMAL-QUERY-DEGREE.json",
@@ -108,8 +118,8 @@
     },
     {
       "path": "WORK.md",
-      "bytes": 14627,
-      "sha256": "34381861f9a2ae50fbe96503bae2bae9d754c3fad75922c087234b7be4a7e1fe"
+      "bytes": 14921,
+      "sha256": "37a773e06a07191efb23c6a6e752787ccb370913bc9813232fe5361ec4a60fae"
     },
     {
       "path": "binary_subspaces.py",
@@ -415,6 +425,11 @@
       "path": "joint_cyclic_search.py",
       "bytes": 4538,
       "sha256": "eefdcc1888036347434ba320bd632ed5e54d1a62993ccf37fd4c89e893213bc7"
+    },
+    {
+      "path": "joint_owned_operator.py",
+      "bytes": 6534,
+      "sha256": "67832a8db1267895dea20417bb9b1a0d05723ead959a877557875caa6658ac6e"
     },
     {
       "path": "minimal-frame-candidate.json",
@@ -768,8 +783,8 @@
     },
     {
       "path": "rational_cyclic_search.py",
-      "bytes": 9856,
-      "sha256": "e50491270641485d843ffe3c530211a1511b0a11012da6e59922c56bfafae01c"
+      "bytes": 10901,
+      "sha256": "70ddc7e99227e68c2f07afe2bbe6826e6ba0390e5c20478d6ad5ea571e697bd0"
     },
     {
       "path": "replay_two_map_word.py",
@@ -792,6 +807,11 @@
       "sha256": "70fef67f4fc737d322927047c0d2336f174e2bf191d5ccf407d9abf250f84aed"
     },
     {
+      "path": "signed-general-n4-m10.json",
+      "bytes": 18515,
+      "sha256": "b2be60f094318e758e206e16e21ac1141d8a5593d69e0d7f76656616cad33497"
+    },
+    {
       "path": "signed-shifted-n6-balanced.json",
       "bytes": 844,
       "sha256": "d80698341f9739ff6a431fee62b25588a82d21d81f660f6eb69d80786790a932"
@@ -800,6 +820,11 @@
       "path": "signed-shifted-positive-n4.json",
       "bytes": 1401,
       "sha256": "26d1d0f47339096b48b1a5e8787f375d97d33aace0648193d1097fc571ba74fb"
+    },
+    {
+      "path": "signed-tangent-n4-m10.json",
+      "bytes": 17237,
+      "sha256": "02321c4b3ba1018a1d20f3680d2ed3fe3f8a3156e6d791ed7be7e472e9ee77ef"
     },
     {
       "path": "sources/clifford_exact.py",
