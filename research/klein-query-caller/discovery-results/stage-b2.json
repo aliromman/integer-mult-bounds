@@ -1,0 +1,15 @@
+{
+  "block": 2,
+  "fields": 6,
+  "full_calls": 9,
+  "order": "round",
+  "variables": 81,
+  "rank": 45,
+  "free_variables": 36,
+  "remaining_off_block_entries": 90,
+  "status": "FIRST_COEFFICIENT_FAMILY",
+  "seconds": 0.12571337504778057,
+  "limit_seconds": 120,
+  "complete_query_control": "PASS",
+  "new_kappa": false
+}

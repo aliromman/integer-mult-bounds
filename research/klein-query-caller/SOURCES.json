@@ -1,0 +1,29 @@
+{
+  "base": "3f0152a32eeebac0df11946dbd50cabe5a7f7839",
+  "inputs": [
+    {
+      "path": "research/five-call-projector-rigidity/exact_replay.py",
+      "commit": "747bb9491efc5419f32a4910e2515370b2748a58",
+      "sha256": "83352900ee81cc79b1ba438cb87762ccc73ee323dd027be1389ef2eec245535d",
+      "role": "Canonical query source"
+    },
+    {
+      "path": "research/noncentral-query-stage/COMPONENT.md",
+      "commit": "747bb9491efc5419f32a4910e2515370b2748a58",
+      "sha256": "6ab728645869a8d038e3ab2bc061f8fcfaa367f70d12666ecd851c86fb069870",
+      "role": "Native Q/G normalization and source credit"
+    },
+    {
+      "path": "research/alternating-caller-closure/price_check.py",
+      "commit": "bbc8be38d65434353333b5dd7e89defb359c832a",
+      "sha256": "780f755bc6096b530020bc1f25496970a78d2511b09bce03d7413496f4d6ede4",
+      "role": "Selected local invoice and rational interval helper"
+    },
+    {
+      "path": "research/alternating-caller-closure/sources/selected6030-result.json",
+      "commit": "bbc8be38d65434353333b5dd7e89defb359c832a",
+      "sha256": "84fcbe2a0b64307b5703c363408042bdd91555b0419509aa50daa43b3b1924ad",
+      "role": "Selected local invoice and rational interval helper"
+    }
+  ]
+}

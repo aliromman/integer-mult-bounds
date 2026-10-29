@@ -1,0 +1,14 @@
+{
+  "task_id": "joint-query-controller",
+  "priority_revision": 8,
+  "base": "3f0152a32eeebac0df11946dbd50cabe5a7f7839",
+  "changed_hypothesis": "Three commuting query types with product identity; heterogeneous targets",
+  "outcome": "Exact all-width component and fixed-frame first-order family; no complete stage endpoint",
+  "new_kappa": false,
+  "remaining": [
+    "A complete exact caller",
+    "Native source and spectator routes",
+    "Helpers and all ordinary fees",
+    "Compiler, precision, BIT and outer admission"
+  ]
+}

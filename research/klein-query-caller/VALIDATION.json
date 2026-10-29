@@ -1,0 +1,21 @@
+{
+  "python": "3.12.13",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "sympy": "1.14.0",
+  "component_normal_and_optimized_stdout_sha256": "45b440a4097e3950c19cb8da5b1bd3264edbff0b14f5631455e00308ef807574",
+  "finite_difference_checks": "24 columns in query search; all chart variables in image search; 24 columns in full stage search",
+  "stage_positive_control_max_residual": 1.3434691327653551e-16,
+  "changed_stage_query_rejected": true,
+  "exact_candidate": false,
+  "new_kappa": false,
+  "program_sha256": {
+    "component_verify.py": "afb29d66e9a1b4c428423ae1cfbf9d7044df2d8e40b3245b3f6e1880d0f1dc4b",
+    "image_chart.py": "37b5afb023b3ba7d47d1be586e2e6846396d5e6bebd0662ccafcbc0290d60af8",
+    "price.py": "5287a43da7b09fc1a52c2823bcca1a72bfb0215e7e3cd061d18ff78c271b1b83",
+    "query_search.py": "0cea21546fcc5559d7280a6dd2d121e644596556577915e14c4def2fe85cfe76",
+    "stage_screen.py": "62a7a57df3387a635c1cd2a0fb060bc665bbd76c549ec5aab324e46bd8f02a95",
+    "stage_search.py": "df9dbede7c2ac7f1b5d674749698027d13b3ccc7815f2cddf2ea6cac18338392"
+  },
+  "price_normal_optimized_identical": true
+}
