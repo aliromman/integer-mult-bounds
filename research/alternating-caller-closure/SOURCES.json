@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "base_commit": "3f0152a32eeebac0df11946dbd50cabe5a7f7839",
+  "files": [
+    {
+      "path": "certificates/selected-result.json",
+      "usage": "provenance",
+      "git_blob": "d59b5035e7b4cbaa9d688a1d32dd0d6eb79c466a",
+      "sha256": "9b8d0eea95b3bf0dfcb7938a732a6439b87a2685dec2a5ab9e525b3b34debbfa"
+    },
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "git_blob": "3404fbdd5e7529a0674eef26114b5071e4586cec",
+      "sha256": "ead6cdc9d0af6d58e8a49744d8ec8c7c15e13d2ba93c276c434bcf9b51b93a81"
+    },
+    {
+      "path": "research/five-call-projector-rigidity/exact_replay.py",
+      "usage": "provenance",
+      "pin": "head:ede796e9d7f04726408bad1cb78e4503b50fb512:research/five-call-projector-rigidity/exact_replay.py",
+      "git_blob": "4c4cf102519ce36ca2af89ee889fe94e7b3ed5aa",
+      "sha256": "83352900ee81cc79b1ba438cb87762ccc73ee323dd027be1389ef2eec245535d"
+    },
+    {
+      "path": "research/five-call-projector-rigidity/free_replay.py",
+      "usage": "provenance",
+      "pin": "head:ede796e9d7f04726408bad1cb78e4503b50fb512:research/five-call-projector-rigidity/free_replay.py",
+      "git_blob": "4b7e43b3dc7adb002c92eb1f24468e444f7fb4e0",
+      "sha256": "85ca11c5a752680c6a3a97e1aec55f06dab9a497371126f70670c333d99dadba"
+    },
+    {
+      "path": "research/p104-helper470-twin-rung-removal/RESULT.json",
+      "usage": "provenance",
+      "git_blob": "e4a03118d585fb80c9ac932281b528ac394ccc5f",
+      "sha256": "84fcbe2a0b64307b5703c363408042bdd91555b0419509aa50daa43b3b1924ad"
+    }
+  ],
+  "portable_copies": {
+    "inputs/exact_replay.py": "research/five-call-projector-rigidity/exact_replay.py",
+    "inputs/free_replay.py": "research/five-call-projector-rigidity/free_replay.py",
+    "sources/selected6030-result.json": "research/p104-helper470-twin-rung-removal/RESULT.json"
+  }
+}

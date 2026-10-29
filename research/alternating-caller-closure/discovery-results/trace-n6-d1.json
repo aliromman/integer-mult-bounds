@@ -1,0 +1,2314 @@
+{
+  "n": 6,
+  "status": "EXACT_FINITE_WIDTH_TRACE_CONTRADICTION",
+  "multiplier_degree": 1,
+  "rows_tested": 1013,
+  "rank": 472,
+  "steps": [
+    {
+      "variables": 18,
+      "rank": 38,
+      "affine": 2
+    },
+    {
+      "variables": 16,
+      "rank": 36,
+      "affine": 0
+    }
+  ],
+  "certificate": [
+    {
+      "equation": 0,
+      "left_word": [],
+      "coefficient": "-1/2"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        4
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        8
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        10
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        11
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        12
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        13
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 1,
+      "left_word": [],
+      "coefficient": "1/40"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        0
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        1
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        2
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        3
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        9
+      ],
+      "coefficient": "3/8"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        10
+      ],
+      "coefficient": "1/10"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        11
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 2,
+      "left_word": [],
+      "coefficient": "1/20"
+    },
+    {
+      "equation": 2,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 2,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-13/40"
+    },
+    {
+      "equation": 2,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 2,
+      "left_word": [
+        12
+      ],
+      "coefficient": "1/5"
+    },
+    {
+      "equation": 2,
+      "left_word": [
+        13
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 3,
+      "left_word": [],
+      "coefficient": "-1/16"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        9
+      ],
+      "coefficient": "13/80"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-3/80"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 4,
+      "left_word": [],
+      "coefficient": "1/16"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-13/80"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        10
+      ],
+      "coefficient": "1/80"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        12
+      ],
+      "coefficient": "1/8"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        13
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-1/20"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-3/20"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 6,
+      "left_word": [],
+      "coefficient": "41/80"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-19/80"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-5/16"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-19/40"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-19/40"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        4
+      ],
+      "coefficient": "11/80"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-9/20"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        6
+      ],
+      "coefficient": "-1/16"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        8
+      ],
+      "coefficient": "-1/10"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-2/5"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        12
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        13
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 7,
+      "left_word": [],
+      "coefficient": "-127/40"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        0
+      ],
+      "coefficient": "3/20"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        1
+      ],
+      "coefficient": "49/80"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        2
+      ],
+      "coefficient": "67/80"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        3
+      ],
+      "coefficient": "9/10"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        9
+      ],
+      "coefficient": "31/40"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        10
+      ],
+      "coefficient": "3/10"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        11
+      ],
+      "coefficient": "11/40"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 8,
+      "left_word": [],
+      "coefficient": "21/10"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        1
+      ],
+      "coefficient": "11/80"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-1/16"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-1/5"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        8
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-29/40"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-9/40"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-1/5"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        12
+      ],
+      "coefficient": "1/5"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        13
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 9,
+      "left_word": [],
+      "coefficient": "-27/80"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        0
+      ],
+      "coefficient": "1/16"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-23/40"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-7/16"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-21/80"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        9
+      ],
+      "coefficient": "9/16"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        10
+      ],
+      "coefficient": "13/80"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        11
+      ],
+      "coefficient": "7/40"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 10,
+      "left_word": [],
+      "coefficient": "131/80"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3/80"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-11/20"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-59/80"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-7/16"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-9/16"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-3/16"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-1/5"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        12
+      ],
+      "coefficient": "1/8"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        13
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 11,
+      "left_word": [],
+      "coefficient": "-13/20"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        1
+      ],
+      "coefficient": "21/40"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        2
+      ],
+      "coefficient": "11/20"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        3
+      ],
+      "coefficient": "3/20"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        9
+      ],
+      "coefficient": "7/20"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        10
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        11
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-3/20"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 12,
+      "left_word": [],
+      "coefficient": "3/5"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/4"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-13/40"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-21/40"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        8
+      ],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-17/40"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-11/80"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-11/80"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        12
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 13,
+      "left_word": [],
+      "coefficient": "-243/80"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        0
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        1
+      ],
+      "coefficient": "43/80"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        2
+      ],
+      "coefficient": "61/80"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        3
+      ],
+      "coefficient": "33/40"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        9
+      ],
+      "coefficient": "4/5"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        10
+      ],
+      "coefficient": "5/16"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        11
+      ],
+      "coefficient": "23/80"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 14,
+      "left_word": [],
+      "coefficient": "151/80"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        1
+      ],
+      "coefficient": "11/80"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-1/16"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-1/5"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        4
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        8
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-3/4"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-19/80"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-17/80"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        12
+      ],
+      "coefficient": "1/5"
+    },
+    {
+      "equation": 15,
+      "left_word": [],
+      "coefficient": "-11/80"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        0
+      ],
+      "coefficient": "1/16"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-7/16"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-21/80"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        9
+      ],
+      "coefficient": "47/80"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        10
+      ],
+      "coefficient": "7/40"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        11
+      ],
+      "coefficient": "3/16"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 16,
+      "left_word": [],
+      "coefficient": "123/80"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3/80"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-11/20"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-53/80"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-7/16"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-47/80"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-1/5"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-17/80"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        12
+      ],
+      "coefficient": "1/8"
+    },
+    {
+      "equation": 17,
+      "left_word": [],
+      "coefficient": "-3/4"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        1
+      ],
+      "coefficient": "21/40"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        2
+      ],
+      "coefficient": "11/20"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        3
+      ],
+      "coefficient": "9/40"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        9
+      ],
+      "coefficient": "3/8"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        10
+      ],
+      "coefficient": "7/80"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        11
+      ],
+      "coefficient": "7/80"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-3/20"
+    },
+    {
+      "equation": 18,
+      "left_word": [],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        0
+      ],
+      "coefficient": "1/40"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1/20"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        2
+      ],
+      "coefficient": "1/20"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        3
+      ],
+      "coefficient": "1/20"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-21/80"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        5
+      ],
+      "coefficient": "13/80"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        6
+      ],
+      "coefficient": "-3/80"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        8
+      ],
+      "coefficient": "1/20"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-9/40"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-3/80"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-3/80"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        12
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 19,
+      "left_word": [],
+      "coefficient": "-1/4"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        1
+      ],
+      "coefficient": "37/80"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        2
+      ],
+      "coefficient": "11/16"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        3
+      ],
+      "coefficient": "3/4"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        9
+      ],
+      "coefficient": "3/5"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        10
+      ],
+      "coefficient": "17/80"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        11
+      ],
+      "coefficient": "3/16"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 20,
+      "left_word": [],
+      "coefficient": "11/8"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        0
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        1
+      ],
+      "coefficient": "11/80"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-1/16"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-1/5"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        5
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        8
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-11/20"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-11/80"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-9/80"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        12
+      ],
+      "coefficient": "1/5"
+    },
+    {
+      "equation": 21,
+      "left_word": [],
+      "coefficient": "-143/80"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        0
+      ],
+      "coefficient": "1/16"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-17/40"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-7/16"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-21/80"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        9
+      ],
+      "coefficient": "31/80"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        10
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        11
+      ],
+      "coefficient": "7/80"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 22,
+      "left_word": [],
+      "coefficient": "-11/16"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3/80"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-11/20"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-47/80"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-7/16"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-31/80"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-1/10"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-9/80"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        12
+      ],
+      "coefficient": "1/8"
+    },
+    {
+      "equation": 23,
+      "left_word": [],
+      "coefficient": "9/8"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        1
+      ],
+      "coefficient": "21/40"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        2
+      ],
+      "coefficient": "11/20"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        3
+      ],
+      "coefficient": "3/10"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        9
+      ],
+      "coefficient": "7/40"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-1/80"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-1/80"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-3/20"
+    },
+    {
+      "equation": 24,
+      "left_word": [],
+      "coefficient": "-21/80"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        0
+      ],
+      "coefficient": "3/80"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-3/80"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        2
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        3
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        5
+      ],
+      "coefficient": "21/80"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        6
+      ],
+      "coefficient": "-1/10"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        8
+      ],
+      "coefficient": "1/20"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-1/5"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        12
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 25,
+      "left_word": [],
+      "coefficient": "59/80"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        1
+      ],
+      "coefficient": "37/80"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        2
+      ],
+      "coefficient": "11/16"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        3
+      ],
+      "coefficient": "3/4"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        9
+      ],
+      "coefficient": "23/40"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        10
+      ],
+      "coefficient": "1/5"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        11
+      ],
+      "coefficient": "7/40"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 26,
+      "left_word": [],
+      "coefficient": "39/80"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        0
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        1
+      ],
+      "coefficient": "11/80"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-1/16"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-1/5"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        6
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        8
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-21/40"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-1/10"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        12
+      ],
+      "coefficient": "1/5"
+    },
+    {
+      "equation": 27,
+      "left_word": [],
+      "coefficient": "-59/40"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        0
+      ],
+      "coefficient": "1/16"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-17/40"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-7/16"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-21/80"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        9
+      ],
+      "coefficient": "29/80"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        10
+      ],
+      "coefficient": "1/16"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        11
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 28,
+      "left_word": [],
+      "coefficient": "-47/40"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3/80"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-11/20"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-47/80"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-7/16"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-29/80"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-7/80"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-1/10"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        12
+      ],
+      "coefficient": "1/8"
+    },
+    {
+      "equation": 29,
+      "left_word": [],
+      "coefficient": "6/5"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        1
+      ],
+      "coefficient": "21/40"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        2
+      ],
+      "coefficient": "11/20"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        3
+      ],
+      "coefficient": "3/10"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        9
+      ],
+      "coefficient": "3/20"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-3/20"
+    },
+    {
+      "equation": 30,
+      "left_word": [],
+      "coefficient": "-19/40"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/20"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-1/10"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-1/10"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        4
+      ],
+      "coefficient": "3/20"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        8
+      ],
+      "coefficient": "1/20"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        10
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        11
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        12
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 31,
+      "left_word": [],
+      "coefficient": "31/16"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        1
+      ],
+      "coefficient": "37/80"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        2
+      ],
+      "coefficient": "11/16"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        3
+      ],
+      "coefficient": "3/4"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        9
+      ],
+      "coefficient": "3/8"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        10
+      ],
+      "coefficient": "1/10"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        11
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 32,
+      "left_word": [],
+      "coefficient": "-81/80"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        0
+      ],
+      "coefficient": "3/80"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        1
+      ],
+      "coefficient": "1/10"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-11/80"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-11/40"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        4
+      ],
+      "coefficient": "3/80"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-3/80"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        6
+      ],
+      "coefficient": "3/40"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        8
+      ],
+      "coefficient": "-3/40"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-13/40"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        12
+      ],
+      "coefficient": "1/5"
+    },
+    {
+      "equation": 33,
+      "left_word": [],
+      "coefficient": "-13/40"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        0
+      ],
+      "coefficient": "1/16"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-17/40"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-7/16"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-21/80"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        9
+      ],
+      "coefficient": "13/80"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-3/80"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 34,
+      "left_word": [],
+      "coefficient": "-31/40"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3/80"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-11/20"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-47/80"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-7/16"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-13/80"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        10
+      ],
+      "coefficient": "1/80"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        12
+      ],
+      "coefficient": "1/8"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/40"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        1
+      ],
+      "coefficient": "21/40"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        2
+      ],
+      "coefficient": "11/20"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        3
+      ],
+      "coefficient": "3/10"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-1/20"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        11
+      ],
+      "coefficient": "-1/8"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-3/20"
+    }
+  ],
+  "seconds": 5.502291916985996,
+  "new_kappa": false
+}
