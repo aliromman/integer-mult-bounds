@@ -1,0 +1,11 @@
+{
+  "kind": "numerical discovery, no exact endpoint",
+  "python": "3.12.13",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "program_sha256": "9f918972c64396b9be2ca7c9fdb3bf73fc0d4e6da6424642a4968cb8c4527288",
+  "all_calls_saved": true,
+  "all_candidates_accepted": false,
+  "proof_replay_included": false,
+  "new_kappa": false
+}

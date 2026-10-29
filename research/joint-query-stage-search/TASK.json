@@ -1,0 +1,14 @@
+{
+  "task_id": "joint-query-controller",
+  "base": "3f0152a32eeebac0df11946dbd50cabe5a7f7839",
+  "priority_revision": 8,
+  "scope": "Joint scalar query directions and full stage projectors, formal and period-six/seven stage endpoints",
+  "outcome": "No exact candidate. Two cyclic targets are now excluded by the separate universal proof.",
+  "open_questions": [
+    {
+      "question": "Find a complete balanced twelve-field fourteen-call endpoint or a proof which excludes it.",
+      "first_step": "Apply the exact rank gates, then use full endpoint checks and condition diagnostics; do not accept a small residual."
+    }
+  ],
+  "new_kappa": false
+}

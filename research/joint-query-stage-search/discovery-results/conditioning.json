@@ -1,0 +1,65 @@
+[
+  {
+    "run": "six",
+    "best_max_residual": 0.0027497360606989663,
+    "raw_parameter_max": 11.498017604195008,
+    "raw_CB_min_singular_value": 0.9999595012553923,
+    "max_projector_norm": 1.5612868674187055,
+    "max_query_nilpotent_norm": 150.48830329086786,
+    "max_CB_error": 4.718396487165812e-05
+  },
+  {
+    "run": "six-long",
+    "best_max_residual": 0.00046364510823347687,
+    "raw_parameter_max": 27.957091076694727,
+    "raw_CB_min_singular_value": 0.9999956953524519,
+    "max_projector_norm": 2.921745447629325,
+    "max_query_nilpotent_norm": 891.5278235617767,
+    "max_CB_error": 3.749466978786309e-06
+  },
+  {
+    "run": "twelve",
+    "best_max_residual": 0.00541727838964468,
+    "raw_parameter_max": 5.515768018082738,
+    "raw_CB_min_singular_value": 0.9989136797208115,
+    "max_projector_norm": 13.877511384872037,
+    "max_query_nilpotent_norm": 48.94367807006685,
+    "max_CB_error": 0.000995374083925249
+  },
+  {
+    "run": "six-complex",
+    "best_max_residual": 0.002943581228367679,
+    "raw_parameter_max": 1.9970837844274005,
+    "raw_CB_min_singular_value": 0.0101307767418048,
+    "max_projector_norm": 47.51858080484584,
+    "max_query_nilpotent_norm": 164.66594402538465,
+    "max_CB_error": 1.464821375527116e-14
+  },
+  {
+    "run": "twelve-period6",
+    "best_max_residual": 0.0031361711621465524,
+    "raw_parameter_max": 2.4148660202585375,
+    "raw_CB_min_singular_value": 0.007623655129066093,
+    "max_projector_norm": 85.98579690235665,
+    "max_query_nilpotent_norm": 244.61704706794973,
+    "max_CB_error": 2.2469334198890888e-14
+  },
+  {
+    "run": "six-period7",
+    "best_max_residual": 0.2995189914345191,
+    "raw_parameter_max": 1.912110198307283,
+    "raw_CB_min_singular_value": 0.005089016792421129,
+    "max_projector_norm": 117.22252004453138,
+    "max_query_nilpotent_norm": 122.84383892411255,
+    "max_CB_error": 1.5888218580782548e-14
+  },
+  {
+    "run": "eight-period7",
+    "best_max_residual": 0.38195776289631445,
+    "raw_parameter_max": 1.9905843008090893,
+    "raw_CB_min_singular_value": 0.052227125118810155,
+    "max_projector_norm": 53.63366113350156,
+    "max_query_nilpotent_norm": 30.652581992807573,
+    "max_CB_error": 4.490574227168739e-15
+  }
+]
