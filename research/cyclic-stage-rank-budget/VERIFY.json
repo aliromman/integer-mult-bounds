@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/alternating-caller-closure/price_check.py",
+    "research/alternating-caller-closure/sources/selected6030-result.json"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Authenticate the two inputs; check every cyclic power for periods two through nineteen, literal affine products, coupled complete targets, rejection controls and exact price intervals."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Repeat all exact checks with assertions disabled."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/state_check.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Compare literal polynomial products with the nilpotent state formula, cyclic coefficient removal and determinant degree in characteristics two, three, five and seven; check direct mixed-power endpoints and a nonfaithful control."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/state_check.py"
+      ],
+      "timeout_seconds": 120,
+      "checks": "Compare literal polynomial products with the nilpotent state formula, cyclic coefficient removal and determinant degree in characteristics two, three, five and seven; check direct mixed-power endpoints and a nonfaithful control."
+    }
+  ]
+}
