@@ -1,0 +1,156 @@
+{
+  "n": 2,
+  "queries": 3,
+  "mode": "s3",
+  "initial_variables": 0,
+  "requested_degree": 3,
+  "status": "COEFFICIENT_FAMILY",
+  "steps": [
+    {
+      "degree": 2,
+      "variables": 0,
+      "rank": 0,
+      "affine": 0
+    },
+    {
+      "degree": 3,
+      "variables": 0,
+      "rank": 0,
+      "affine": 0
+    }
+  ],
+  "seconds": 0.006654417025856674,
+  "limit_seconds": 120,
+  "complete_query_control": "PASS",
+  "new_kappa": false,
+  "scope": "Fixed canonical queries; scalar coefficients on two J eigenspaces; common stage endpoint",
+  "chart_variables": [],
+  "chart": [
+    [
+      [
+        [
+          [
+            [
+              [],
+              "1"
+            ]
+          ],
+          []
+        ],
+        [
+          [],
+          [
+            [
+              [],
+              "1"
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            [
+              [],
+              "1"
+            ]
+          ],
+          []
+        ],
+        [
+          [],
+          [
+            [
+              [],
+              "1"
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            [
+              [],
+              "1"
+            ]
+          ],
+          []
+        ],
+        [
+          [],
+          [
+            [
+              [],
+              "1"
+            ]
+          ]
+        ]
+      ]
+    ],
+    [
+      [
+        [
+          [
+            [
+              [],
+              "1"
+            ]
+          ],
+          []
+        ],
+        [
+          [],
+          [
+            [
+              [],
+              "1"
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            [
+              [],
+              "1"
+            ]
+          ],
+          []
+        ],
+        [
+          [],
+          [
+            [
+              [],
+              "1"
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            [
+              [],
+              "1"
+            ]
+          ],
+          []
+        ],
+        [
+          [],
+          [
+            [
+              [],
+              "1"
+            ]
+          ]
+        ]
+      ]
+    ]
+  ],
+  "constant_choice_projectors": true,
+  "constant_choice_full_query": true
+}

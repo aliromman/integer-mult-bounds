@@ -1,0 +1,9 @@
+{
+  "n": 4,
+  "method": "Exact QQ Groebner basis with nonzero-parameter saturation",
+  "sympy_version": "1.14.0",
+  "new_kappa": false,
+  "status": "UNKNOWN_GROEBNER_TIMEOUT",
+  "seconds": 125.7844612080371,
+  "limit_seconds": 120
+}

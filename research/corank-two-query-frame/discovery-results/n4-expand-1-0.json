@@ -1,0 +1,30 @@
+{
+  "n": 4,
+  "mode": "expand-1-0",
+  "t": [],
+  "queries": 6,
+  "frame_rank": 4,
+  "query_word": "EXACT_MINUS_IDENTITY",
+  "initial_variables": 20,
+  "requested_degree": 4,
+  "last_degree": 2,
+  "status": "EXACT_SCALAR_CONTRADICTION",
+  "steps": [
+    {
+      "degree": 2,
+      "variables": 7,
+      "rank": 14,
+      "affine": 2
+    },
+    {
+      "degree": 2,
+      "variables": 5,
+      "rank": 5,
+      "affine": 4
+    }
+  ],
+  "seconds": 0.03590054193045944,
+  "limit_seconds": 180,
+  "scope": "scalar commuting coefficients",
+  "new_kappa": false
+}

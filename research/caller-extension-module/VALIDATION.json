@@ -1,0 +1,40 @@
+{
+  "status": "Author-side component checks, not independent scientific acceptance",
+  "checks": [
+    {
+      "name": "module-normal",
+      "command": [
+        "/Users/aliromman/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/bin/python3.12",
+        "-B",
+        "research/caller-extension-module/controls.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.16425841697491705,
+      "log": "/tmp/imb-research-module-normal.log"
+    },
+    {
+      "name": "module-optimized",
+      "command": [
+        "/Users/aliromman/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/bin/python3.12",
+        "-O",
+        "-B",
+        "research/caller-extension-module/controls.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.1847019580891356,
+      "log": "/tmp/imb-research-module-optimized.log"
+    }
+  ],
+  "unrun": [
+    "Full source 104-port route replay",
+    "Complete positive caller and price",
+    "Compiler and outer admission",
+    "Independent scientific review",
+    "Git-free export of this exploratory archive"
+  ],
+  "new_kappa": false,
+  "program_sha256": {
+    "controls.py": "5a17d71f54302792bc3b8a493d78dcc4c1d2abfce93f514c5c6a5a276ce38f83",
+    "discovery.py": "9f1da3771c49942ad71d19fd60d86af2a2d499cb696f78b68e25770a4e9242a7"
+  }
+}

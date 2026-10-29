@@ -1,0 +1,68 @@
+{
+  "rational_frames": [
+    {
+      "n": 4,
+      "mode": "integer",
+      "query_endpoint": "PASS",
+      "complement_rank": 2
+    },
+    {
+      "n": 4,
+      "mode": "dyadic",
+      "query_endpoint": "PASS",
+      "complement_rank": 2
+    },
+    {
+      "n": 6,
+      "mode": "integer",
+      "query_endpoint": "PASS",
+      "complement_rank": 2
+    },
+    {
+      "n": 6,
+      "mode": "dyadic",
+      "query_endpoint": "PASS",
+      "complement_rank": 2
+    },
+    {
+      "n": 8,
+      "mode": "integer",
+      "query_endpoint": "PASS",
+      "complement_rank": 2
+    },
+    {
+      "n": 8,
+      "mode": "dyadic",
+      "query_endpoint": "PASS",
+      "complement_rank": 2
+    },
+    {
+      "n": 12,
+      "mode": "integer",
+      "query_endpoint": "PASS",
+      "complement_rank": 2
+    },
+    {
+      "n": 12,
+      "mode": "dyadic",
+      "query_endpoint": "PASS",
+      "complement_rank": 2
+    },
+    {
+      "n": 16,
+      "mode": "integer",
+      "query_endpoint": "PASS",
+      "complement_rank": 2
+    },
+    {
+      "n": 16,
+      "mode": "dyadic",
+      "query_endpoint": "PASS",
+      "complement_rank": 2
+    }
+  ],
+  "asymmetric_frames": 80,
+  "two_triangle_control": "PASS",
+  "changed_parameter_rejected": true,
+  "new_kappa": false
+}

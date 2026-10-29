@@ -1,0 +1,69 @@
+{
+  "n": 4,
+  "source_chart": "n4-triangles.json",
+  "boundary_signs": [
+    1,
+    1
+  ],
+  "target_profile": {
+    "3": 4
+  },
+  "records": [
+    {
+      "trial": 0,
+      "norm": 0.0,
+      "max_residual": 0.0,
+      "evaluations": 1
+    }
+  ],
+  "best": {
+    "trial": 0,
+    "norm": 0.0,
+    "max_residual": 0.0,
+    "evaluations": 1,
+    "parameters": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "seconds": 0.0028874160489067435,
+  "derivative_control": "PASS_24_COLUMNS",
+  "exact_triangle_control": "PASS",
+  "changed_target_rejected": true,
+  "status": "NUMERICAL_DISCOVERY_ONLY",
+  "new_kappa": false
+}

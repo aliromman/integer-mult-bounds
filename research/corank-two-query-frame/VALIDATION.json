@@ -1,0 +1,54 @@
+{
+  "status": "Author-side component checks, not independent scientific acceptance",
+  "checks": [
+    {
+      "name": "frames-normal",
+      "command": [
+        "/Users/aliromman/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/bin/python3.12",
+        "-B",
+        "research/corank-two-query-frame/frame_verify.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.7957388330250978,
+      "log": "/tmp/imb-research-frames-normal.log"
+    },
+    {
+      "name": "frames-optimized",
+      "command": [
+        "/Users/aliromman/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/bin/python3.12",
+        "-O",
+        "-B",
+        "research/corank-two-query-frame/frame_verify.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.7202964579919353,
+      "log": "/tmp/imb-research-frames-optimized.log"
+    },
+    {
+      "name": "corank-price",
+      "command": [
+        "/Users/aliromman/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/bin/python3.12",
+        "-B",
+        "research/corank-two-query-frame/price_screen.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.6473570830421522,
+      "log": "/tmp/imb-research-corank-price.log"
+    }
+  ],
+  "unrun": [
+    "Full source 104-port route replay",
+    "Complete positive caller and price",
+    "Compiler and outer admission",
+    "Independent scientific review",
+    "Git-free export of this exploratory archive"
+  ],
+  "new_kappa": false,
+  "program_sha256": {
+    "discovery.py": "06a7594cd6a6c9d93253cbd0212ecf25899ed2ba5d5ff3ecdac93ba8cae90593",
+    "frame_verify.py": "5108508b7e464d025a26bcd36c45e9c1015d82f429e668f76b12f9c25a0c7ccc",
+    "numerical.py": "33884239e7c406eeb59f091f49907eaec39c1bc9aa22a88b5c0c048bcb528e88",
+    "price_screen.py": "d37306a689577de8d7686d93c95714f10291c47e69094636e25adcd7eefbdd0c",
+    "scalar_ideal.py": "2ed26b3ab601d16d15a7c693226e24a975bb6cce42955b525a94c17304bd51c6"
+  }
+}

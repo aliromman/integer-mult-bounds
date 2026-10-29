@@ -1,0 +1,87 @@
+[
+  {
+    "n": 6,
+    "full_calls": 8,
+    "target_multiplicities_per_port": {
+      "17": 2,
+      "25": 4
+    },
+    "raw_root_estimate": 0.00223216111612784,
+    "margin_at_selected": -70.12581138984751,
+    "margin_at_bit_cap": -91.60413544596122,
+    "unpriced": [
+      "native source and target binding",
+      "ordinary maps and route allowance",
+      "compiler and outer closure"
+    ],
+    "new_kappa": false
+  },
+  {
+    "n": 8,
+    "full_calls": 10,
+    "target_multiplicities_per_port": {
+      "17": 4,
+      "25": 4
+    },
+    "raw_root_estimate": 0.0027860736104889363,
+    "margin_at_selected": -33.010939796633465,
+    "margin_at_bit_cap": -59.629316442951676,
+    "unpriced": [
+      "native source and target binding",
+      "ordinary maps and route allowance",
+      "compiler and outer closure"
+    ],
+    "new_kappa": false
+  },
+  {
+    "n": 10,
+    "full_calls": 12,
+    "target_multiplicities_per_port": {
+      "17": 6,
+      "25": 4
+    },
+    "raw_root_estimate": 0.003161223838534954,
+    "margin_at_selected": 4.103931796587858,
+    "margin_at_bit_cap": -27.65449743993304,
+    "unpriced": [
+      "native source and target binding",
+      "ordinary maps and route allowance",
+      "compiler and outer closure"
+    ],
+    "new_kappa": false
+  },
+  {
+    "n": 12,
+    "full_calls": 14,
+    "target_multiplicities_per_port": {
+      "17": 8,
+      "25": 4
+    },
+    "raw_root_estimate": 0.00343211939842497,
+    "margin_at_selected": 41.218803389801906,
+    "margin_at_bit_cap": 4.320321563085599,
+    "unpriced": [
+      "native source and target binding",
+      "ordinary maps and route allowance",
+      "compiler and outer closure"
+    ],
+    "new_kappa": false
+  },
+  {
+    "n": 16,
+    "full_calls": 18,
+    "target_multiplicities_per_port": {
+      "17": 12,
+      "25": 4
+    },
+    "raw_root_estimate": 0.0037971717624939996,
+    "margin_at_selected": 115.44854657623728,
+    "margin_at_bit_cap": 68.26995956910832,
+    "unpriced": [
+      "native source and target binding",
+      "ordinary maps and route allowance",
+      "compiler and outer closure"
+    ],
+    "new_kappa": false
+  }
+]

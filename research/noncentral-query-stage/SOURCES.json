@@ -1,0 +1,19 @@
+{
+  "base": "3f0152a32eeebac0df11946dbd50cabe5a7f7839",
+  "inputs": [
+    {
+      "path": "research/five-call-projector-rigidity/exact_replay.py",
+      "commit": "bbc8be38d65434353333b5dd7e89defb359c832a",
+      "sha256": "83352900ee81cc79b1ba438cb87762ccc73ee323dd027be1389ef2eec245535d",
+      "role": "Adjacent exact polynomial helper; original PR6168 attribution retained"
+    },
+    {
+      "commit": "e729c5eb6e94274d74186b397ede1606a6f1be82",
+      "path": "research/noncommuting-star-caller/ADVANCING-CONTRACT.md",
+      "role": "Whole-width Q normalization and source wrapper; original source and contributor credit retained",
+      "sha256": "14e116271f3f8e993fa5601a9bdc91bb8379980c19476d6d6b987c922551ce66",
+      "url": "https://github.com/aliromman/integer-mult-bounds/blob/e729c5eb6e94274d74186b397ede1606a6f1be82/research/noncommuting-star-caller/ADVANCING-CONTRACT.md"
+    }
+  ],
+  "attribution": "Cinna Davis and the retained P104, native, query, caller, helper, compiler and BIT lineage retain their credit."
+}

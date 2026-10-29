@@ -1,0 +1,80 @@
+{
+  "status": "PASS_WHOLE_WIDTH_S3_COMPONENT",
+  "widths": [
+    {
+      "width": 1,
+      "dimension": 2,
+      "denominator": 1,
+      "trivial": 2,
+      "sign": 0,
+      "standard": 0,
+      "square_and_cube": "PASS"
+    },
+    {
+      "width": 2,
+      "dimension": 4,
+      "denominator": 2,
+      "trivial": 2,
+      "sign": 0,
+      "standard": 1,
+      "square_and_cube": "PASS"
+    },
+    {
+      "width": 3,
+      "dimension": 8,
+      "denominator": 2,
+      "trivial": 4,
+      "sign": 0,
+      "standard": 2,
+      "square_and_cube": "PASS"
+    },
+    {
+      "width": 4,
+      "dimension": 16,
+      "denominator": 4,
+      "trivial": 1,
+      "sign": 5,
+      "standard": 5,
+      "square_and_cube": "PASS"
+    },
+    {
+      "width": 5,
+      "dimension": 32,
+      "denominator": 4,
+      "trivial": 2,
+      "sign": 10,
+      "standard": 10,
+      "square_and_cube": "PASS"
+    },
+    {
+      "width": 6,
+      "dimension": 64,
+      "denominator": 8,
+      "trivial": 7,
+      "sign": 15,
+      "standard": 21,
+      "square_and_cube": "PASS"
+    },
+    {
+      "width": 7,
+      "dimension": 128,
+      "denominator": 8,
+      "trivial": 14,
+      "sign": 30,
+      "standard": 42,
+      "square_and_cube": "PASS"
+    },
+    {
+      "width": 8,
+      "dimension": 256,
+      "denominator": 16,
+      "trivial": 51,
+      "sign": 35,
+      "standard": 85,
+      "square_and_cube": "PASS"
+    }
+  ],
+  "changed_normalization_rejected": true,
+  "new_kappa": false,
+  "scope": "Literal finite component checks; no full source route, caller or price"
+}

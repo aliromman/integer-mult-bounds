@@ -1,0 +1,14 @@
+{
+  "b": "1",
+  "t": "1",
+  "fields": 6,
+  "full_calls": 4,
+  "initial_variables": 36,
+  "status": "EXACT_FIRST_COEFFICIENT_CONTRADICTION",
+  "steps": [],
+  "query_endpoint": "PASS_EXACT_COMPLETE",
+  "seconds": 0.028502375003881752,
+  "limit_seconds": 90,
+  "new_kappa": false,
+  "scope": "Fixed rational query frame; all compatible scalar full-stage projectors"
+}

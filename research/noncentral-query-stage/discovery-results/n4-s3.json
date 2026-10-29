@@ -1,0 +1,27 @@
+{
+  "n": 4,
+  "queries": 5,
+  "mode": "s3",
+  "initial_variables": 50,
+  "requested_degree": 2,
+  "status": "EXACT_SCALAR_CONTRADICTION",
+  "steps": [
+    {
+      "degree": 2,
+      "variables": 14,
+      "rank": 9,
+      "affine": 3
+    },
+    {
+      "degree": 2,
+      "variables": 10,
+      "rank": 3,
+      "affine": 1
+    }
+  ],
+  "seconds": 0.23056037502828985,
+  "limit_seconds": 120,
+  "complete_query_control": "PASS",
+  "new_kappa": false,
+  "scope": "Fixed canonical queries; scalar coefficients on two J eigenspaces; common stage endpoint"
+}

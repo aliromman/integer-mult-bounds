@@ -1,0 +1,12 @@
+{
+  "n": 6,
+  "mode": "integer",
+  "variables": 20,
+  "equations": 97,
+  "limit_seconds": 90,
+  "seconds": 107.97361391596496,
+  "sympy": "1.14.0",
+  "scope": "scalar commutative second-order equations",
+  "new_kappa": false,
+  "status": "UNKNOWN_GROEBNER_TIMEOUT"
+}

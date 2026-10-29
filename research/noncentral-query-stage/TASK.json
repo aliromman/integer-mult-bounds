@@ -1,0 +1,13 @@
+{
+  "base": "3f0152a32eeebac0df11946dbd50cabe5a7f7839",
+  "priority_revision": 8,
+  "selected_kappa": "0.003125804",
+  "canonical_discussion": "https://github.com/CrocSwap/integer-mult-bounds/discussions/5593#discussioncomment-19199752",
+  "scope": "noncentral-query-stage",
+  "status": "exploratory checkpoint; no positive caller",
+  "new_kappa": false,
+  "combined_user_goal_met": false,
+  "author": "Ali Romman with substantial OpenAI Codex assistance",
+  "subagents": false,
+  "license": "Apache-2.0"
+}

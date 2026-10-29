@@ -1,0 +1,23 @@
+{
+  "status": "PASS_EXTENSION_MODULE_CONTROLS",
+  "query_frames": [
+    {
+      "b": "1",
+      "t": "1",
+      "status": "EXACT_FIRST_COEFFICIENT_CONTRADICTION"
+    },
+    {
+      "b": "1",
+      "t": "0",
+      "status": "EXACT_FIRST_COEFFICIENT_CONTRADICTION"
+    },
+    {
+      "b": "2",
+      "t": "1",
+      "status": "EXACT_FIRST_COEFFICIENT_CONTRADICTION"
+    }
+  ],
+  "five_call_stage_control": "PASS_ALL_COEFFICIENTS",
+  "omitted_query_rejected": true,
+  "new_kappa": false
+}

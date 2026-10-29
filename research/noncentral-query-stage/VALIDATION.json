@@ -1,0 +1,117 @@
+{
+  "status": "Author-side component checks, not independent scientific acceptance",
+  "checks": [
+    {
+      "name": "s3-stage-normal",
+      "command": [
+        "/Users/aliromman/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/bin/python3.12",
+        "-B",
+        "research/noncentral-query-stage/discovery.py",
+        "--n",
+        "4",
+        "--output",
+        "/tmp/imb-s3-stage-normal.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.2690552909625694,
+      "log": "/tmp/imb-research-s3-stage-normal.log"
+    },
+    {
+      "name": "s3-stage-optimized",
+      "command": [
+        "/Users/aliromman/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/bin/python3.12",
+        "-O",
+        "-B",
+        "research/noncentral-query-stage/discovery.py",
+        "--n",
+        "4",
+        "--output",
+        "/tmp/imb-s3-stage-optimized.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.34380595898255706,
+      "log": "/tmp/imb-research-s3-stage-optimized.log"
+    },
+    {
+      "name": "s3-triangle-optimized",
+      "command": [
+        "/Users/aliromman/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/bin/python3.12",
+        "-O",
+        "-B",
+        "research/noncentral-query-stage/discovery.py",
+        "--n",
+        "2",
+        "--degree",
+        "3",
+        "--output",
+        "/tmp/imb-s3-triangle-optimized.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.0899679169524461,
+      "log": "/tmp/imb-research-s3-triangle-optimized.log"
+    },
+    {
+      "name": "s3-runs-normal",
+      "command": [
+        "/tmp/imb-next-gauge-venv/bin/python",
+        "-B",
+        "research/noncentral-query-stage/run_screen.py",
+        "--n",
+        "4",
+        "--output",
+        "/tmp/imb-s3-runs-normal.json"
+      ],
+      "exit_code": 0,
+      "seconds": 4.431012458051555,
+      "log": "/tmp/imb-research-s3-runs-normal.log"
+    },
+    {
+      "name": "s3-runs-optimized",
+      "command": [
+        "/tmp/imb-next-gauge-venv/bin/python",
+        "-O",
+        "-B",
+        "research/noncentral-query-stage/run_screen.py",
+        "--n",
+        "4",
+        "--output",
+        "/tmp/imb-s3-runs-optimized.json"
+      ],
+      "exit_code": 0,
+      "seconds": 5.782289792085066,
+      "log": "/tmp/imb-research-s3-runs-optimized.log"
+    }
+  ],
+  "unrun": [
+    "Full source 104-port route replay",
+    "Complete positive caller and price",
+    "Compiler and outer admission",
+    "Independent scientific review",
+    "Git-free export of this exploratory archive"
+  ],
+  "new_kappa": false,
+  "whole_width_component": {
+    "commands": [
+      "python3.12 -B research/noncentral-query-stage/component_verify.py",
+      "python3.12 -O -B research/noncentral-query-stage/component_verify.py"
+    ],
+    "normal_optimized_identical": true,
+    "widths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "program_sha256": {
+    "boundary_chart.py": "fa0758fd7b60fced2a076f106d0ecbcf4f81900dbdc56e626909d04b521e41a7",
+    "component_verify.py": "1bdb17ba4f96a9dd75512ca86fe3e526ea691190baa3dc5519f9c405b78bb6c8",
+    "discovery.py": "36f9673e494861a94e0d5399b71b592189227f80a320d3d72d68e027adddc919",
+    "query_numeric.py": "60eb2c223fce973eda2a344a58e095019f5c513e6b731fa8fd658c5ea1e745c4",
+    "run_screen.py": "73452ce7f9cb7b9460e62c467a2ae6a400881f6510130b44326766e9b63df9e1"
+  }
+}
