@@ -1,0 +1,5933 @@
+{
+  "n": 8,
+  "status": "EXACT_FINITE_WIDTH_TRACE_CONTRADICTION",
+  "multiplier_degree": 1,
+  "rows_tested": 2581,
+  "rank": 1223,
+  "steps": [
+    {
+      "variables": 26,
+      "rank": 66,
+      "affine": 2
+    },
+    {
+      "variables": 24,
+      "rank": 64,
+      "affine": 0
+    }
+  ],
+  "certificate": [
+    {
+      "equation": 0,
+      "left_word": [],
+      "coefficient": "-16579/23550"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        6
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        14
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        15
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        16
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        17
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        18
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        19
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 1,
+      "left_word": [],
+      "coefficient": "78/3925"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        0
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        1
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        2
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        3
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        4
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        5
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        13
+      ],
+      "coefficient": "173/314"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        14
+      ],
+      "coefficient": "101/314"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        15
+      ],
+      "coefficient": "499/1570"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        16
+      ],
+      "coefficient": "199/1570"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        17
+      ],
+      "coefficient": "19/157"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 1,
+      "left_word": [
+        19
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 2,
+      "left_word": [],
+      "coefficient": "72/3925"
+    },
+    {
+      "equation": 2,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 2,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-163/314"
+    },
+    {
+      "equation": 2,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-89/314"
+    },
+    {
+      "equation": 2,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-439/1570"
+    },
+    {
+      "equation": 2,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-139/1570"
+    },
+    {
+      "equation": 2,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-13/157"
+    },
+    {
+      "equation": 2,
+      "left_word": [
+        18
+      ],
+      "coefficient": "17/157"
+    },
+    {
+      "equation": 2,
+      "left_word": [
+        19
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 3,
+      "left_word": [],
+      "coefficient": "-148/3925"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        13
+      ],
+      "coefficient": "56/157"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        14
+      ],
+      "coefficient": "29/157"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        15
+      ],
+      "coefficient": "148/785"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        16
+      ],
+      "coefficient": "48/785"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        17
+      ],
+      "coefficient": "9/157"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        19
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 4,
+      "left_word": [],
+      "coefficient": "148/3925"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-56/157"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-30/157"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-153/785"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-48/785"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-9/157"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        19
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 5,
+      "left_word": [],
+      "coefficient": "-74/3925"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        13
+      ],
+      "coefficient": "51/314"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        14
+      ],
+      "coefficient": "19/314"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        15
+      ],
+      "coefficient": "93/1570"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-17/1570"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-1/157"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        19
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 6,
+      "left_word": [],
+      "coefficient": "74/3925"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-51/314"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-19/314"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-93/1570"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        16
+      ],
+      "coefficient": "7/1570"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        19
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-5/157"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-12/157"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        19
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 8,
+      "left_word": [],
+      "coefficient": "5821/11775"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3481/23550"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-4381/23550"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-3481/11775"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-3481/11775"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3181/7850"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-3181/7850"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        6
+      ],
+      "coefficient": "826/7065"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        7
+      ],
+      "coefficient": "-1361/70650"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        8
+      ],
+      "coefficient": "122/7065"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-3247/11775"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        10
+      ],
+      "coefficient": "1/314"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-7/157"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-90/157"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-54/157"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-54/157"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-24/157"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-24/157"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        18
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        19
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 9,
+      "left_word": [],
+      "coefficient": "-37347/7850"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        0
+      ],
+      "coefficient": "21/314"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        1
+      ],
+      "coefficient": "1613/35325"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        2
+      ],
+      "coefficient": "3667/70650"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        3
+      ],
+      "coefficient": "21929/70650"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        4
+      ],
+      "coefficient": "16567/35325"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        5
+      ],
+      "coefficient": "32909/70650"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        13
+      ],
+      "coefficient": "353/314"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        14
+      ],
+      "coefficient": "221/314"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        15
+      ],
+      "coefficient": "7/10"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        16
+      ],
+      "coefficient": "499/1570"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        17
+      ],
+      "coefficient": "49/157"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        19
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 10,
+      "left_word": [],
+      "coefficient": "84107/23550"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-9/314"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        1
+      ],
+      "coefficient": "23279/70650"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        2
+      ],
+      "coefficient": "11419/35325"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        3
+      ],
+      "coefficient": "488/35325"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-8392/35325"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-16559/70650"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-343/314"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-209/314"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-1039/1570"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-439/1570"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-43/157"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        18
+      ],
+      "coefficient": "17/157"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        19
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 11,
+      "left_word": [],
+      "coefficient": "-28631/11775"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        0
+      ],
+      "coefficient": "7/157"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-4193/70650"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-863/70650"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-994/35325"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        4
+      ],
+      "coefficient": "1829/35325"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        5
+      ],
+      "coefficient": "6329/35325"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        13
+      ],
+      "coefficient": "146/157"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        14
+      ],
+      "coefficient": "89/157"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        15
+      ],
+      "coefficient": "448/785"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        16
+      ],
+      "coefficient": "198/785"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        17
+      ],
+      "coefficient": "39/157"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        19
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 12,
+      "left_word": [],
+      "coefficient": "32198/11775"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-7/157"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-10373/35325"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-30631/70650"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-10651/70650"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3187/70650"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-13987/70650"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-146/157"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-90/157"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-453/785"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-198/785"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-39/157"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        19
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 13,
+      "left_word": [],
+      "coefficient": "-623/785"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/314"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-312/3925"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        2
+      ],
+      "coefficient": "943/23550"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-1321/11775"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-447/3925"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-97/3925"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        13
+      ],
+      "coefficient": "231/314"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        14
+      ],
+      "coefficient": "139/314"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        15
+      ],
+      "coefficient": "693/1570"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        16
+      ],
+      "coefficient": "283/1570"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        17
+      ],
+      "coefficient": "29/157"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        19
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 14,
+      "left_word": [],
+      "coefficient": "1498/785"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-211/2355"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1427/4710"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-186/785"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-1468/3925"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3651/7850"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-1403/3925"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-231/314"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-139/314"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-693/1570"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-293/1570"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-30/157"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        19
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 15,
+      "left_word": [],
+      "coefficient": "-7407/7850"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        0
+      ],
+      "coefficient": "437/4710"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        1
+      ],
+      "coefficient": "2057/4710"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        2
+      ],
+      "coefficient": "54/157"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        3
+      ],
+      "coefficient": "1638/3925"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        4
+      ],
+      "coefficient": "1638/3925"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        5
+      ],
+      "coefficient": "1931/7850"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        13
+      ],
+      "coefficient": "85/157"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        14
+      ],
+      "coefficient": "49/157"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        15
+      ],
+      "coefficient": "49/157"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        16
+      ],
+      "coefficient": "19/157"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        17
+      ],
+      "coefficient": "19/157"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-12/157"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        19
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 16,
+      "left_word": [],
+      "coefficient": "6346/11775"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-4129/35325"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-5479/35325"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-8258/35325"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-8258/35325"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3679/11775"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-3679/11775"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        7
+      ],
+      "coefficient": "-1163/35325"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-14887/70650"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-1/157"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-183/314"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-55/157"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-55/157"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-49/314"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-49/314"
+    },
+    {
+      "equation": 16,
+      "left_word": [
+        18
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 17,
+      "left_word": [],
+      "coefficient": "-100487/23550"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        0
+      ],
+      "coefficient": "9/314"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        1
+      ],
+      "coefficient": "263/35325"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        2
+      ],
+      "coefficient": "967/70650"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        3
+      ],
+      "coefficient": "19229/70650"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        4
+      ],
+      "coefficient": "15217/35325"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        5
+      ],
+      "coefficient": "30209/70650"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        13
+      ],
+      "coefficient": "178/157"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        14
+      ],
+      "coefficient": "223/314"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        15
+      ],
+      "coefficient": "1109/1570"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        16
+      ],
+      "coefficient": "252/785"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        17
+      ],
+      "coefficient": "99/314"
+    },
+    {
+      "equation": 17,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 18,
+      "left_word": [],
+      "coefficient": "71653/23550"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        0
+      ],
+      "coefficient": "3/314"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        1
+      ],
+      "coefficient": "23279/70650"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        2
+      ],
+      "coefficient": "11419/35325"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        3
+      ],
+      "coefficient": "488/35325"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-8392/35325"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-16559/70650"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        6
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-173/157"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-211/314"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-1049/1570"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-222/785"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-87/314"
+    },
+    {
+      "equation": 18,
+      "left_word": [
+        18
+      ],
+      "coefficient": "17/157"
+    },
+    {
+      "equation": 19,
+      "left_word": [],
+      "coefficient": "-52837/23550"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        0
+      ],
+      "coefficient": "7/157"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1493/70650"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-863/70650"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-994/35325"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        4
+      ],
+      "coefficient": "1829/35325"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        5
+      ],
+      "coefficient": "6329/35325"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        13
+      ],
+      "coefficient": "295/314"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        14
+      ],
+      "coefficient": "90/157"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        15
+      ],
+      "coefficient": "453/785"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        16
+      ],
+      "coefficient": "401/1570"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        17
+      ],
+      "coefficient": "79/314"
+    },
+    {
+      "equation": 19,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 20,
+      "left_word": [],
+      "coefficient": "59971/23550"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-7/157"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-10373/35325"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-27931/70650"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-10651/70650"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3187/70650"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-13987/70650"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-295/314"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-91/157"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-458/785"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-401/1570"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-79/314"
+    },
+    {
+      "equation": 20,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 21,
+      "left_word": [],
+      "coefficient": "-648/785"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/314"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-312/3925"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        2
+      ],
+      "coefficient": "943/23550"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-871/11775"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-447/3925"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-97/3925"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        13
+      ],
+      "coefficient": "117/157"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        14
+      ],
+      "coefficient": "141/314"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        15
+      ],
+      "coefficient": "703/1570"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        16
+      ],
+      "coefficient": "144/785"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        17
+      ],
+      "coefficient": "59/314"
+    },
+    {
+      "equation": 21,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 22,
+      "left_word": [],
+      "coefficient": "6953/4710"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-211/2355"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1427/4710"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-186/785"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-1468/3925"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3351/7850"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-1403/3925"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-117/157"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-141/314"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-703/1570"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-149/785"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-61/314"
+    },
+    {
+      "equation": 22,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 23,
+      "left_word": [],
+      "coefficient": "-5648/11775"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        0
+      ],
+      "coefficient": "437/4710"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        1
+      ],
+      "coefficient": "2057/4710"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        2
+      ],
+      "coefficient": "54/157"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        3
+      ],
+      "coefficient": "1638/3925"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        4
+      ],
+      "coefficient": "1638/3925"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        5
+      ],
+      "coefficient": "2231/7850"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        13
+      ],
+      "coefficient": "173/314"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        14
+      ],
+      "coefficient": "50/157"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        15
+      ],
+      "coefficient": "50/157"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        16
+      ],
+      "coefficient": "39/314"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        17
+      ],
+      "coefficient": "39/314"
+    },
+    {
+      "equation": 23,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-12/157"
+    },
+    {
+      "equation": 24,
+      "left_word": [],
+      "coefficient": "12848/35325"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-79/35325"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1429/35325"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-158/35325"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-158/35325"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        4
+      ],
+      "coefficient": "371/11775"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        5
+      ],
+      "coefficient": "371/11775"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        6
+      ],
+      "coefficient": "-12652/35325"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        7
+      ],
+      "coefficient": "5017/70650"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        8
+      ],
+      "coefficient": "698/35325"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        9
+      ],
+      "coefficient": "3352/35325"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-41/314"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        12
+      ],
+      "coefficient": "5/157"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-123/314"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-35/157"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-35/157"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-29/314"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-29/314"
+    },
+    {
+      "equation": 24,
+      "left_word": [
+        18
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 25,
+      "left_word": [],
+      "coefficient": "-70459/23550"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3/314"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1087/35325"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-1733/70650"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        3
+      ],
+      "coefficient": "16529/70650"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        4
+      ],
+      "coefficient": "13867/35325"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        5
+      ],
+      "coefficient": "27509/70650"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        13
+      ],
+      "coefficient": "148/157"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        14
+      ],
+      "coefficient": "183/314"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        15
+      ],
+      "coefficient": "909/1570"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        16
+      ],
+      "coefficient": "202/785"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        17
+      ],
+      "coefficient": "79/314"
+    },
+    {
+      "equation": 25,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 26,
+      "left_word": [],
+      "coefficient": "85129/23550"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        0
+      ],
+      "coefficient": "15/314"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        1
+      ],
+      "coefficient": "23279/70650"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        2
+      ],
+      "coefficient": "11419/35325"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        3
+      ],
+      "coefficient": "488/35325"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-8392/35325"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-16559/70650"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        7
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-143/157"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-171/314"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-849/1570"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-172/785"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-67/314"
+    },
+    {
+      "equation": 26,
+      "left_word": [
+        18
+      ],
+      "coefficient": "17/157"
+    },
+    {
+      "equation": 27,
+      "left_word": [],
+      "coefficient": "-77198/35325"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        0
+      ],
+      "coefficient": "7/157"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        1
+      ],
+      "coefficient": "1207/70650"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-863/70650"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-994/35325"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        4
+      ],
+      "coefficient": "1829/35325"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        5
+      ],
+      "coefficient": "6329/35325"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        13
+      ],
+      "coefficient": "235/314"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        14
+      ],
+      "coefficient": "70/157"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        15
+      ],
+      "coefficient": "353/785"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        16
+      ],
+      "coefficient": "301/1570"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        17
+      ],
+      "coefficient": "59/314"
+    },
+    {
+      "equation": 27,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 28,
+      "left_word": [],
+      "coefficient": "49921/70650"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-7/157"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-10373/35325"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-25231/70650"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-10651/70650"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3187/70650"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-13987/70650"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-235/314"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-71/157"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-358/785"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-301/1570"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-59/314"
+    },
+    {
+      "equation": 28,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 29,
+      "left_word": [],
+      "coefficient": "-3641/3925"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/314"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-312/3925"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        2
+      ],
+      "coefficient": "943/23550"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-421/11775"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-447/3925"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-97/3925"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        13
+      ],
+      "coefficient": "87/157"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        14
+      ],
+      "coefficient": "101/314"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        15
+      ],
+      "coefficient": "503/1570"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        16
+      ],
+      "coefficient": "94/785"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        17
+      ],
+      "coefficient": "39/314"
+    },
+    {
+      "equation": 29,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 30,
+      "left_word": [],
+      "coefficient": "1783/23550"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-211/2355"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1427/4710"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-186/785"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-1468/3925"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3051/7850"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-1403/3925"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-87/157"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-101/314"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-503/1570"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-99/785"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-41/314"
+    },
+    {
+      "equation": 30,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 31,
+      "left_word": [],
+      "coefficient": "26561/23550"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        0
+      ],
+      "coefficient": "437/4710"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        1
+      ],
+      "coefficient": "2057/4710"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        2
+      ],
+      "coefficient": "54/157"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        3
+      ],
+      "coefficient": "1638/3925"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        4
+      ],
+      "coefficient": "1638/3925"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        5
+      ],
+      "coefficient": "2531/7850"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        13
+      ],
+      "coefficient": "113/314"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        14
+      ],
+      "coefficient": "30/157"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        15
+      ],
+      "coefficient": "30/157"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        16
+      ],
+      "coefficient": "19/314"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        17
+      ],
+      "coefficient": "19/314"
+    },
+    {
+      "equation": 31,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-12/157"
+    },
+    {
+      "equation": 32,
+      "left_word": [],
+      "coefficient": "5087/14130"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-781/23550"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1681/23550"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-781/11775"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-781/11775"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-481/7850"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-481/7850"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        6
+      ],
+      "coefficient": "-11339/35325"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        7
+      ],
+      "coefficient": "1267/11775"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        8
+      ],
+      "coefficient": "839/7850"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-679/7850"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-163/1570"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        12
+      ],
+      "coefficient": "5/157"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-609/1570"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-173/785"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-173/785"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-143/1570"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-143/1570"
+    },
+    {
+      "equation": 32,
+      "left_word": [
+        18
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 33,
+      "left_word": [],
+      "coefficient": "-69559/23550"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3/314"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1087/35325"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-1733/70650"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        3
+      ],
+      "coefficient": "16529/70650"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        4
+      ],
+      "coefficient": "13867/35325"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        5
+      ],
+      "coefficient": "27509/70650"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        13
+      ],
+      "coefficient": "737/785"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        14
+      ],
+      "coefficient": "911/1570"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        15
+      ],
+      "coefficient": "181/314"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        16
+      ],
+      "coefficient": "201/785"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        17
+      ],
+      "coefficient": "393/1570"
+    },
+    {
+      "equation": 33,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 34,
+      "left_word": [],
+      "coefficient": "84229/23550"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        0
+      ],
+      "coefficient": "15/314"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        1
+      ],
+      "coefficient": "23279/70650"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        2
+      ],
+      "coefficient": "11419/35325"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        3
+      ],
+      "coefficient": "488/35325"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-8392/35325"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-16559/70650"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        8
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-712/785"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-851/1570"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-169/314"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-171/785"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-333/1570"
+    },
+    {
+      "equation": 34,
+      "left_word": [
+        18
+      ],
+      "coefficient": "17/157"
+    },
+    {
+      "equation": 35,
+      "left_word": [],
+      "coefficient": "-118519/70650"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        0
+      ],
+      "coefficient": "7/157"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        1
+      ],
+      "coefficient": "1207/70650"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-863/70650"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-994/35325"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        4
+      ],
+      "coefficient": "1829/35325"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        5
+      ],
+      "coefficient": "6329/35325"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        13
+      ],
+      "coefficient": "1169/1570"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        14
+      ],
+      "coefficient": "348/785"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        15
+      ],
+      "coefficient": "351/785"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        16
+      ],
+      "coefficient": "299/1570"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        17
+      ],
+      "coefficient": "293/1570"
+    },
+    {
+      "equation": 35,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 36,
+      "left_word": [],
+      "coefficient": "-18731/70650"
+    },
+    {
+      "equation": 36,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-7/157"
+    },
+    {
+      "equation": 36,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-10373/35325"
+    },
+    {
+      "equation": 36,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-25231/70650"
+    },
+    {
+      "equation": 36,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-10651/70650"
+    },
+    {
+      "equation": 36,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3187/70650"
+    },
+    {
+      "equation": 36,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-13987/70650"
+    },
+    {
+      "equation": 36,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-1169/1570"
+    },
+    {
+      "equation": 36,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-353/785"
+    },
+    {
+      "equation": 36,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-356/785"
+    },
+    {
+      "equation": 36,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-299/1570"
+    },
+    {
+      "equation": 36,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-293/1570"
+    },
+    {
+      "equation": 36,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 37,
+      "left_word": [],
+      "coefficient": "-3848/11775"
+    },
+    {
+      "equation": 37,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/314"
+    },
+    {
+      "equation": 37,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-312/3925"
+    },
+    {
+      "equation": 37,
+      "left_word": [
+        2
+      ],
+      "coefficient": "943/23550"
+    },
+    {
+      "equation": 37,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-421/11775"
+    },
+    {
+      "equation": 37,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-447/3925"
+    },
+    {
+      "equation": 37,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-97/3925"
+    },
+    {
+      "equation": 37,
+      "left_word": [
+        13
+      ],
+      "coefficient": "432/785"
+    },
+    {
+      "equation": 37,
+      "left_word": [
+        14
+      ],
+      "coefficient": "501/1570"
+    },
+    {
+      "equation": 37,
+      "left_word": [
+        15
+      ],
+      "coefficient": "499/1570"
+    },
+    {
+      "equation": 37,
+      "left_word": [
+        16
+      ],
+      "coefficient": "93/785"
+    },
+    {
+      "equation": 37,
+      "left_word": [
+        17
+      ],
+      "coefficient": "193/1570"
+    },
+    {
+      "equation": 37,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 38,
+      "left_word": [],
+      "coefficient": "3649/11775"
+    },
+    {
+      "equation": 38,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-211/2355"
+    },
+    {
+      "equation": 38,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1427/4710"
+    },
+    {
+      "equation": 38,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-186/785"
+    },
+    {
+      "equation": 38,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-1468/3925"
+    },
+    {
+      "equation": 38,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3051/7850"
+    },
+    {
+      "equation": 38,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-1403/3925"
+    },
+    {
+      "equation": 38,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-432/785"
+    },
+    {
+      "equation": 38,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-501/1570"
+    },
+    {
+      "equation": 38,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-499/1570"
+    },
+    {
+      "equation": 38,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-98/785"
+    },
+    {
+      "equation": 38,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-203/1570"
+    },
+    {
+      "equation": 38,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 39,
+      "left_word": [],
+      "coefficient": "17821/23550"
+    },
+    {
+      "equation": 39,
+      "left_word": [
+        0
+      ],
+      "coefficient": "437/4710"
+    },
+    {
+      "equation": 39,
+      "left_word": [
+        1
+      ],
+      "coefficient": "2057/4710"
+    },
+    {
+      "equation": 39,
+      "left_word": [
+        2
+      ],
+      "coefficient": "54/157"
+    },
+    {
+      "equation": 39,
+      "left_word": [
+        3
+      ],
+      "coefficient": "1638/3925"
+    },
+    {
+      "equation": 39,
+      "left_word": [
+        4
+      ],
+      "coefficient": "1638/3925"
+    },
+    {
+      "equation": 39,
+      "left_word": [
+        5
+      ],
+      "coefficient": "2531/7850"
+    },
+    {
+      "equation": 39,
+      "left_word": [
+        13
+      ],
+      "coefficient": "559/1570"
+    },
+    {
+      "equation": 39,
+      "left_word": [
+        14
+      ],
+      "coefficient": "148/785"
+    },
+    {
+      "equation": 39,
+      "left_word": [
+        15
+      ],
+      "coefficient": "148/785"
+    },
+    {
+      "equation": 39,
+      "left_word": [
+        16
+      ],
+      "coefficient": "93/1570"
+    },
+    {
+      "equation": 39,
+      "left_word": [
+        17
+      ],
+      "coefficient": "93/1570"
+    },
+    {
+      "equation": 39,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-12/157"
+    },
+    {
+      "equation": 40,
+      "left_word": [],
+      "coefficient": "342/3925"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-41/4710"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-221/4710"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-41/2355"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-41/2355"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        4
+      ],
+      "coefficient": "19/1570"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        5
+      ],
+      "coefficient": "19/1570"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        6
+      ],
+      "coefficient": "-424/11775"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        7
+      ],
+      "coefficient": "697/4710"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        8
+      ],
+      "coefficient": "-173/1570"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-63/1570"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        12
+      ],
+      "coefficient": "5/157"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-309/1570"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-73/785"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-73/785"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-43/1570"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-43/1570"
+    },
+    {
+      "equation": 40,
+      "left_word": [
+        18
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 41,
+      "left_word": [],
+      "coefficient": "-707/1413"
+    },
+    {
+      "equation": 41,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3/314"
+    },
+    {
+      "equation": 41,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1087/35325"
+    },
+    {
+      "equation": 41,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-1733/70650"
+    },
+    {
+      "equation": 41,
+      "left_word": [
+        3
+      ],
+      "coefficient": "16529/70650"
+    },
+    {
+      "equation": 41,
+      "left_word": [
+        4
+      ],
+      "coefficient": "13867/35325"
+    },
+    {
+      "equation": 41,
+      "left_word": [
+        5
+      ],
+      "coefficient": "27509/70650"
+    },
+    {
+      "equation": 41,
+      "left_word": [
+        13
+      ],
+      "coefficient": "587/785"
+    },
+    {
+      "equation": 41,
+      "left_word": [
+        14
+      ],
+      "coefficient": "711/1570"
+    },
+    {
+      "equation": 41,
+      "left_word": [
+        15
+      ],
+      "coefficient": "141/314"
+    },
+    {
+      "equation": 41,
+      "left_word": [
+        16
+      ],
+      "coefficient": "151/785"
+    },
+    {
+      "equation": 41,
+      "left_word": [
+        17
+      ],
+      "coefficient": "293/1570"
+    },
+    {
+      "equation": 41,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 42,
+      "left_word": [],
+      "coefficient": "6136/7065"
+    },
+    {
+      "equation": 42,
+      "left_word": [
+        0
+      ],
+      "coefficient": "15/314"
+    },
+    {
+      "equation": 42,
+      "left_word": [
+        1
+      ],
+      "coefficient": "23279/70650"
+    },
+    {
+      "equation": 42,
+      "left_word": [
+        2
+      ],
+      "coefficient": "11419/35325"
+    },
+    {
+      "equation": 42,
+      "left_word": [
+        3
+      ],
+      "coefficient": "488/35325"
+    },
+    {
+      "equation": 42,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-8392/35325"
+    },
+    {
+      "equation": 42,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-16559/70650"
+    },
+    {
+      "equation": 42,
+      "left_word": [
+        9
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 42,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 42,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-562/785"
+    },
+    {
+      "equation": 42,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-651/1570"
+    },
+    {
+      "equation": 42,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-129/314"
+    },
+    {
+      "equation": 42,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-121/785"
+    },
+    {
+      "equation": 42,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-233/1570"
+    },
+    {
+      "equation": 42,
+      "left_word": [
+        18
+      ],
+      "coefficient": "17/157"
+    },
+    {
+      "equation": 43,
+      "left_word": [],
+      "coefficient": "-32201/35325"
+    },
+    {
+      "equation": 43,
+      "left_word": [
+        0
+      ],
+      "coefficient": "7/157"
+    },
+    {
+      "equation": 43,
+      "left_word": [
+        1
+      ],
+      "coefficient": "1207/70650"
+    },
+    {
+      "equation": 43,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-863/70650"
+    },
+    {
+      "equation": 43,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-994/35325"
+    },
+    {
+      "equation": 43,
+      "left_word": [
+        4
+      ],
+      "coefficient": "1829/35325"
+    },
+    {
+      "equation": 43,
+      "left_word": [
+        5
+      ],
+      "coefficient": "6329/35325"
+    },
+    {
+      "equation": 43,
+      "left_word": [
+        13
+      ],
+      "coefficient": "869/1570"
+    },
+    {
+      "equation": 43,
+      "left_word": [
+        14
+      ],
+      "coefficient": "248/785"
+    },
+    {
+      "equation": 43,
+      "left_word": [
+        15
+      ],
+      "coefficient": "251/785"
+    },
+    {
+      "equation": 43,
+      "left_word": [
+        16
+      ],
+      "coefficient": "199/1570"
+    },
+    {
+      "equation": 43,
+      "left_word": [
+        17
+      ],
+      "coefficient": "193/1570"
+    },
+    {
+      "equation": 43,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 44,
+      "left_word": [],
+      "coefficient": "17357/35325"
+    },
+    {
+      "equation": 44,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-7/157"
+    },
+    {
+      "equation": 44,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-10373/35325"
+    },
+    {
+      "equation": 44,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-25231/70650"
+    },
+    {
+      "equation": 44,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-10651/70650"
+    },
+    {
+      "equation": 44,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3187/70650"
+    },
+    {
+      "equation": 44,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-13987/70650"
+    },
+    {
+      "equation": 44,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-869/1570"
+    },
+    {
+      "equation": 44,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-253/785"
+    },
+    {
+      "equation": 44,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-256/785"
+    },
+    {
+      "equation": 44,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-199/1570"
+    },
+    {
+      "equation": 44,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-193/1570"
+    },
+    {
+      "equation": 44,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 45,
+      "left_word": [],
+      "coefficient": "-10318/11775"
+    },
+    {
+      "equation": 45,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/314"
+    },
+    {
+      "equation": 45,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-312/3925"
+    },
+    {
+      "equation": 45,
+      "left_word": [
+        2
+      ],
+      "coefficient": "943/23550"
+    },
+    {
+      "equation": 45,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-421/11775"
+    },
+    {
+      "equation": 45,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-447/3925"
+    },
+    {
+      "equation": 45,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-97/3925"
+    },
+    {
+      "equation": 45,
+      "left_word": [
+        13
+      ],
+      "coefficient": "282/785"
+    },
+    {
+      "equation": 45,
+      "left_word": [
+        14
+      ],
+      "coefficient": "301/1570"
+    },
+    {
+      "equation": 45,
+      "left_word": [
+        15
+      ],
+      "coefficient": "299/1570"
+    },
+    {
+      "equation": 45,
+      "left_word": [
+        16
+      ],
+      "coefficient": "43/785"
+    },
+    {
+      "equation": 45,
+      "left_word": [
+        17
+      ],
+      "coefficient": "93/1570"
+    },
+    {
+      "equation": 45,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 46,
+      "left_word": [],
+      "coefficient": "-103/150"
+    },
+    {
+      "equation": 46,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-211/2355"
+    },
+    {
+      "equation": 46,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1427/4710"
+    },
+    {
+      "equation": 46,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-186/785"
+    },
+    {
+      "equation": 46,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-1468/3925"
+    },
+    {
+      "equation": 46,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3051/7850"
+    },
+    {
+      "equation": 46,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-1403/3925"
+    },
+    {
+      "equation": 46,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-282/785"
+    },
+    {
+      "equation": 46,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-301/1570"
+    },
+    {
+      "equation": 46,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-299/1570"
+    },
+    {
+      "equation": 46,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-48/785"
+    },
+    {
+      "equation": 46,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-103/1570"
+    },
+    {
+      "equation": 46,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 47,
+      "left_word": [],
+      "coefficient": "2479/2355"
+    },
+    {
+      "equation": 47,
+      "left_word": [
+        0
+      ],
+      "coefficient": "437/4710"
+    },
+    {
+      "equation": 47,
+      "left_word": [
+        1
+      ],
+      "coefficient": "2057/4710"
+    },
+    {
+      "equation": 47,
+      "left_word": [
+        2
+      ],
+      "coefficient": "54/157"
+    },
+    {
+      "equation": 47,
+      "left_word": [
+        3
+      ],
+      "coefficient": "1638/3925"
+    },
+    {
+      "equation": 47,
+      "left_word": [
+        4
+      ],
+      "coefficient": "1638/3925"
+    },
+    {
+      "equation": 47,
+      "left_word": [
+        5
+      ],
+      "coefficient": "2531/7850"
+    },
+    {
+      "equation": 47,
+      "left_word": [
+        13
+      ],
+      "coefficient": "259/1570"
+    },
+    {
+      "equation": 47,
+      "left_word": [
+        14
+      ],
+      "coefficient": "48/785"
+    },
+    {
+      "equation": 47,
+      "left_word": [
+        15
+      ],
+      "coefficient": "48/785"
+    },
+    {
+      "equation": 47,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-7/1570"
+    },
+    {
+      "equation": 47,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-7/1570"
+    },
+    {
+      "equation": 47,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-12/157"
+    },
+    {
+      "equation": 48,
+      "left_word": [],
+      "coefficient": "-23/314"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-41/4710"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-221/4710"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-41/2355"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-41/2355"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        4
+      ],
+      "coefficient": "19/1570"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        5
+      ],
+      "coefficient": "19/1570"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        6
+      ],
+      "coefficient": "2536/11775"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        7
+      ],
+      "coefficient": "1603/23550"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        8
+      ],
+      "coefficient": "-5083/23550"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        9
+      ],
+      "coefficient": "274/2355"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        10
+      ],
+      "coefficient": "-10/157"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        12
+      ],
+      "coefficient": "5/157"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-30/157"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-14/157"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-14/157"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-4/157"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-4/157"
+    },
+    {
+      "equation": 48,
+      "left_word": [
+        18
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 49,
+      "left_word": [],
+      "coefficient": "22421/70650"
+    },
+    {
+      "equation": 49,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3/314"
+    },
+    {
+      "equation": 49,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1087/35325"
+    },
+    {
+      "equation": 49,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-1733/70650"
+    },
+    {
+      "equation": 49,
+      "left_word": [
+        3
+      ],
+      "coefficient": "16529/70650"
+    },
+    {
+      "equation": 49,
+      "left_word": [
+        4
+      ],
+      "coefficient": "13867/35325"
+    },
+    {
+      "equation": 49,
+      "left_word": [
+        5
+      ],
+      "coefficient": "27509/70650"
+    },
+    {
+      "equation": 49,
+      "left_word": [
+        13
+      ],
+      "coefficient": "233/314"
+    },
+    {
+      "equation": 49,
+      "left_word": [
+        14
+      ],
+      "coefficient": "141/314"
+    },
+    {
+      "equation": 49,
+      "left_word": [
+        15
+      ],
+      "coefficient": "699/1570"
+    },
+    {
+      "equation": 49,
+      "left_word": [
+        16
+      ],
+      "coefficient": "299/1570"
+    },
+    {
+      "equation": 49,
+      "left_word": [
+        17
+      ],
+      "coefficient": "29/157"
+    },
+    {
+      "equation": 49,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 50,
+      "left_word": [],
+      "coefficient": "-14593/35325"
+    },
+    {
+      "equation": 50,
+      "left_word": [
+        0
+      ],
+      "coefficient": "15/314"
+    },
+    {
+      "equation": 50,
+      "left_word": [
+        1
+      ],
+      "coefficient": "23279/70650"
+    },
+    {
+      "equation": 50,
+      "left_word": [
+        2
+      ],
+      "coefficient": "11419/35325"
+    },
+    {
+      "equation": 50,
+      "left_word": [
+        3
+      ],
+      "coefficient": "488/35325"
+    },
+    {
+      "equation": 50,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-8392/35325"
+    },
+    {
+      "equation": 50,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-16559/70650"
+    },
+    {
+      "equation": 50,
+      "left_word": [
+        10
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 50,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 50,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-223/314"
+    },
+    {
+      "equation": 50,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-129/314"
+    },
+    {
+      "equation": 50,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-639/1570"
+    },
+    {
+      "equation": 50,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-239/1570"
+    },
+    {
+      "equation": 50,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-23/157"
+    },
+    {
+      "equation": 50,
+      "left_word": [
+        18
+      ],
+      "coefficient": "17/157"
+    },
+    {
+      "equation": 51,
+      "left_word": [],
+      "coefficient": "-34057/70650"
+    },
+    {
+      "equation": 51,
+      "left_word": [
+        0
+      ],
+      "coefficient": "7/157"
+    },
+    {
+      "equation": 51,
+      "left_word": [
+        1
+      ],
+      "coefficient": "1207/70650"
+    },
+    {
+      "equation": 51,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-863/70650"
+    },
+    {
+      "equation": 51,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-994/35325"
+    },
+    {
+      "equation": 51,
+      "left_word": [
+        4
+      ],
+      "coefficient": "1829/35325"
+    },
+    {
+      "equation": 51,
+      "left_word": [
+        5
+      ],
+      "coefficient": "6329/35325"
+    },
+    {
+      "equation": 51,
+      "left_word": [
+        13
+      ],
+      "coefficient": "86/157"
+    },
+    {
+      "equation": 51,
+      "left_word": [
+        14
+      ],
+      "coefficient": "49/157"
+    },
+    {
+      "equation": 51,
+      "left_word": [
+        15
+      ],
+      "coefficient": "248/785"
+    },
+    {
+      "equation": 51,
+      "left_word": [
+        16
+      ],
+      "coefficient": "98/785"
+    },
+    {
+      "equation": 51,
+      "left_word": [
+        17
+      ],
+      "coefficient": "19/157"
+    },
+    {
+      "equation": 51,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 52,
+      "left_word": [],
+      "coefficient": "31682/35325"
+    },
+    {
+      "equation": 52,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-7/157"
+    },
+    {
+      "equation": 52,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-10373/35325"
+    },
+    {
+      "equation": 52,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-25231/70650"
+    },
+    {
+      "equation": 52,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-10651/70650"
+    },
+    {
+      "equation": 52,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3187/70650"
+    },
+    {
+      "equation": 52,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-13987/70650"
+    },
+    {
+      "equation": 52,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-86/157"
+    },
+    {
+      "equation": 52,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-50/157"
+    },
+    {
+      "equation": 52,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-253/785"
+    },
+    {
+      "equation": 52,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-98/785"
+    },
+    {
+      "equation": 52,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-19/157"
+    },
+    {
+      "equation": 52,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 53,
+      "left_word": [],
+      "coefficient": "-6421/11775"
+    },
+    {
+      "equation": 53,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/314"
+    },
+    {
+      "equation": 53,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-312/3925"
+    },
+    {
+      "equation": 53,
+      "left_word": [
+        2
+      ],
+      "coefficient": "943/23550"
+    },
+    {
+      "equation": 53,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-421/11775"
+    },
+    {
+      "equation": 53,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-447/3925"
+    },
+    {
+      "equation": 53,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-97/3925"
+    },
+    {
+      "equation": 53,
+      "left_word": [
+        13
+      ],
+      "coefficient": "111/314"
+    },
+    {
+      "equation": 53,
+      "left_word": [
+        14
+      ],
+      "coefficient": "59/314"
+    },
+    {
+      "equation": 53,
+      "left_word": [
+        15
+      ],
+      "coefficient": "293/1570"
+    },
+    {
+      "equation": 53,
+      "left_word": [
+        16
+      ],
+      "coefficient": "83/1570"
+    },
+    {
+      "equation": 53,
+      "left_word": [
+        17
+      ],
+      "coefficient": "9/157"
+    },
+    {
+      "equation": 53,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 54,
+      "left_word": [],
+      "coefficient": "-6541/4710"
+    },
+    {
+      "equation": 54,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-211/2355"
+    },
+    {
+      "equation": 54,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1427/4710"
+    },
+    {
+      "equation": 54,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-186/785"
+    },
+    {
+      "equation": 54,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-1468/3925"
+    },
+    {
+      "equation": 54,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3051/7850"
+    },
+    {
+      "equation": 54,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-1403/3925"
+    },
+    {
+      "equation": 54,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-111/314"
+    },
+    {
+      "equation": 54,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-59/314"
+    },
+    {
+      "equation": 54,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-293/1570"
+    },
+    {
+      "equation": 54,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-93/1570"
+    },
+    {
+      "equation": 54,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-10/157"
+    },
+    {
+      "equation": 54,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 55,
+      "left_word": [],
+      "coefficient": "2479/2355"
+    },
+    {
+      "equation": 55,
+      "left_word": [
+        0
+      ],
+      "coefficient": "437/4710"
+    },
+    {
+      "equation": 55,
+      "left_word": [
+        1
+      ],
+      "coefficient": "2057/4710"
+    },
+    {
+      "equation": 55,
+      "left_word": [
+        2
+      ],
+      "coefficient": "54/157"
+    },
+    {
+      "equation": 55,
+      "left_word": [
+        3
+      ],
+      "coefficient": "1638/3925"
+    },
+    {
+      "equation": 55,
+      "left_word": [
+        4
+      ],
+      "coefficient": "1638/3925"
+    },
+    {
+      "equation": 55,
+      "left_word": [
+        5
+      ],
+      "coefficient": "2531/7850"
+    },
+    {
+      "equation": 55,
+      "left_word": [
+        13
+      ],
+      "coefficient": "25/157"
+    },
+    {
+      "equation": 55,
+      "left_word": [
+        14
+      ],
+      "coefficient": "9/157"
+    },
+    {
+      "equation": 55,
+      "left_word": [
+        15
+      ],
+      "coefficient": "9/157"
+    },
+    {
+      "equation": 55,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-1/157"
+    },
+    {
+      "equation": 55,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-1/157"
+    },
+    {
+      "equation": 55,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-12/157"
+    },
+    {
+      "equation": 56,
+      "left_word": [],
+      "coefficient": "-1094/3925"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-13/471"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-31/471"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-26/471"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-26/471"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-7/157"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-7/157"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        6
+      ],
+      "coefficient": "907/3925"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        7
+      ],
+      "coefficient": "-307/3925"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        8
+      ],
+      "coefficient": "-593/23550"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-5/471"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        12
+      ],
+      "coefficient": "5/157"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        14
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        15
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        16
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        17
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 56,
+      "left_word": [
+        18
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 57,
+      "left_word": [],
+      "coefficient": "51769/35325"
+    },
+    {
+      "equation": 57,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3/314"
+    },
+    {
+      "equation": 57,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1087/35325"
+    },
+    {
+      "equation": 57,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-1733/70650"
+    },
+    {
+      "equation": 57,
+      "left_word": [
+        3
+      ],
+      "coefficient": "16529/70650"
+    },
+    {
+      "equation": 57,
+      "left_word": [
+        4
+      ],
+      "coefficient": "13867/35325"
+    },
+    {
+      "equation": 57,
+      "left_word": [
+        5
+      ],
+      "coefficient": "27509/70650"
+    },
+    {
+      "equation": 57,
+      "left_word": [
+        13
+      ],
+      "coefficient": "173/314"
+    },
+    {
+      "equation": 57,
+      "left_word": [
+        14
+      ],
+      "coefficient": "101/314"
+    },
+    {
+      "equation": 57,
+      "left_word": [
+        15
+      ],
+      "coefficient": "499/1570"
+    },
+    {
+      "equation": 57,
+      "left_word": [
+        16
+      ],
+      "coefficient": "199/1570"
+    },
+    {
+      "equation": 57,
+      "left_word": [
+        17
+      ],
+      "coefficient": "19/157"
+    },
+    {
+      "equation": 57,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 58,
+      "left_word": [],
+      "coefficient": "-110303/70650"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        0
+      ],
+      "coefficient": "11/314"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        1
+      ],
+      "coefficient": "22379/70650"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        2
+      ],
+      "coefficient": "67/225"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-412/35325"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-9742/35325"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-19259/70650"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        6
+      ],
+      "coefficient": "2/157"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        7
+      ],
+      "coefficient": "-2/157"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        8
+      ],
+      "coefficient": "4/157"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        9
+      ],
+      "coefficient": "-4/157"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        10
+      ],
+      "coefficient": "6/157"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        12
+      ],
+      "coefficient": "-6/157"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-163/314"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-89/314"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-439/1570"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-139/1570"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-13/157"
+    },
+    {
+      "equation": 58,
+      "left_word": [
+        18
+      ],
+      "coefficient": "17/157"
+    },
+    {
+      "equation": 59,
+      "left_word": [],
+      "coefficient": "12337/14130"
+    },
+    {
+      "equation": 59,
+      "left_word": [
+        0
+      ],
+      "coefficient": "7/157"
+    },
+    {
+      "equation": 59,
+      "left_word": [
+        1
+      ],
+      "coefficient": "1207/70650"
+    },
+    {
+      "equation": 59,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-863/70650"
+    },
+    {
+      "equation": 59,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-994/35325"
+    },
+    {
+      "equation": 59,
+      "left_word": [
+        4
+      ],
+      "coefficient": "1829/35325"
+    },
+    {
+      "equation": 59,
+      "left_word": [
+        5
+      ],
+      "coefficient": "6329/35325"
+    },
+    {
+      "equation": 59,
+      "left_word": [
+        13
+      ],
+      "coefficient": "56/157"
+    },
+    {
+      "equation": 59,
+      "left_word": [
+        14
+      ],
+      "coefficient": "29/157"
+    },
+    {
+      "equation": 59,
+      "left_word": [
+        15
+      ],
+      "coefficient": "148/785"
+    },
+    {
+      "equation": 59,
+      "left_word": [
+        16
+      ],
+      "coefficient": "48/785"
+    },
+    {
+      "equation": 59,
+      "left_word": [
+        17
+      ],
+      "coefficient": "9/157"
+    },
+    {
+      "equation": 59,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 60,
+      "left_word": [],
+      "coefficient": "-20689/35325"
+    },
+    {
+      "equation": 60,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-7/157"
+    },
+    {
+      "equation": 60,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-10373/35325"
+    },
+    {
+      "equation": 60,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-25231/70650"
+    },
+    {
+      "equation": 60,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-10651/70650"
+    },
+    {
+      "equation": 60,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3187/70650"
+    },
+    {
+      "equation": 60,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-13987/70650"
+    },
+    {
+      "equation": 60,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-56/157"
+    },
+    {
+      "equation": 60,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-30/157"
+    },
+    {
+      "equation": 60,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-153/785"
+    },
+    {
+      "equation": 60,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-48/785"
+    },
+    {
+      "equation": 60,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-9/157"
+    },
+    {
+      "equation": 60,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 61,
+      "left_word": [],
+      "coefficient": "2786/11775"
+    },
+    {
+      "equation": 61,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/314"
+    },
+    {
+      "equation": 61,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-312/3925"
+    },
+    {
+      "equation": 61,
+      "left_word": [
+        2
+      ],
+      "coefficient": "943/23550"
+    },
+    {
+      "equation": 61,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-421/11775"
+    },
+    {
+      "equation": 61,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-447/3925"
+    },
+    {
+      "equation": 61,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-97/3925"
+    },
+    {
+      "equation": 61,
+      "left_word": [
+        13
+      ],
+      "coefficient": "51/314"
+    },
+    {
+      "equation": 61,
+      "left_word": [
+        14
+      ],
+      "coefficient": "19/314"
+    },
+    {
+      "equation": 61,
+      "left_word": [
+        15
+      ],
+      "coefficient": "93/1570"
+    },
+    {
+      "equation": 61,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-17/1570"
+    },
+    {
+      "equation": 61,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-1/157"
+    },
+    {
+      "equation": 61,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 62,
+      "left_word": [],
+      "coefficient": "-4583/4710"
+    },
+    {
+      "equation": 62,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-211/2355"
+    },
+    {
+      "equation": 62,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1427/4710"
+    },
+    {
+      "equation": 62,
+      "left_word": [
+        2
+      ],
+      "coefficient": "-186/785"
+    },
+    {
+      "equation": 62,
+      "left_word": [
+        3
+      ],
+      "coefficient": "-1468/3925"
+    },
+    {
+      "equation": 62,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3051/7850"
+    },
+    {
+      "equation": 62,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-1403/3925"
+    },
+    {
+      "equation": 62,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-51/314"
+    },
+    {
+      "equation": 62,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-19/314"
+    },
+    {
+      "equation": 62,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-93/1570"
+    },
+    {
+      "equation": 62,
+      "left_word": [
+        16
+      ],
+      "coefficient": "7/1570"
+    },
+    {
+      "equation": 62,
+      "left_word": [
+        18
+      ],
+      "coefficient": "11/157"
+    },
+    {
+      "equation": 63,
+      "left_word": [
+        0
+      ],
+      "coefficient": "437/4710"
+    },
+    {
+      "equation": 63,
+      "left_word": [
+        1
+      ],
+      "coefficient": "2057/4710"
+    },
+    {
+      "equation": 63,
+      "left_word": [
+        2
+      ],
+      "coefficient": "54/157"
+    },
+    {
+      "equation": 63,
+      "left_word": [
+        3
+      ],
+      "coefficient": "1638/3925"
+    },
+    {
+      "equation": 63,
+      "left_word": [
+        4
+      ],
+      "coefficient": "1638/3925"
+    },
+    {
+      "equation": 63,
+      "left_word": [
+        5
+      ],
+      "coefficient": "2531/7850"
+    },
+    {
+      "equation": 63,
+      "left_word": [
+        13
+      ],
+      "coefficient": "-5/157"
+    },
+    {
+      "equation": 63,
+      "left_word": [
+        14
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 63,
+      "left_word": [
+        15
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 63,
+      "left_word": [
+        16
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 63,
+      "left_word": [
+        17
+      ],
+      "coefficient": "-11/157"
+    },
+    {
+      "equation": 63,
+      "left_word": [
+        18
+      ],
+      "coefficient": "-12/157"
+    }
+  ],
+  "seconds": 40.15447937499266,
+  "new_kappa": false
+}

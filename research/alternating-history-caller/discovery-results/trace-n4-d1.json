@@ -1,0 +1,307 @@
+{
+  "n": 4,
+  "status": "EXACT_FINITE_WIDTH_TRACE_CONTRADICTION",
+  "multiplier_degree": 1,
+  "rows_tested": 191,
+  "rank": 89,
+  "steps": [
+    {
+      "variables": 10,
+      "rank": 18,
+      "affine": 2
+    },
+    {
+      "variables": 8,
+      "rank": 16,
+      "affine": 0
+    }
+  ],
+  "certificate": [
+    {
+      "equation": 0,
+      "left_word": [],
+      "coefficient": "-1/2"
+    },
+    {
+      "equation": 0,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "equation": 2,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-1/4"
+    },
+    {
+      "equation": 3,
+      "left_word": [
+        5
+      ],
+      "coefficient": "3/4"
+    },
+    {
+      "equation": 4,
+      "left_word": [],
+      "coefficient": "-3/4"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "equation": 4,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3/4"
+    },
+    {
+      "equation": 5,
+      "left_word": [],
+      "coefficient": "7/4"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        0
+      ],
+      "coefficient": "1/2"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        1
+      ],
+      "coefficient": "1"
+    },
+    {
+      "equation": 5,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "equation": 6,
+      "left_word": [],
+      "coefficient": "-7/4"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3/4"
+    },
+    {
+      "equation": 6,
+      "left_word": [
+        5
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "equation": 7,
+      "left_word": [],
+      "coefficient": "1/4"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "equation": 7,
+      "left_word": [
+        5
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "equation": 8,
+      "left_word": [],
+      "coefficient": "-3/4"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1/4"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-3/4"
+    },
+    {
+      "equation": 8,
+      "left_word": [
+        5
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "equation": 9,
+      "left_word": [],
+      "coefficient": "9/4"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        0
+      ],
+      "coefficient": "1/2"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        1
+      ],
+      "coefficient": "1"
+    },
+    {
+      "equation": 9,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-3/4"
+    },
+    {
+      "equation": 10,
+      "left_word": [],
+      "coefficient": "-3"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-3/4"
+    },
+    {
+      "equation": 10,
+      "left_word": [
+        5
+      ],
+      "coefficient": "1/2"
+    },
+    {
+      "equation": 11,
+      "left_word": [],
+      "coefficient": "1"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "equation": 11,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "equation": 12,
+      "left_word": [],
+      "coefficient": "-5/4"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        1
+      ],
+      "coefficient": "-1/2"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        4
+      ],
+      "coefficient": "-1/4"
+    },
+    {
+      "equation": 12,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-1/4"
+    },
+    {
+      "equation": 13,
+      "left_word": [],
+      "coefficient": "5/4"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        1
+      ],
+      "coefficient": "1/2"
+    },
+    {
+      "equation": 13,
+      "left_word": [
+        5
+      ],
+      "coefficient": "-1/4"
+    },
+    {
+      "equation": 14,
+      "left_word": [],
+      "coefficient": "-1/2"
+    },
+    {
+      "equation": 14,
+      "left_word": [
+        0
+      ],
+      "coefficient": "-1/4"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        0
+      ],
+      "coefficient": "1/4"
+    },
+    {
+      "equation": 15,
+      "left_word": [
+        5
+      ],
+      "coefficient": "1/2"
+    }
+  ],
+  "seconds": 0.1420492500765249,
+  "new_kappa": false
+}

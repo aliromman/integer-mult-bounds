@@ -1,0 +1,23 @@
+{
+  "r": 6,
+  "initialized_work": 2,
+  "full_calls": 7,
+  "target_stage_powers": [
+    2,
+    2,
+    2,
+    2,
+    3,
+    3
+  ],
+  "status": "EXACT_INITIALIZED_SECOND_COEFFICIENT_CONTRADICTION",
+  "steps": [
+    {
+      "variables": 62,
+      "equations": 115,
+      "affine_consequences": 17
+    }
+  ],
+  "seconds": 3.741734791896306,
+  "new_kappa": false
+}

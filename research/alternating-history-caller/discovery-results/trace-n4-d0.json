@@ -1,0 +1,21 @@
+{
+  "n": 4,
+  "status": "NO_CERTIFICATE_IN_TESTED_TRACE_SPAN",
+  "multiplier_degree": 0,
+  "rows_tested": 35,
+  "rank": 15,
+  "steps": [
+    {
+      "variables": 10,
+      "rank": 18,
+      "affine": 2
+    },
+    {
+      "variables": 8,
+      "rank": 16,
+      "affine": 0
+    }
+  ],
+  "seconds": 0.06252095801755786,
+  "new_kappa": false
+}

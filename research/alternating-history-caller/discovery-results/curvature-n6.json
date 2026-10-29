@@ -1,0 +1,18 @@
+{
+  "n": 6,
+  "status": "UNRESOLVED_BOUNDARY_CURVATURE_SYSTEM",
+  "steps": [
+    {
+      "variables": 18,
+      "rank": 38,
+      "affine_consequences": 2
+    },
+    {
+      "variables": 16,
+      "rank": 36,
+      "affine_consequences": 0
+    }
+  ],
+  "seconds": 0.3827850000234321,
+  "new_kappa": false
+}

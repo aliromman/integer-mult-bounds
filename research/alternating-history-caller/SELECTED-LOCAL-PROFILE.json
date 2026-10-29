@@ -1,0 +1,30 @@
+{
+  "source_commit": "3f0152a32eeebac0df11946dbd50cabe5a7f7839",
+  "audited_source_head": "772dd10a5859a1d15f4851feb371519789213ad8",
+  "source_path": "research/p104-helper470-twin-rung-removal/RESULT.json",
+  "source_sha256": "84fcbe2a0b64307b5703c363408042bdd91555b0419509aa50daa43b3b1924ad",
+  "git_blob": "e4a03118d585fb80c9ac932281b528ac394ccc5f",
+  "kappa": "781451/250000000",
+  "paid": {
+    "1": 2219,
+    "2": 457,
+    "3": 496,
+    "4": 100,
+    "5": 163,
+    "6": 11,
+    "7": 6,
+    "8": 1
+  },
+  "helpers": {
+    "1": 14,
+    "2": 8,
+    "3": 4,
+    "4": 107,
+    "5": 14,
+    "6": 2,
+    "7": 9,
+    "8": 19,
+    "9": 385
+  },
+  "scope": "Read-only profile from the selected certificate; no new native replay or current-source construction claim."
+}

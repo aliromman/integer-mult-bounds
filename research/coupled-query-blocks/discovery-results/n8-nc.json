@@ -1,0 +1,36 @@
+{
+  "n": 8,
+  "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+  "steps": [
+    {
+      "variables": 36,
+      "equations": 113,
+      "rank": 47,
+      "affine_consequences": 11,
+      "extension": 0
+    },
+    {
+      "variables": 25,
+      "equations": 113,
+      "rank": 34,
+      "affine_consequences": 9,
+      "extension": 0
+    },
+    {
+      "variables": 16,
+      "equations": 113,
+      "rank": 23,
+      "affine_consequences": 7,
+      "extension": 0
+    },
+    {
+      "variables": 9,
+      "equations": 82,
+      "rank": 7,
+      "affine_consequences": 7,
+      "extension": 0
+    }
+  ],
+  "seconds": 5.274710749974474,
+  "new_kappa": false
+}

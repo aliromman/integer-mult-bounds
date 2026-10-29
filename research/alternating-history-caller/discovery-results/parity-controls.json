@@ -1,0 +1,73 @@
+{
+  "cases": [
+    {
+      "n": 4,
+      "q": 1,
+      "full_sites": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "idle_rank": 0,
+      "minus_one_dimension": 1,
+      "rank_z": 7,
+      "compressed_rank": 4
+    },
+    {
+      "n": 6,
+      "q": 1,
+      "full_sites": [
+        0,
+        1,
+        3,
+        5,
+        6
+      ],
+      "idle_rank": 1,
+      "minus_one_dimension": 0,
+      "rank_z": 11,
+      "compressed_rank": 5
+    },
+    {
+      "n": 4,
+      "q": 2,
+      "full_sites": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "idle_rank": 1,
+      "minus_one_dimension": 0,
+      "rank_z": 17,
+      "compressed_rank": 8
+    },
+    {
+      "n": 8,
+      "q": 1,
+      "full_sites": [
+        0,
+        2,
+        5,
+        8
+      ],
+      "idle_rank": 0,
+      "minus_one_dimension": 0,
+      "rank_z": 8,
+      "compressed_rank": 4
+    }
+  ],
+  "one_full_exception": {
+    "n": 2,
+    "q": 1,
+    "full_sites": [
+      0
+    ],
+    "idle_rank": 0,
+    "minus_one_dimension": 2,
+    "rank_z": 0,
+    "compressed_rank": 0
+  },
+  "new_kappa": false
+}

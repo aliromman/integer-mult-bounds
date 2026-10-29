@@ -1,0 +1,12 @@
+{
+  "status": "NUMERICAL_FAILURE_NOT_AN_OBSTRUCTION",
+  "completed_trials": 1,
+  "failed_trial": 1,
+  "r": 8,
+  "work": 0,
+  "period": 6,
+  "normalized_planes": true,
+  "error": "numpy.linalg.LinAlgError: SVD did not converge for slice = 0.",
+  "last_completed_max_residual": 1.104230261471788,
+  "new_kappa": false
+}

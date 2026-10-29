@@ -1,0 +1,27 @@
+{
+  "n": 4,
+  "steps": [
+    {
+      "variables": 10,
+      "rank": 17,
+      "affine": 2
+    },
+    {
+      "variables": 8,
+      "rank": 15,
+      "affine": 2
+    },
+    {
+      "variables": 6,
+      "rank": 8,
+      "affine": 0
+    }
+  ],
+  "limit_seconds": 30,
+  "seconds": 0.6061618329258636,
+  "new_kappa": false,
+  "status": "EXACT_GROEBNER_CURVATURE_CONTRADICTION",
+  "basis": [
+    "1"
+  ]
+}

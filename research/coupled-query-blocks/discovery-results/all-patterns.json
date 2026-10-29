@@ -1,0 +1,2389 @@
+{
+  "rows": [
+    {
+      "n": 4,
+      "thin_sites": [],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 4,
+          "equations": 25,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 0,
+          "equations": 14,
+          "rank": 1,
+          "affine_consequences": 1,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.021780417067930102,
+      "new_kappa": false
+    },
+    {
+      "n": 4,
+      "thin_sites": [
+        1
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 1,
+          "equations": 15,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.007837291923351586,
+      "new_kappa": false
+    },
+    {
+      "n": 4,
+      "thin_sites": [
+        2
+      ],
+      "status": "EXACT_FREE_ALGEBRA_SECOND_COEFFICIENT_CONSISTENT",
+      "steps": [
+        {
+          "variables": 1,
+          "equations": 16,
+          "rank": 1,
+          "affine_consequences": 1,
+          "extension": 0
+        },
+        {
+          "variables": 0,
+          "equations": 0,
+          "rank": 0,
+          "affine_consequences": 0,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.010713208001106977,
+      "new_kappa": false
+    },
+    {
+      "n": 4,
+      "thin_sites": [
+        3
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 1,
+          "equations": 12,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.007898042094893754,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 61,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 61,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 41,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.5396833328995854,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        1
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 56,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 39,
+          "rank": 4,
+          "affine_consequences": 4,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.18159954098518938,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        2
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 56,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 56,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 1,
+          "equations": 31,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.21122183301486075,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        3
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 56,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 44,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.1319075000938028,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        4
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 56,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 56,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 1,
+          "equations": 29,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.13881649996619672,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 50,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 30,
+          "rank": 4,
+          "affine_consequences": 4,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.12810504098888487,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        1,
+        2
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 4,
+          "equations": 51,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 0,
+          "equations": 34,
+          "rank": 1,
+          "affine_consequences": 1,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.06917358294595033,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        1,
+        3
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 4,
+          "equations": 42,
+          "rank": 5,
+          "affine_consequences": 5,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.05329212499782443,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        1,
+        4
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 4,
+          "equations": 45,
+          "rank": 5,
+          "affine_consequences": 5,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.05739854206331074,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        1,
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 4,
+          "equations": 35,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.04984016600064933,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        2,
+        3
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 4,
+          "equations": 51,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 0,
+          "equations": 34,
+          "rank": 1,
+          "affine_consequences": 1,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.06920999998692423,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        2,
+        4
+      ],
+      "status": "EXACT_FREE_ALGEBRA_SECOND_COEFFICIENT_CONSISTENT",
+      "steps": [
+        {
+          "variables": 4,
+          "equations": 47,
+          "rank": 4,
+          "affine_consequences": 4,
+          "extension": 0
+        },
+        {
+          "variables": 0,
+          "equations": 0,
+          "rank": 0,
+          "affine_consequences": 0,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.05871333403047174,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        2,
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 4,
+          "equations": 42,
+          "rank": 5,
+          "affine_consequences": 5,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.05053408304229379,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        3,
+        4
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 4,
+          "equations": 51,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 0,
+          "equations": 24,
+          "rank": 1,
+          "affine_consequences": 1,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.07661762495990843,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        3,
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 4,
+          "equations": 40,
+          "rank": 5,
+          "affine_consequences": 5,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.05196266702841967,
+      "new_kappa": false
+    },
+    {
+      "n": 6,
+      "thin_sites": [
+        4,
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 4,
+          "equations": 39,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 0,
+          "equations": 20,
+          "rank": 1,
+          "affine_consequences": 1,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.06790533300954849,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 36,
+          "equations": 113,
+          "rank": 47,
+          "affine_consequences": 11,
+          "extension": 0
+        },
+        {
+          "variables": 25,
+          "equations": 113,
+          "rank": 34,
+          "affine_consequences": 9,
+          "extension": 0
+        },
+        {
+          "variables": 16,
+          "equations": 113,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 82,
+          "rank": 7,
+          "affine_consequences": 7,
+          "extension": 0
+        }
+      ],
+      "seconds": 5.136376083013602,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 25,
+          "equations": 106,
+          "rank": 34,
+          "affine_consequences": 9,
+          "extension": 0
+        },
+        {
+          "variables": 16,
+          "equations": 106,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 80,
+          "rank": 8,
+          "affine_consequences": 8,
+          "extension": 0
+        }
+      ],
+      "seconds": 2.1191084169549868,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 25,
+          "equations": 106,
+          "rank": 34,
+          "affine_consequences": 9,
+          "extension": 0
+        },
+        {
+          "variables": 16,
+          "equations": 106,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 106,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 76,
+          "rank": 5,
+          "affine_consequences": 5,
+          "extension": 0
+        }
+      ],
+      "seconds": 2.441624958999455,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        3
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 25,
+          "equations": 106,
+          "rank": 34,
+          "affine_consequences": 9,
+          "extension": 0
+        },
+        {
+          "variables": 16,
+          "equations": 106,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 83,
+          "rank": 10,
+          "affine_consequences": 10,
+          "extension": 0
+        }
+      ],
+      "seconds": 1.904250374995172,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        4
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 25,
+          "equations": 106,
+          "rank": 34,
+          "affine_consequences": 9,
+          "extension": 0
+        },
+        {
+          "variables": 16,
+          "equations": 106,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 106,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 76,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 3.8757305829785764,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 25,
+          "equations": 106,
+          "rank": 34,
+          "affine_consequences": 9,
+          "extension": 0
+        },
+        {
+          "variables": 16,
+          "equations": 106,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 83,
+          "rank": 10,
+          "affine_consequences": 10,
+          "extension": 0
+        }
+      ],
+      "seconds": 3.8965487079694867,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 25,
+          "equations": 106,
+          "rank": 34,
+          "affine_consequences": 9,
+          "extension": 0
+        },
+        {
+          "variables": 16,
+          "equations": 106,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 106,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 66,
+          "rank": 5,
+          "affine_consequences": 5,
+          "extension": 0
+        }
+      ],
+      "seconds": 2.2469885000027716,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 25,
+          "equations": 98,
+          "rank": 34,
+          "affine_consequences": 9,
+          "extension": 0
+        },
+        {
+          "variables": 16,
+          "equations": 95,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 72,
+          "rank": 8,
+          "affine_consequences": 8,
+          "extension": 0
+        }
+      ],
+      "seconds": 1.778902791091241,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        2
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 99,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 71,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.9203915830003098,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        3
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 76,
+          "rank": 9,
+          "affine_consequences": 9,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.7718170830048621,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        4
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 99,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 68,
+          "rank": 5,
+          "affine_consequences": 5,
+          "extension": 0
+        }
+      ],
+      "seconds": 1.0552308750338852,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 81,
+          "rank": 8,
+          "affine_consequences": 8,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.6001035840017721,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 99,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 66,
+          "rank": 5,
+          "affine_consequences": 5,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.7784439999377355,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 91,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 65,
+          "rank": 7,
+          "affine_consequences": 7,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.754903250024654,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        3
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 99,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 71,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.9544362080050632,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        4
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 99,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 99,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 1,
+          "equations": 69,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 1.3507639999734238,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 99,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 76,
+          "rank": 5,
+          "affine_consequences": 5,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.8204618339659646,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 99,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 99,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 0,
+          "equations": 48,
+          "rank": 1,
+          "affine_consequences": 1,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.8168651669984683,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 91,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 88,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 65,
+          "rank": 5,
+          "affine_consequences": 5,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.7162848330335692,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        3,
+        4
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 99,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 71,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.9941318749915808,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        3,
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 83,
+          "rank": 7,
+          "affine_consequences": 7,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.4584566670237109,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        3,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 99,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 66,
+          "rank": 5,
+          "affine_consequences": 5,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.5807648749323562,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        3,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 91,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 71,
+          "rank": 8,
+          "affine_consequences": 8,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.5824859580025077,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        4,
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 99,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 73,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 1.099547000019811,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        4,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 99,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 99,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 1,
+          "equations": 41,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.5075727920047939,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        4,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 91,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 88,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 61,
+          "rank": 5,
+          "affine_consequences": 5,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.5797713750507683,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        5,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 99,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 99,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 59,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 1.2580446660285816,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        5,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 91,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 59,
+          "rank": 9,
+          "affine_consequences": 9,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.5005219170125201,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        6,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 16,
+          "equations": 83,
+          "rank": 23,
+          "affine_consequences": 7,
+          "extension": 0
+        },
+        {
+          "variables": 9,
+          "equations": 83,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 55,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.9598702910589054,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        2,
+        3
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 69,
+          "rank": 4,
+          "affine_consequences": 4,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.34170350001659244,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        2,
+        4
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 92,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 1,
+          "equations": 57,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.370797208044678,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        2,
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 76,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.2794968329835683,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        2,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 92,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 1,
+          "equations": 59,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.32504925003740937,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        2,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 84,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 58,
+          "rank": 4,
+          "affine_consequences": 4,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.2692011669278145,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        3,
+        4
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 69,
+          "rank": 4,
+          "affine_consequences": 4,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.39113424997776747,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        3,
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 81,
+          "rank": 10,
+          "affine_consequences": 10,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.2188234169734642,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        3,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 86,
+          "rank": 10,
+          "affine_consequences": 10,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.249697457998991,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        3,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 72,
+          "rank": 8,
+          "affine_consequences": 8,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.21766225004103035,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        4,
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 69,
+          "rank": 4,
+          "affine_consequences": 4,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.4594849579734728,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        4,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 88,
+          "rank": 10,
+          "affine_consequences": 10,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.2376705420901999,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        4,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 79,
+          "rank": 8,
+          "affine_consequences": 8,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.2684577920008451,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        5,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 59,
+          "rank": 4,
+          "affine_consequences": 4,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.501408459036611,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        5,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 77,
+          "rank": 8,
+          "affine_consequences": 8,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.21904762496706098,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        1,
+        6,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 76,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 51,
+          "rank": 4,
+          "affine_consequences": 4,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.38714670797344297,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        3,
+        4
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 92,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 1,
+          "equations": 45,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.39913087501190603,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        3,
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 76,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.2802654589759186,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        3,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 92,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 1,
+          "equations": 59,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.3725236669415608,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        3,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 84,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 58,
+          "rank": 4,
+          "affine_consequences": 4,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.2921942080138251,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        4,
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 92,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 1,
+          "equations": 57,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.4741142919519916,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        4,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_SECOND_COEFFICIENT_CONSISTENT",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 88,
+          "rank": 9,
+          "affine_consequences": 9,
+          "extension": 0
+        },
+        {
+          "variables": 0,
+          "equations": 0,
+          "rank": 0,
+          "affine_consequences": 0,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.23655366606544703,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        4,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 81,
+          "rank": 10,
+          "affine_consequences": 10,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.22857204102911055,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        5,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 92,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 1,
+          "equations": 51,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.5733697079122066,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        5,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 84,
+          "rank": 10,
+          "affine_consequences": 10,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.2127691659843549,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        2,
+        6,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 76,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 76,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 1,
+          "equations": 43,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.47126200003549457,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        3,
+        4,
+        5
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 76,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.3391355419298634,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        3,
+        4,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 92,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 1,
+          "equations": 41,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.4002146249404177,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        3,
+        4,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 84,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 52,
+          "rank": 4,
+          "affine_consequences": 4,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.41397762508131564,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        3,
+        5,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 66,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.3365896249888465,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        3,
+        5,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 77,
+          "rank": 10,
+          "affine_consequences": 10,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.22478937497362494,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        3,
+        6,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 76,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 58,
+          "rank": 3,
+          "affine_consequences": 3,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.274507625028491,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        4,
+        5,
+        6
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 92,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 92,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 1,
+          "equations": 41,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.3231487500015646,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        4,
+        5,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 84,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 46,
+          "rank": 4,
+          "affine_consequences": 4,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.3707994169089943,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        4,
+        6,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 76,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 76,
+          "rank": 7,
+          "affine_consequences": 3,
+          "extension": 0
+        },
+        {
+          "variables": 1,
+          "equations": 37,
+          "rank": 2,
+          "affine_consequences": 2,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.2743495419854298,
+      "new_kappa": false
+    },
+    {
+      "n": 8,
+      "thin_sites": [
+        5,
+        6,
+        7
+      ],
+      "status": "EXACT_FREE_ALGEBRA_CONTRADICTION",
+      "steps": [
+        {
+          "variables": 9,
+          "equations": 68,
+          "rank": 14,
+          "affine_consequences": 5,
+          "extension": 0
+        },
+        {
+          "variables": 4,
+          "equations": 40,
+          "rank": 4,
+          "affine_consequences": 4,
+          "extension": 0
+        }
+      ],
+      "seconds": 0.2611973750172183,
+      "new_kappa": false
+    }
+  ],
+  "seconds": 54.03081337502226
+}

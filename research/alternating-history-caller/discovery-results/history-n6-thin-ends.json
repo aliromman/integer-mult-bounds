@@ -1,0 +1,136 @@
+{
+  "n": 6,
+  "period": 0,
+  "boundary_stages": "thin",
+  "full_calls": 3,
+  "thin_calls": 4,
+  "coefficient_variable": "z",
+  "saved_history_rows": 16,
+  "spaces": [
+    {
+      "central_query": true,
+      "degree": 0,
+      "dimension": 1,
+      "basis": [
+        [
+          "0",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      ]
+    },
+    {
+      "central_query": true,
+      "degree": 1,
+      "dimension": 2,
+      "basis": [
+        [
+          "1",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "central_query": true,
+      "degree": 2,
+      "dimension": 0,
+      "basis": []
+    },
+    {
+      "central_query": true,
+      "degree": 3,
+      "dimension": 0,
+      "basis": []
+    },
+    {
+      "central_query": false,
+      "degree": 0,
+      "dimension": 6,
+      "basis": [
+        [
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ]
+    },
+    {
+      "central_query": false,
+      "degree": 1,
+      "dimension": 0,
+      "basis": []
+    },
+    {
+      "central_query": false,
+      "degree": 2,
+      "dimension": 0,
+      "basis": []
+    },
+    {
+      "central_query": false,
+      "degree": 3,
+      "dimension": 0,
+      "basis": []
+    }
+  ],
+  "seconds": 0.06827574991621077,
+  "new_kappa": false
+}

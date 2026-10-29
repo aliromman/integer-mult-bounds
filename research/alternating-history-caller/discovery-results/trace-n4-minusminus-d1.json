@@ -1,0 +1,22 @@
+{
+  "n": 4,
+  "boundary_signs": "--",
+  "status": "NO_CERTIFICATE_IN_TESTED_TRACE_SPAN",
+  "multiplier_degree": 1,
+  "rows_tested": 315,
+  "rank": 128,
+  "steps": [
+    {
+      "variables": 10,
+      "rank": 18,
+      "affine": 2
+    },
+    {
+      "variables": 8,
+      "rank": 16,
+      "affine": 0
+    }
+  ],
+  "seconds": 0.2675537499599159,
+  "new_kappa": false
+}
