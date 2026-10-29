@@ -42,6 +42,15 @@ these three fixed frames.
 These finite failures do not exclude all work-query parameters, matrix
 port coupling, additional stages or a different extension contract.
 
+The later profile_screen.py test allows all six entries of the first stage
+derivative to be independent scalar variables. For each of the three query
+frames, its42-variable rational linear system still contains a nonzero
+constant after elimination. Thus no diagonal stage derivative works in
+those frames, before any projector quadratic is imposed. As a separate
+finite check, all19 redistributions in {0,1,2}^4 of the four old stage
+degrees, with sum4 and new powers2, also fail. Those57 tests change the old
+call contract; they are not direct replacements for two unchanged calls.
+
 ## Replay and open next questions
 
 Use Python3.12 and the adjacent PR6168 polynomial helper:
@@ -49,6 +58,7 @@ Use Python3.12 and the adjacent PR6168 polynomial helper:
     python3.12 -B research/caller-extension-module/discovery.py --b 1 --t 1 --output /tmp/module.json
     python3.12 -B research/caller-extension-module/controls.py
     python3.12 -O -B research/caller-extension-module/controls.py
+    python3.12 -B research/caller-extension-module/profile_screen.py
 
 The controls use literal rational products for the query construction and
 a known five-call completion with new target power three. They reject an

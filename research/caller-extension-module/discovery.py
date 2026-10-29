@@ -6,6 +6,7 @@ then use the complete compatible rank-two projector charts.
 import argparse
 from fractions import Fraction as F
 from itertools import combinations
+from math import comb
 import json
 from pathlib import Path
 import signal
@@ -123,24 +124,18 @@ def coefficient(ps, ts, degree):
     return word[degree] if degree < len(word) else e.zero(6)
 
 
-def equations(ps, ts, target, degree):
-    if degree == 0:
-        stage = e.eye(6)
-    elif degree == 1:
-        stage = e.numeric([[int(i == j)*(2 if i in (2, 3) else 1) for j in range(6)] for i in range(6)])
-    elif degree == 2:
-        stage = e.numeric([[int(i == j and i in (2, 3)) for j in range(6)] for i in range(6)])
-    else:
-        stage = e.zero(6)
+def equations(ps, ts, target, degree, powers=(1, 1, 2, 2, 1, 1)):
+    stage = e.numeric([[int(i == j)*(comb(powers[i], degree) if degree <= powers[i] else 0)
+                        for j in range(6)] for i in range(6)])
     plus = e.ma(coefficient(ps, [e.eye(6) for _ in ps], degree), stage, -1)
     minus = e.ma(coefficient(ps, ts, degree), e.mm(stage, target), -1)
     return [entry for matrix in (plus, minus) for row in matrix for entry in row]
 
 
-def search(b, t, seconds):
+def search(b, t, seconds, powers=(1, 1, 2, 2, 1, 1)):
     start = time.monotonic()
     names, ps, ts, target = construct(b, t)
-    if any(equations(ps, ts, target, 0)):
+    if any(equations(ps, ts, target, 0, powers)):
         raise ValueError('The degree-zero endpoint control fails')
     steps = []
     status = 'UNRESOLVED'
@@ -151,14 +146,14 @@ def search(b, t, seconds):
     signal.signal(signal.SIGALRM, expire)
     signal.alarm(seconds)
     try:
-        values = e.linear_solution(equations(ps, ts, target, 1))
+        values = e.linear_solution(equations(ps, ts, target, 1, powers))
         if values is None:
             status = 'EXACT_FIRST_COEFFICIENT_CONTRADICTION'
         else:
             ps = [e.ms(p, values) for p in ps]
             system = [entry for p in ps for row in e.ma(e.mm(p, p), p, -1) for entry in row]
             for degree in range(2, 5):
-                system += equations(ps, ts, target, degree)
+                system += equations(ps, ts, target, degree, powers)
                 while True:
                     reduced = e.row_reduce(system)
                     affine = [p for p in reduced if all(len(w) <= 1 for w in p)]
@@ -184,6 +179,7 @@ def search(b, t, seconds):
     result = {'b': str(b), 't': str(t), 'fields': 6, 'full_calls': 4,
               'initial_variables': len(names), 'status': status, 'steps': steps,
               'query_endpoint': 'PASS_EXACT_COMPLETE', 'seconds': time.monotonic()-start,
+              'target_powers': list(powers),
               'limit_seconds': seconds, 'new_kappa': False,
               'scope': 'Fixed rational query frame; all compatible scalar full-stage projectors'}
     if status in ('UNRESOLVED', 'COEFFICIENT_FAMILY'):
@@ -191,7 +187,7 @@ def search(b, t, seconds):
                             for row in p for entry in row] for p in ps]
         candidate = [[ [e.const(entry.get((), F(0))) for entry in row] for row in p] for p in ps]
         result['constant_choice_complete'] = not any(entry for degree in range(5)
-            for entry in equations(candidate, ts, target, degree)) and not any(entry for p in candidate
+            for entry in equations(candidate, ts, target, degree, powers)) and not any(entry for p in candidate
             for row in e.ma(e.mm(p, p), p, -1) for entry in row)
     return result
 

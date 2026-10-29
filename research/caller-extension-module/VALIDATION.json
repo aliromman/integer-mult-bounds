@@ -2,18 +2,18 @@
   "status": "Author-side component checks, not independent scientific acceptance",
   "checks": [
     {
-      "name": "module-normal",
+      "name": "controls.py-normal",
       "command": [
         "/Users/aliromman/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/bin/python3.12",
         "-B",
         "research/caller-extension-module/controls.py"
       ],
       "exit_code": 0,
-      "seconds": 0.16425841697491705,
-      "log": "/tmp/imb-research-module-normal.log"
+      "seconds": 0.1598856250056997,
+      "log": "/tmp/imb-module-final-controls-normal.log"
     },
     {
-      "name": "module-optimized",
+      "name": "controls.py-optimized",
       "command": [
         "/Users/aliromman/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/bin/python3.12",
         "-O",
@@ -21,8 +21,31 @@
         "research/caller-extension-module/controls.py"
       ],
       "exit_code": 0,
-      "seconds": 0.1847019580891356,
-      "log": "/tmp/imb-research-module-optimized.log"
+      "seconds": 0.18460195802617818,
+      "log": "/tmp/imb-module-final-controls-optimized.log"
+    },
+    {
+      "name": "profile_screen.py-normal",
+      "command": [
+        "/Users/aliromman/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/bin/python3.12",
+        "-B",
+        "research/caller-extension-module/profile_screen.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.6398222919087857,
+      "log": "/tmp/imb-module-final-profile_screen-normal.log"
+    },
+    {
+      "name": "profile_screen.py-optimized",
+      "command": [
+        "/Users/aliromman/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none/bin/python3.12",
+        "-O",
+        "-B",
+        "research/caller-extension-module/profile_screen.py"
+      ],
+      "exit_code": 0,
+      "seconds": 1.713397708022967,
+      "log": "/tmp/imb-module-final-profile_screen-optimized.log"
     }
   ],
   "unrun": [
@@ -35,6 +58,8 @@
   "new_kappa": false,
   "program_sha256": {
     "controls.py": "5a17d71f54302792bc3b8a493d78dcc4c1d2abfce93f514c5c6a5a276ce38f83",
-    "discovery.py": "9f1da3771c49942ad71d19fd60d86af2a2d499cb696f78b68e25770a4e9242a7"
-  }
+    "discovery.py": "9263fd031d12c1bd423d7271146d01e50b89dad4c09717ae35282a7ec00155c0",
+    "profile_screen.py": "2ae7e2483afebcef95b8467df5745b0d086ba6f06a70ae51271fe939ebf0d5f3"
+  },
+  "diagonal_and_profile_modes_identical_except_time": true
 }
