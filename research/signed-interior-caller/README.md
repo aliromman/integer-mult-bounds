@@ -19,7 +19,10 @@ stage identity z W'=W'(1) W and target multiplicity. All completed trials have
 nonzero residuals. Analytic derivatives have finite-difference controls. The
 three-query two-field triangle is an exact positive control; a changed target
 is rejected. NumPy 2.5.4 and SciPy 1.18.1 were used with Python 3.12.13.
-These failures are not exact impossibility proofs.
+These failures are not exact impossibility proofs. The large intermediate
+free-algebra systems are reproducible from the discovery script. Their
+equation counts, term counts and canonical SHA256 hashes are retained; the
+compact records keep the full affine chart and literal candidate matrices.
 
 favorable-prices.json uses the retained selected PR6030 local profile.
 Its six- and eight-field raw roots are about .00343212 and .00379717, before

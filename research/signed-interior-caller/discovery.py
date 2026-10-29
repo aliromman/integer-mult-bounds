@@ -5,6 +5,7 @@ by the complementary projector. This gives exact polynomial equations.
 The complete original rank-two projector chart is retained.
 """
 import argparse
+import hashlib
 from fractions import Fraction as F
 import json
 from pathlib import Path
@@ -54,7 +55,10 @@ def search(n,inverse,maxdegree,seconds):
         variables=sorted({v for mat in ps for row in mat for p in row for w in p for v in w})
         result['chart_variables']=variables
         result['chart']=[[[[[list(w),str(v)] for w,v in sorted(p.items())] for p in row] for row in mat] for mat in ps]
-        result['equations']=[[[list(w),str(v)] for w,v in sorted(p.items())] for p in system if p]
+        equations=[[[list(w),str(v)] for w,v in sorted(p.items())] for p in system if p]
+        result['equation_count']=len(equations)
+        result['equation_terms']=sum(map(len,equations))
+        result['equations_sha256']=hashlib.sha256(json.dumps(equations,separators=(',',':')).encode()).hexdigest()
     return result
 
 
