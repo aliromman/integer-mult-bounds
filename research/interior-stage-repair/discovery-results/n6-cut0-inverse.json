@@ -1,0 +1,69 @@
+{
+  "n": 6,
+  "cut_after_query": 0,
+  "degree_cap": 2,
+  "inverse_stage": true,
+  "equations": 180,
+  "limit_seconds": 120,
+  "seconds": 0.012529124971479177,
+  "new_kappa": false,
+  "status": "PROJECTOR_SYSTEM_UNRESOLVED",
+  "free_variables": 20,
+  "constant_choice_idempotent": true,
+  "constant_choice": [
+    [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "1",
+      "1",
+      "1"
+    ]
+  ],
+  "projector_steps": [
+    {
+      "rank": 20,
+      "affine": 0
+    }
+  ]
+}

@@ -9,7 +9,17 @@ coupling is allowed. [PARITY.md](PARITY.md) gives a separate all-length
 stage eigenvalue bound for shortest query words, including the extra-stage
 rank charge and the necessary one-full-call exception.
 
-The proof is author-side work. Independent scientific review is pending.
+The fixed family is closed at the selected exponent, including zero, one
+or two full boundaries with either orientation. Equal-sign small cases use
+trace certificates, mixed-sign cases use a pole-rank price bound, and the
+remaining short cases fail a favorable balanced-power price bound. The
+source profile is authenticated against the retained selected PR6030
+certificate. No native, compiler or outer replay is claimed here.
+
+Normal and optimized trace-witness replays pass, including literal 2-by-2
+and 3-by-3 matrix traces and changed-coefficient rejection. The curvature
+block and rational price checks also pass. The proof is author-side work.
+Independent scientific review is pending.
 The stored trace witnesses can be replayed without a search:
 
     python3 -B research/alternating-history-caller/trace_verify.py

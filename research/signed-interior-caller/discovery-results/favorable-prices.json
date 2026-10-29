@@ -1,0 +1,86 @@
+[
+  {
+    "n": 6,
+    "full_calls": 7,
+    "main_profile": {
+      "17": 416,
+      "25": 208
+    },
+    "favorable_root_estimate": 0.00343211939842497,
+    "margin_at_selected": 20.609401694900953,
+    "margin_at_bit_cap": 2.1601607815427997,
+    "exact_endpoint": false,
+    "extra_fees": "omitted",
+    "new_kappa": false
+  },
+  {
+    "n": 8,
+    "full_calls": 9,
+    "main_profile": {
+      "17": 624,
+      "25": 208
+    },
+    "favorable_root_estimate": 0.0037971717624939996,
+    "margin_at_selected": 57.72427328811864,
+    "margin_at_bit_cap": 34.13497978455416,
+    "exact_endpoint": false,
+    "extra_fees": "omitted",
+    "new_kappa": false
+  },
+  {
+    "n": 12,
+    "full_calls": 13,
+    "main_profile": {
+      "17": 1040,
+      "25": 208
+    },
+    "favorable_root_estimate": 0.0041953135368289485,
+    "margin_at_selected": 131.9540164745522,
+    "margin_at_bit_cap": 98.08461779058052,
+    "exact_endpoint": false,
+    "extra_fees": "omitted",
+    "new_kappa": false
+  },
+  {
+    "n": 16,
+    "full_calls": 17,
+    "main_profile": {
+      "17": 1456,
+      "25": 208
+    },
+    "favorable_root_estimate": 0.0044082280520520425,
+    "margin_at_selected": 206.1837596609803,
+    "margin_at_bit_cap": 162.03425579661416,
+    "exact_endpoint": false,
+    "extra_fees": "omitted",
+    "new_kappa": false
+  },
+  {
+    "n": 32,
+    "full_calls": 33,
+    "main_profile": {
+      "17": 3120,
+      "25": 208
+    },
+    "favorable_root_estimate": 0.0047467696664356684,
+    "margin_at_selected": 503.10273240671813,
+    "margin_at_bit_cap": 417.8328078207196,
+    "exact_endpoint": false,
+    "extra_fees": "omitted",
+    "new_kappa": false
+  },
+  {
+    "n": 64,
+    "full_calls": 65,
+    "main_profile": {
+      "17": 6448,
+      "25": 208
+    },
+    "favorable_root_estimate": 0.004925350553344142,
+    "margin_at_selected": 1096.9406778981793,
+    "margin_at_bit_cap": 929.4299118689669,
+    "exact_endpoint": false,
+    "extra_fees": "omitted",
+    "new_kappa": false
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "n": 4,
+  "cut_after_query": 2,
+  "degree_cap": 2,
+  "equations": 64,
+  "limit_seconds": 120,
+  "seconds": 0.003933625062927604,
+  "new_kappa": false,
+  "status": "LINEAR_SYSTEM_CONSISTENT",
+  "free_variables": 5,
+  "constant_choice_idempotent": true,
+  "constant_choice": [
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ]
+}

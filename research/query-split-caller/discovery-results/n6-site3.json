@@ -1,0 +1,32 @@
+{
+  "n": 6,
+  "split_site": 3,
+  "split_weight": "1/2",
+  "queries": 8,
+  "full_calls": 8,
+  "boundary_stages": "cancelled from necessary query equations",
+  "initial_variables": 54,
+  "steps": [
+    {
+      "variables": 25,
+      "equations": 66,
+      "rank": 27,
+      "affine": 8
+    },
+    {
+      "variables": 17,
+      "equations": 66,
+      "rank": 18,
+      "affine": 2
+    },
+    {
+      "variables": 15,
+      "equations": 66,
+      "rank": 16,
+      "affine": 0
+    }
+  ],
+  "status": "UNRESOLVED_SYSTEM",
+  "seconds": 0.7725681669544429,
+  "new_kappa": false
+}

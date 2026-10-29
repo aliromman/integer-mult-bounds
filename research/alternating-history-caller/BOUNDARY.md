@@ -134,9 +134,11 @@ logarithm and alternating exponential series. All reported signs are exact
 rational signs. The separate price bound does not rerun the native source,
 selected caller, compiler or outer theorem.
 
-This closes the fixed alternating-interior family with zero, one or two
-full boundary calls, either orientation, arbitrary compatible boundary
-projectors and arbitrary port coupling. It does not exclude a changed
+This closes the fixed alternating-interior family on the selected 104-port
+source and on whole copies of that source. Zero, one or two full boundaries,
+either orientation and arbitrary compatible boundary projectors are allowed.
+The algebraic exclusions hold at every positive coupled width; the price
+bounds use the stated source invoice and its homogeneous whole-copy scaling. It does not exclude a changed
 interior, extra queries, owned work, extra stage maps, noncentral native
 coefficients or finite-period endpoints that do not lift to formal z.
 No kappa improvement is claimed.

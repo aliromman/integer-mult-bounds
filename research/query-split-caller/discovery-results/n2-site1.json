@@ -1,0 +1,26 @@
+{
+  "n": 2,
+  "split_site": 1,
+  "split_weight": "1/2",
+  "queries": 4,
+  "full_calls": 4,
+  "boundary_stages": "cancelled from necessary query equations",
+  "initial_variables": 2,
+  "steps": [
+    {
+      "variables": 1,
+      "equations": 2,
+      "rank": 1,
+      "affine": 1
+    },
+    {
+      "variables": 0,
+      "equations": 0,
+      "rank": 0,
+      "affine": 0
+    }
+  ],
+  "status": "SECOND_COEFFICIENT_CONSISTENT",
+  "seconds": 0.0016465840162709355,
+  "new_kappa": false
+}

@@ -1,0 +1,45 @@
+{
+  "n": 4,
+  "cut_after_query": 0,
+  "degree_cap": 2,
+  "inverse_stage": true,
+  "equations": 48,
+  "limit_seconds": 120,
+  "seconds": 0.0028588749701157212,
+  "new_kappa": false,
+  "status": "PROJECTOR_SYSTEM_UNRESOLVED",
+  "free_variables": 10,
+  "constant_choice_idempotent": true,
+  "constant_choice": [
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "projector_steps": [
+    {
+      "rank": 10,
+      "affine": 0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "n": 4,
+  "split_site": 2,
+  "split_weight": "1/2",
+  "queries": 6,
+  "full_calls": 6,
+  "boundary_stages": "cancelled from necessary query equations",
+  "initial_variables": 20,
+  "steps": [
+    {
+      "variables": 9,
+      "equations": 28,
+      "rank": 10,
+      "affine": 3
+    },
+    {
+      "variables": 6,
+      "equations": 20,
+      "rank": 6,
+      "affine": 3
+    },
+    {
+      "variables": 2,
+      "equations": 6,
+      "rank": 1,
+      "affine": 1
+    },
+    {
+      "variables": 0,
+      "equations": 0,
+      "rank": 0,
+      "affine": 0
+    }
+  ],
+  "status": "SECOND_COEFFICIENT_CONSISTENT",
+  "seconds": 0.03642799996305257,
+  "new_kappa": false
+}

@@ -1,0 +1,10 @@
+{
+  "n": 12,
+  "cut_after_query": 7,
+  "degree_cap": 2,
+  "equations": 1728,
+  "limit_seconds": 120,
+  "seconds": 2.942301250062883,
+  "new_kappa": false,
+  "status": "EXACT_LINEAR_CONTRADICTION_AT_THIS_CUT"
+}
