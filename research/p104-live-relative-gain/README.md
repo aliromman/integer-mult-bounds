@@ -16,6 +16,8 @@ The check reads the supplied graph and verifies all 1,289 independent input colu
 
 Clear1nsight independently replayed all 1,289 rows in both directions and checked the first reader of each of the 5,700 transfers. The 48 calls have 282,816 paid and 52,512 productive occurrences. An ordered check of the helper owners rejected a swap that preserved the sorted digests. [Independent audit in PR 7906](https://github.com/CrocSwap/integer-mult-bounds/pull/7906)
 
+A second audit reproduced all 13,109,869 forward products and the precision grid. Its finite application uses an older ordinary BIT cap. The multidimensional dirty-bank, erasure and analytic recovery obligations remain open for the changed owner. [Independent precision audit in PR 7932](https://github.com/CrocSwap/integer-mult-bounds/pull/7932)
+
 The repository hook runs the same check with its source pins. Run `python3.12 -B scripts/research_package.py --package research/p104-live-relative-gain`. [Source manifest](SOURCES.json) · [Registered check](VERIFY.json)
 
 The forward replay uses the pinned parent word, layout and bank operations. To run it, use the three source files or directories listed below. Supply local copies at the indicated arguments.
@@ -45,6 +47,8 @@ The 111 binary inputs also need at least nine common scalar summaries over any f
 ## Open next questions
 
 A further change removes four paid transfers and loses one independent direction. A single transfer from chart 3 to chart 117 and 15 local coefficients restore the exact rational map. The available repair price is below 2.2479132439 per call. The grade-five transfer exceeds it by 2.720650297. [Repair equation, witness and reproduction](RATIONAL-REPAIR.md)
+
+A different choice at chart 117 removes another grade-four transfer. This raises the available repair price to 6.2262414658 per call. The source has one fewer exit than independent inputs, and the receiver has one fewer arrival than independent outputs. The complete correction must cover both cuts. [Grade-four removal and exact replay](RATIONAL-REPAIR.md#removing-transfer-99044)
 
 At the trial 0.00391884648 the rational signed margin is in [−36.1508758544792045, −36.1508758544792044]. The binary margin is in [−14.9873626241398933, −14.9873626241398932]. Both must become positive before qualification at this trial. The five framework assumptions apply to the parent complete result. A change that clears both tariffs also needs a complete compiler, precision, ordinary BIT and outer application replay. [Coordination](https://github.com/CrocSwap/integer-mult-bounds/discussions/7111#discussioncomment-19777325) · [Prior contribution and comparison](https://github.com/CrocSwap/integer-mult-bounds/pull/7776)
 

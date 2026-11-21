@@ -53,7 +53,7 @@
         "{package}/verify_projection.py"
       ],
       "timeout_seconds": 90,
-      "checks": "Check the projected and repaired chart 117 maps on all public fields. Bound both tariffs."
+      "checks": "Check both rank-one circuits and the grade-five repair on all public fields. Bound the two repair allowances and check the source and receiver cuts."
     },
     {
       "argv": [

@@ -26,6 +26,12 @@ Chart 3 forms the scalar qᵀx from its public inputs. Send it to chart 117 on a
 
 The new transfer has grade five. At the trial its price exceeds the available margin by between 2.7206502969 and 2.7206502971 per call. The calculation includes all 48 occurrences. This gives a constructive price for a full repair. A cheaper supply of the same signal or a separate transfer saving is still needed.
 
+## Removing transfer 99044
+
+A different choice of the payload on transfer 95 permits a further removal. Transfer 99044 used to carry a grade-four scalar from chart 117 to chart 127. In the revised circuit, the remaining receipts can supply its contribution in dependency order. There are now 5,695 paid transfers. The same projection formula holds with 122 nonzero entries in h and 303 in q. All 303 entries are independent helper inputs that start at chart 3 and should finish at chart 127. The checker verifies all 1,289 rows with 13,917,684 integer products. [Delta from the common parent](Q117-99044.json.gz)
+
+The available price to restore independence at these endpoints is between 6.2262414658 and 6.2262414659 per call at the trial. Two cuts constrain a repair. Chart 3 has 907 independent initial fields, no terminal fields and 906 outgoing transfers. Chart 127 has no initial fields, 901 independent terminal fields and 900 incoming transfers. Each fixed-endpoint repair must add capacity at both cuts. A new scalar sent from chart 3 to chart 117 reaches only the first cut. Its success on the earlier circuit does not certify this one. Changing an endpoint also changes its income in the caller.
+
 ## Open next question
 
 Can existing receipts deliver the correction (Mh)(qᵀx) within the available price? A repair needs to supply the correct coefficients to each affected output in a valid order. The input coform is available at chart 3. A low price for moving it once does not establish that the recipients can use it at their required charts.
