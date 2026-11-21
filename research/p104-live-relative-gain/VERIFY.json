@@ -74,6 +74,17 @@
       ],
       "timeout_seconds": 180,
       "checks": "Rebuild the 5680-transfer graph. Check all rational rows and columns, the smallest product grid, both 48-call crossing signs and the trial deficit."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify_bidirectional.py",
+        "--quotient"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Rebuild the 5676-transfer quotient. Check every terminal, every input column, the common product grid, the 48-call crossing and the trial margin."
     }
   ]
 }

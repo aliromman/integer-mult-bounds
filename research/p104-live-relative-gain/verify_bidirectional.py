@@ -1,4 +1,5 @@
 """Rebuild the rational circuit and replay its scalar map and caller tariff."""
+import argparse
 from collections import Counter
 from fractions import Fraction
 from functools import cache
@@ -17,7 +18,7 @@ def rational(text):
 
 
 def reconstruct(parent, delta):
-    check(canonical(parent) == delta["parent"] == read("RATIONAL-RECEIPT.json")["word"], "parent word")
+    check(canonical(parent) == delta["parent"], "parent word")
     moves = {k: (a, b) for k, a, b in parent["moves"]}
     forms = {k: dict(row) for k, row in parent["forms"]}
     for k in delta["removed"]:
@@ -103,8 +104,18 @@ def forward(word, layout):
 
 
 def main():
-    parent, delta = read("WORD.json.gz"), read("BIDIRECTIONAL.json.gz")
-    receipt = read("BIDIRECTIONAL-RECEIPT.json")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--quotient", action="store_true", help="check the four-term quotient on the rebuilt parent")
+    args = parser.parse_args()
+    parent = read("WORD.json.gz")
+    check(canonical(parent) == read("RATIONAL-RECEIPT.json")["word"], "initial word")
+    prefix = "BIDIRECTIONAL"
+    if args.quotient:
+        parent, _ = reconstruct(parent, read("BIDIRECTIONAL.json.gz"))
+        check(canonical(parent) == read("BIDIRECTIONAL-RECEIPT.json")["new_word"], "intermediate word")
+        prefix = "BIDIRECTIONAL-QUOTIENT"
+    delta = read(prefix + ".json.gz")
+    receipt = read(prefix + "-RECEIPT.json")
     word, edits = reconstruct(parent, delta)
     check(delta["word"] == receipt["new_word"] and len(word["moves"]) == receipt["moves"], "word and charge count")
     check(len(parent["moves"]) == receipt["old_moves"] and len(delta["removed"]) == receipt["retired"]
