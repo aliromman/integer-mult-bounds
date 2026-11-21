@@ -1,0 +1,65 @@
+name: Single-band multiplication verification
+on:
+  push:
+    branches: [codex/verify-single-band-3308ff2]
+permissions:
+  contents: read
+jobs:
+  research:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          fetch-depth: 3
+          persist-credentials: false
+          sparse-checkout: |
+            research/single-band-native-carriers
+            research/delayed-cover-physical-batch-routing
+            research/unconditional-batched-crt
+            scripts
+            tests
+            notes
+            certificates
+            docs/research
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Check the exact submitted sources and the published navigation repair
+        shell: bash
+        run: |
+          test "$(git rev-parse HEAD:research/single-band-native-carriers)" = d1592eea6cf2090d7d95c07c8a9f1b9c3d0e165b
+          test "$(git rev-parse HEAD:certificates/selected-result.json)" = 75d77b328ea02ded535e7f23aee5b1e55d0bb1a8
+          python -IB tests/test_research_current_status.py CurrentCiNavigationTests.test_current_ci_section_matches_selected_record
+      - name: Replay the eight registered checks on Linux
+        run: python -B scripts/research_package.py --package research/single-band-native-carriers
+      - name: Verify that all committed inputs were preserved
+        run: git diff --exit-code
+  formal:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            research/single-band-native-carriers/lean
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Install the official checksum-pinned Linux toolchain
+        shell: bash
+        run: |
+          test "$(git rev-parse HEAD:research/single-band-native-carriers)" = d1592eea6cf2090d7d95c07c8a9f1b9c3d0e165b
+          curl --fail --location --retry 3 https://github.com/leanprover/lean4/releases/download/v4.34.1/lean-4.34.1-linux.tar.zst -o "$RUNNER_TEMP/lean.tar.zst"
+          echo "47bf4bbd78f70c2e9670598ab7124d92b6efb7330ff33e5fbb4030f6fd72e4e4  $RUNNER_TEMP/lean.tar.zst" | sha256sum -c
+          tar --zstd -xf "$RUNNER_TEMP/lean.tar.zst" -C "$RUNNER_TEMP"
+          unlink "$RUNNER_TEMP/lean.tar.zst"
+          echo "$RUNNER_TEMP/lean-4.34.1-linux/bin" >> "$GITHUB_PATH"
+      - name: Get the pinned mathlib imports
+        working-directory: research/single-band-native-carriers/lean
+        run: lake exe cache get Mathlib/Tactic.lean Mathlib/Analysis/SpecialFunctions/Pow/Real.lean Mathlib/Algebra/Order/BigOperators/Ring/Finset.lean Mathlib/Algebra/Order/Floor/Div.lean Mathlib/Data/Nat/Choose/Sum.lean
+      - name: Kernel-replay three modules and inspect all declared axioms
+        run: python -IB research/single-band-native-carriers/verify_formal.py
+      - name: Check that the committed proof sources did not change
+        run: git diff --exit-code
