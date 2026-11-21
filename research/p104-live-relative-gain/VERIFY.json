@@ -24,6 +24,16 @@
       ],
       "timeout_seconds": 30,
       "checks": "Check the exact mixed output in the two-level binary caller and the diagonal control."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify_decoder_triples.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Verify the exact integer movement rank of each of the 84 triples on the frozen binary stock."
     }
   ]
 }

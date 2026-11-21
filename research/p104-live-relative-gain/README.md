@@ -36,6 +36,8 @@ The replay reconstructs the graph from the journal and checks its canonical dige
 
 A two-contact binary word leaves a mixed term. A literal replay of its two-level chronological product gives 50 wrong addresses on an input and output of the same Hamming weight. The calculation uses the actual paid moves and exact rational address coordinates. [Counterexample and reproduction](BINARY-PRODUCT.md)
 
+Every triple of the nine frozen binary decoder returns needs total movement rank 21 on the retained stock. A new network for one triple can save less than 0.162 per call at the trial. The binary circuit needs more than 0.416 per call. [Proof and exact replay](BINARY-DECODER.md)
+
 ## Open next questions
 
 At the trial 0.00391884648 the rational signed margin is in [−36.1508758544792045, −36.1508758544792044]. The binary margin is in [−14.9873626241398933, −14.9873626241398932]. Both must become positive before qualification at this trial. The five framework assumptions apply to the parent complete result. A change that clears both tariffs also needs a complete compiler, precision, ordinary BIT and outer application replay. [Coordination](https://github.com/CrocSwap/integer-mult-bounds/discussions/7111#discussioncomment-19777325) · [Prior contribution and comparison](https://github.com/CrocSwap/integer-mult-bounds/pull/7776)
