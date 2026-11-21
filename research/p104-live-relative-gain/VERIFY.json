@@ -64,6 +64,16 @@
       ],
       "timeout_seconds": 30,
       "checks": "Prove the scalar index lower bound on the 111 binary roots and all 180 listed chart complements. Check the nine-summary binary construction."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify_bidirectional.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Rebuild the 5680-transfer graph. Check all rational rows and columns, the smallest product grid, both 48-call crossing signs and the trial deficit."
     }
   ]
 }

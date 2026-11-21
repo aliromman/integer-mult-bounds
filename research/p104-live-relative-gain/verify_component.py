@@ -154,6 +154,18 @@ def margin(paid, targets, saving):
     return Fraction(lo, SCALE), Fraction(hi, SCALE)
 
 
+def check_decrease(paid, targets):
+    # Bound the derivative divided by ln(2) from above on [0, 0.004].
+    derivative = 0
+    for rank in paid.keys() | targets.keys():
+        count = targets[rank] - paid[rank]
+        if count > 0:
+            derivative -= count * (rank.bit_length() - 1) * price(rank, "0.004")[0]
+        else:
+            derivative -= count * (rank - 1).bit_length() * rank * SCALE
+    check(derivative < 0, "strict decrease on the comparison interval")
+
+
 def main():
     word = read("WORD.json.gz")
     layout = read("LAYOUT.json.gz")
@@ -166,15 +178,7 @@ def main():
         check({str(k): v for k, v in bins.items()} == receipt[name], name)
     lower, upper = map(Fraction, receipt["crossing"])
     check(margin(paid, targets, lower)[0] > 0 and margin(paid, targets, upper)[1] < 0, "crossing signs")
-    # Bound the derivative divided by ln(2) from above on [0, 0.004].
-    derivative = 0
-    for rank in paid.keys() | targets.keys():
-        count = targets[rank] - paid[rank]
-        if count > 0:
-            derivative -= count * (rank.bit_length() - 1) * price(rank, "0.004")[0]
-        else:
-            derivative -= count * (rank - 1).bit_length() * rank * SCALE
-    check(derivative < 0, "strict decrease on the comparison interval")
+    check_decrease(paid, targets)
     probe = margin(paid, targets, "0.00391884648")
     left, right = map(Fraction, receipt["target_margin"])
     check(left <= probe[0] <= probe[1] <= right < 0, "target interval")

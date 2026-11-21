@@ -97,20 +97,20 @@
     ]
   },
   "scope_status": "refined",
-  "actual_scope": "Change the rational graph in PR 7830. Add an independent return through chart 1048, change the return shared by five helpers and remove two transfers with one source relation. Price all 48 calls.",
+  "actual_scope": "Change the rational graph in PR 7830. Use source relations and joint chart bases, then reconstruct chart transfers from their forward and adjoint signals. Verify all independent fields and price all 48 calls. Test changes to the binary caller at the same target.",
   "scope_change_reason": "The latest mixed-rank graph on the live queue supplies the concrete bank and the matching closed caller.",
   "bottleneck_link": "The complete application needs both the rational and binary circuits to support the trial saving. This package increases the rational raw crossing.",
   "budget_minutes": 720,
   "stop_rule": "Report a complete gain only after both circuits and their complete application exceed the live comparison.",
   "outcome": "partial",
-  "evidence": "EVENTS.json, AUDIT.json and RATIONAL-RECEIPT.json bind the reconstruction, exact rational columns and the 48-call cost.",
+  "evidence": "EVENTS.json and AUDIT.json bind the 5700-transfer parent. BIDIRECTIONAL.json.gz and BIDIRECTIONAL-RECEIPT.json give the 5680-transfer successor, both exact scalar replays and the 48-call cost.",
   "author": "Ali Romman",
   "ai_assistance": "Substantial OpenAI Codex assistance.",
   "open_questions": [
     {
-      "question": "Can another paid return yield an independent helper after a change of basis?",
+      "question": "Can another pair of forward and adjoint signals share one paid transfer?",
       "why_it_matters": "The 48-call circuit still has a negative signed margin at the trial.",
-      "first_step": "Inspect the five receivers of transfer 92453 and the source form of receipt 91155 in the journal.",
+      "first_step": "Use the 21 chart pairs in BIDIRECTIONAL-RECEIPT.json to reconstruct the changed graph. Check all reader dependencies when testing a new pair.",
       "blocked_by": "A new exact delivery and restoration for all independent inputs."
     },
     {
