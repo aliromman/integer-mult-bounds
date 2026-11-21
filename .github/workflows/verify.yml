@@ -59,7 +59,7 @@ jobs:
           echo "$RUNNER_TEMP/lean-4.34.1-linux/bin" >> "$GITHUB_PATH"
       - name: Get the pinned mathlib imports
         working-directory: research/single-band-native-carriers/lean
-        run: lake exe cache get Mathlib/Tactic.lean Mathlib/Analysis/SpecialFunctions/Pow/Real.lean Mathlib/Algebra/Order/BigOperators/Ring/Finset.lean Mathlib/Algebra/Order/Floor/Div.lean Mathlib/Data/Nat/Choose/Sum.lean
+        run: lake exe cache get Mathlib.Tactic Mathlib.Analysis.SpecialFunctions.Pow.Real Mathlib.Algebra.Order.BigOperators.Ring.Finset Mathlib.Algebra.Order.Floor.Div Mathlib.Data.Nat.Choose.Sum
       - name: Kernel-replay three modules and inspect all declared axioms
         run: python -IB research/single-band-native-carriers/verify_formal.py
       - name: Check that the committed proof sources did not change

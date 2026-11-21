@@ -1,0 +1,550 @@
+{
+  "canonical_ci": {
+    "control": "Same failure on the byte-identical guide, selected record, current-status document and test from the canonical base.",
+    "failed_test": "CurrentCiNavigationTests.test_current_ci_section_matches_selected_record",
+    "failures": 1,
+    "replay_job": "skipped",
+    "skipped_tests": 24,
+    "tests_reported": 760,
+    "url": "https://github.com/CrocSwap/integer-mult-bounds/actions/runs/44938535995"
+  },
+  "comparable_source_replay": {
+    "commit": "c3837013dd7e2c50f6c3065c8f99d52a33b617bb",
+    "complete_conditional_price": "0.00389011527141",
+    "result": "PASS_PAIRED_SOURCE_MOMENT"
+  },
+  "independent_setup_check": {
+    "high_paid": 3108,
+    "log2_expanded_lower_separate_calculation": 3369453038493750,
+    "raw_paid": 107460,
+    "rounded_down_levels": [
+      123333330000,
+      106665800000,
+      92250750000,
+      79783780000,
+      69001620000,
+      59676590000,
+      51611760000
+    ]
+  },
+  "intrinsic_exponents": {
+    "interpretation": "Ratios compare exponents, not the dimensions or elapsed times. The two axis shapes in each profile use the same input.",
+    "physical_baseline_commit": "9585c1fa2ed5f2316ac09e04b357cb720badfcb8",
+    "profiles": {
+      "compact": {
+        "fixed_setup_log2_sum_bound": 1638400002,
+        "installed_exponents": [
+          1600000,
+          610000,
+          1638400000,
+          2471428
+        ],
+        "old_necessary_vs_new_sufficient_precision_exponent_strict_ratio_floor": 143949205,
+        "old_sixth_stage_necessary_log2_trit_width": 355760240964240,
+        "prior_exponents": [
+          236800000000000,
+          3300000000,
+          4736000000000000000,
+          355763540965264
+        ],
+        "reduction_in_exponents": [
+          "148000000",
+          "330000/61",
+          "2890625000",
+          "88940885241316/617857"
+        ],
+        "same_input_new_all_private_setup_log2_bound": 1468548787717,
+        "same_input_old_dense_matrix_log2": 1501199875790166
+      },
+      "high-rate": {
+        "fixed_setup_log2_sum_bound": 229376000000003,
+        "installed_exponents": [
+          224000000000,
+          1600000,
+          229376000000000,
+          267186701153
+        ],
+        "old_necessary_vs_new_sufficient_precision_exponent_strict_ratio_floor": 1331,
+        "old_sixth_stage_necessary_log2_trit_width": 355760240964240,
+        "prior_exponents": [
+          236800000000000,
+          3300000000,
+          4736000000000000000,
+          355763540965264
+        ],
+        "reduction_in_exponents": [
+          "7400/7",
+          "4125/2",
+          "578125/28",
+          "355763540965264/267186701153"
+        ],
+        "same_input_new_all_private_setup_log2_bound": 192427450469892962,
+        "same_input_old_dense_matrix_log2": 12895208742556044530199212
+      },
+      "price-match": {
+        "fixed_setup_log2_sum_bound": 1605632000000003,
+        "installed_exponents": [
+          1568000000000,
+          1600000,
+          1605632000000000,
+          1870297303584
+        ],
+        "old_necessary_vs_new_sufficient_precision_exponent_strict_ratio_floor": 190,
+        "old_sixth_stage_necessary_log2_trit_width": 355760240964240,
+        "prior_exponents": [
+          236800000000000,
+          3300000000,
+          4736000000000000000,
+          355763540965264
+        ],
+        "reduction_in_exponents": [
+          "7400/49",
+          "4125/2",
+          "578125/196",
+          "22235221310329/116893581474"
+        ],
+        "same_input_new_all_private_setup_log2_bound": 1539145727545373217,
+        "same_input_old_dense_matrix_log2": 825293359523586849932749484
+      }
+    },
+    "vector_order": [
+      "largest binary rank",
+      "positive rank",
+      "dominant setup stream",
+      "A in p >= 2^A"
+    ]
+  },
+  "lean": {
+    "environments": [
+      "macOS arm64",
+      "Ubuntu 24.04 aarch64"
+    ],
+    "kernel_objects": [
+      "BandFlow",
+      "Profiles",
+      "SquareSieve"
+    ],
+    "mathlib": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+    "observed_axioms": {
+      "BandFlow.finite_flow": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "BandFlow.installed_nineteen_bit_floor": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "BandFlow.interface_fringe": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "BandFlow.local_charge": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "BandFlow.normalized_flow": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "BandFlow.outer_five_bit_floor": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "BandFlow.paired_high_monotone": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "BandFlow.period_price": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "BandFlow.port_allowance": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "BandFlow.source_columns": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "BandFlow.stage_reserve": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "BandFlow.terminal_allowance": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "BandFlow.weighted_nested": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "Profiles.allConsumers": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "Profiles.ordinaryFunding": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "Profiles.trueWidthCuts": [],
+      "SquareGeometry.compactStripe": [
+        "Quot.sound",
+        "propext"
+      ],
+      "SquareGeometry.higherStripe": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "SquareGeometry.postjumpRise": [
+        "Quot.sound",
+        "propext"
+      ],
+      "SquareGeometry.priceMatchStripe": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "SquareSieve.lowerIndicator": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "version": "4.34.1"
+  },
+  "linux_navigation_base": "0618e75a22cec54d1651394ef83d088551b7f026",
+  "linux_timing_files_changed_since_measurement": [
+    "research/single-band-native-carriers/ACTUAL-SETUP.md",
+    "research/single-band-native-carriers/README.md",
+    "research/single-band-native-carriers/VERIFICATION.md",
+    "research/single-band-native-carriers/prior_setup.py",
+    "research/single-band-native-carriers/verify.py"
+  ],
+  "linux_timing_source_commit": "3308ff29122688eb42eb85f3de068973fb212a15",
+  "macos_read_only_export": {
+    "architecture": "arm64",
+    "commands": [
+      "price",
+      "band",
+      "dense",
+      "binary",
+      "grid",
+      "atlas",
+      "physical",
+      "product"
+    ],
+    "elapsed_seconds": {
+      "atlas": 94.057,
+      "band": 0.878,
+      "binary": 7.471,
+      "dense": 8.093,
+      "grid": 5.988,
+      "physical": 91.193,
+      "price": 4.197,
+      "product": 76.306
+    },
+    "external_inputs": 0,
+    "git_on_path": false,
+    "python_version": "3.12.16",
+    "source_mutations": 0
+  },
+  "matched_linux_submission": {
+    "previous": {
+      "H_calls": 1270464,
+      "bits": [
+        320,
+        312
+      ],
+      "checked_coordinates": 225,
+      "coefficients_prefix": [
+        28424,
+        40159,
+        90582,
+        98977,
+        106430
+      ],
+      "logical_site_H_pairs": 650477568,
+      "padded_sites": 512,
+      "path": "inputs.triangular.multiplier",
+      "physical_shuttles_by_width": {},
+      "product": "-11431366421092075524683297639381460546834533649120934829638807837070964041456768434592754848402513865043787379160713430616016742092874358360765107440028411901665042566206454368793430246772232",
+      "product_sha256": "c9603dcaff035d426fea9b30457676abbf2bf239281d0cae39729c1aea01e598",
+      "seconds": 1204.55,
+      "setup_seconds": 53.4984,
+      "signed_operands": [
+        "-1530365680167506482900568992414870127523462880613448587036326719125528800777189538514173824305617",
+        "7469696013988534437758483210636076837864300393714512446804304287543960496990623892923904649096"
+      ],
+      "true_sides": [
+        9,
+        25
+      ]
+    },
+    "single_band": {
+      "H_calls": 1270464,
+      "bits": [
+        320,
+        312
+      ],
+      "checked_coordinates": 225,
+      "coefficients_prefix": [
+        28424,
+        40159,
+        90582,
+        98977,
+        106430
+      ],
+      "logical_site_H_pairs": 650477568,
+      "padded_sites": 512,
+      "physical_shuttles_by_width": {
+        "1": 322
+      },
+      "product": "-11431366421092075524683297639381460546834533649120934829638807837070964041456768434592754848402513865043787379160713430616016742092874358360765107440028411901665042566206454368793430246772232",
+      "product_sha256": "c9603dcaff035d426fea9b30457676abbf2bf239281d0cae39729c1aea01e598",
+      "seconds": 1203.7278,
+      "setup_seconds": 53.2737,
+      "signed_operands": [
+        "-1530365680167506482900568992414870127523462880613448587036326719125528800777189538514173824305617",
+        "7469696013988534437758483210636076837864300393714512446804304287543960496990623892923904649096"
+      ],
+      "true_sides": [
+        9,
+        25
+      ]
+    }
+  },
+  "matched_macos_development": [
+    {
+      "H_calls": 332904,
+      "bits": [
+        120,
+        120
+      ],
+      "coefficients_prefix": [
+        16777215,
+        16777215,
+        50331645,
+        50331645,
+        140737547075580
+      ],
+      "padded_sites": 16,
+      "path": "inputs.triangular.multiplier",
+      "physical_shuttles_by_width": {},
+      "product": "-883423637701483833349583737127800364542908472631551038702981179062091775",
+      "seconds": 107.851,
+      "setup_seconds": 2.6519,
+      "true_sides": [
+        9
+      ]
+    },
+    {
+      "H_calls": 332904,
+      "bits": [
+        120,
+        120
+      ],
+      "coefficients_prefix": [
+        16777215,
+        16777215,
+        50331645,
+        50331645,
+        140737547075580
+      ],
+      "padded_sites": 16,
+      "path": "band_product",
+      "physical_shuttles_by_width": {},
+      "product": "-883423637701483833349583737127800364542908472631551038702981179062091775",
+      "seconds": 108.8395,
+      "setup_seconds": 2.691,
+      "true_sides": [
+        9
+      ]
+    },
+    {
+      "H_calls": 157248,
+      "bits": [
+        20,
+        19
+      ],
+      "coefficients_prefix": [
+        11811,
+        10996,
+        4152,
+        868,
+        77
+      ],
+      "padded_sites": 32,
+      "path": "inputs.triangular.multiplier",
+      "physical_shuttles_by_width": {},
+      "product": "-345550037539",
+      "seconds": 71.4122,
+      "setup_seconds": 0.8851,
+      "true_sides": [
+        3,
+        5
+      ]
+    },
+    {
+      "H_calls": 157248,
+      "bits": [
+        20,
+        19
+      ],
+      "coefficients_prefix": [
+        11811,
+        10996,
+        4152,
+        868,
+        77
+      ],
+      "padded_sites": 32,
+      "path": "band_product",
+      "physical_shuttles_by_width": {
+        "1": 138
+      },
+      "product": "-345550037539",
+      "seconds": 90.2242,
+      "setup_seconds": 0.8887,
+      "true_sides": [
+        3,
+        5
+      ]
+    },
+    {
+      "H_calls": 1270464,
+      "bits": [
+        20,
+        19
+      ],
+      "coefficients_prefix": [
+        11811,
+        10996,
+        4152,
+        868,
+        77
+      ],
+      "padded_sites": 512,
+      "path": "inputs.triangular.multiplier",
+      "physical_shuttles_by_width": {},
+      "product": "-345550037539",
+      "seconds": 1927.5391,
+      "setup_seconds": 50.5949,
+      "true_sides": [
+        9,
+        25
+      ]
+    },
+    {
+      "H_calls": 1270464,
+      "bits": [
+        20,
+        19
+      ],
+      "coefficients_prefix": [
+        11811,
+        10996,
+        4152,
+        868,
+        77
+      ],
+      "padded_sites": 512,
+      "path": "band_product",
+      "physical_shuttles_by_width": {
+        "1": 322
+      },
+      "product": "-345550037539",
+      "seconds": 1961.6434,
+      "setup_seconds": 54.2732,
+      "true_sides": [
+        9,
+        25
+      ]
+    }
+  ],
+  "navigation_control": "test_current_ci_section_matches_selected_record passes with the existing navigation repair. The canonical PR workflow stops on the stale guide on original main.",
+  "original_base": "e54523517d0f03e58352e647c403a5af3e525a57",
+  "package_git_tree": "3a1c001cbf175ae48ee1d56e56e4723eda1c8218",
+  "predecessor_actual_setup_lower": {
+    "expanded_stream_log2_lower": 3366293830151418,
+    "levels": [
+      [
+        236800000000000,
+        123333333332,
+        989379999989304
+      ],
+      [
+        204733333331120,
+        106631944442,
+        1542121458306300
+      ],
+      [
+        177009027773720,
+        92192201964,
+        2020012510800840
+      ],
+      [
+        153039055260240,
+        79707841280,
+        2433189149929344
+      ],
+      [
+        132315016524800,
+        68914071105,
+        2790414785832534
+      ],
+      [
+        114397358034300,
+        59581957308,
+        3099266116865640
+      ],
+      [
+        98906049131280,
+        51513567255,
+        3366293830151418
+      ]
+    ],
+    "lower_to_upper_exponent_ratio_floor": {
+      "compact": 2054622,
+      "high-rate": 14,
+      "price-match": 2
+    },
+    "old_final_gate_log2": 355760240964240,
+    "top_exit_table_log2_lower": 989379999989304
+  },
+  "research_pr": "https://github.com/CrocSwap/integer-mult-bounds/pull/8030",
+  "source_commit": "6285dd829114705862e8d91facaedc1f31d3cfcb",
+  "source_members_matched_to_git": 158,
+  "timing_scope": "One run in each stated environment. Other verification ran concurrently. The Mac timing campaign began during development. The Ubuntu timing comparison used the submitted product implementation and its byte-pinned predecessor on the recorded commit. The later change adds a verifier and documentation. All timed code bytes match the final submission. H calls times padded sites counts logical site-H pairs. These are finite measurements; no production-scale run or crossover was measured.",
+  "ubuntu_replay": {
+    "commands": [
+      "price",
+      "band",
+      "dense",
+      "binary",
+      "grid",
+      "atlas",
+      "physical",
+      "product"
+    ],
+    "kernel": "6.8.0-142-generic",
+    "os": "Ubuntu 24.04 aarch64",
+    "python_version": "3.12.3",
+    "registered_result": "PASS_REGISTERED_RESEARCH_PACKAGE research/single-band-native-carriers outcome=completed"
+  }
+}
