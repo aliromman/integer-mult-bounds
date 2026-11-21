@@ -32,6 +32,10 @@ The replay reconstructs the graph from the journal and checks its canonical dige
 | Parent engine directory | [Ali Romman, PR 7776, complex](https://github.com/CrocSwap/integer-mult-bounds/tree/4f7c67ae387cc91580f469aeda4d508b372b9ec1/research/p104-dual-supplier-lift/complex) |
 | Fixed caller counts | [PR 7830, caller_census in DOUBLE-APPLICATION.json](https://github.com/CrocSwap/integer-mult-bounds/blob/87fbf4f7b35b0f18ab12b5767775a9a424cf0b15/research/p104-chart306-chain/DOUBLE-APPLICATION.json) |
 
+## Binary caller test
+
+A two-contact binary word leaves a mixed term. A literal replay of its two-level chronological product gives 50 wrong addresses on an input and output of the same Hamming weight. The calculation uses the actual paid moves and exact rational address coordinates. [Counterexample and reproduction](BINARY-PRODUCT.md)
+
 ## Open next questions
 
 At the trial 0.00391884648 the rational signed margin is in [−36.1508758544792045, −36.1508758544792044]. The binary margin is in [−14.9873626241398933, −14.9873626241398932]. Both must become positive before qualification at this trial. The five framework assumptions apply to the parent complete result. A change that clears both tariffs also needs a complete compiler, precision, ordinary BIT and outer application replay. [Coordination](https://github.com/CrocSwap/integer-mult-bounds/discussions/7111#discussioncomment-19777325) · [Prior contribution and comparison](https://github.com/CrocSwap/integer-mult-bounds/pull/7776)

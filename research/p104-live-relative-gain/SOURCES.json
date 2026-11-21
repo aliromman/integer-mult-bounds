@@ -69,6 +69,13 @@
       "pin": "head:87fbf4f7b35b0f18ab12b5767775a9a424cf0b15:research/p104-mixed-rank-supplier/NOTICE",
       "git_blob": "fe51894a1a630c6feee4b13da2a0499e41ee6edf",
       "sha256": "b213998c8dae6d88e4a1f0fd17c81dd78c31ef35bc9460fa16ca692326f1a02b"
+    },
+    {
+      "path": "research/p104-iterated-returns/binary/WORD.json.gz",
+      "usage": "provenance",
+      "pin": "head:89a67c404226d51028e135de2b9169e9020d57af:research/p104-iterated-returns/binary/WORD.json.gz",
+      "git_blob": "efb2e9d1c3caec25bea36803ca6994997e3256b0",
+      "sha256": "d28f0d28d9d87d5fe57b8ef19e12faf98014f0bbef781987ce22daaa82f21cb9"
     }
   ]
 }

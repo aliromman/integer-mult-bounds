@@ -14,6 +14,16 @@
       ],
       "timeout_seconds": 120,
       "checks": "Check the signed coefficients on every independent input, the chart of each donor, both signs of the 48-call crossing and the complete deficit at the trial."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify_binary_product.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Check the exact mixed output in the two-level binary caller and the diagonal control."
     }
   ]
 }
