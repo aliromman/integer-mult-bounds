@@ -44,6 +44,16 @@
       ],
       "timeout_seconds": 90,
       "checks": "Use a C++20 compiler and 256 lattice models to certify the movement bound for all 788035 binary three-spaces in the same decoder span."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify_projection.py"
+      ],
+      "timeout_seconds": 90,
+      "checks": "Rebuild the chart 117 circuit, verify its rank-one error on all public fields and compute the available price for an independent repair."
     }
   ]
 }
