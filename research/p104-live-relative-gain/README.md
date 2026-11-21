@@ -36,7 +36,7 @@ The replay reconstructs the graph from the journal and checks its canonical dige
 
 A two-contact binary word leaves a mixed term. A literal replay of its two-level chronological product gives 50 wrong addresses on an input and output of the same Hamming weight. The calculation uses the actual paid moves and exact rational address coordinates. [Counterexample and reproduction](BINARY-PRODUCT.md)
 
-Every triple of the nine frozen binary decoder returns needs total movement rank 21 on the retained stock. A new network for one triple can save less than 0.162 per call at the trial. The binary circuit needs more than 0.416 per call. [Proof and exact replay](BINARY-DECODER.md)
+Every triple of the nine frozen binary decoder returns needs total movement rank 21 on the retained stock. A separate lattice check gives the same lower bound for all 788,035 three-dimensional subspaces of their span, including changes of basis. A new network for one triple can save less than 0.162 per call at the trial. The binary circuit needs more than 0.416 per call. [Proof and exact replay](BINARY-DECODER.md)
 
 ## Open next questions
 
