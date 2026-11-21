@@ -40,9 +40,11 @@ A two-contact binary word leaves a mixed term. A literal replay of its two-level
 
 Every triple of the nine frozen binary decoder returns needs total movement rank 21 on the retained stock. A separate lattice check gives the same lower bound for all 788,035 three-dimensional subspaces of their span, including changes of basis. A new network for one triple can save less than 0.162 per call at the trial. The binary circuit needs more than 0.416 per call. [Proof and exact replay](BINARY-DECODER.md)
 
+The 111 binary inputs also need at least nine common scalar summaries over any field, even if each receiver gets all its orthogonal inputs for free. The proof survives deletion of the roots in any one of the 180 recorded six-dimensional charts. [Scalar index proof and receipts](BINARY-DECODER.md#can-another-decoder-use-eight-common-scalars)
+
 ## Open next questions
 
-A further change removes four paid transfers and loses one independent direction. The exact replay identifies its null vector and the affected helper combination. A repair that keeps all its listed endpoints has less than 2.2479132439 per call available at the trial. [Repair equation, witness and reproduction](RATIONAL-REPAIR.md)
+A further change removes four paid transfers and loses one independent direction. A single transfer from chart 3 to chart 117 and 15 local coefficients restore the exact rational map. The available repair price is below 2.2479132439 per call. The grade-five transfer exceeds it by 2.720650297. [Repair equation, witness and reproduction](RATIONAL-REPAIR.md)
 
 At the trial 0.00391884648 the rational signed margin is in [−36.1508758544792045, −36.1508758544792044]. The binary margin is in [−14.9873626241398933, −14.9873626241398932]. Both must become positive before qualification at this trial. The five framework assumptions apply to the parent complete result. A change that clears both tariffs also needs a complete compiler, precision, ordinary BIT and outer application replay. [Coordination](https://github.com/CrocSwap/integer-mult-bounds/discussions/7111#discussioncomment-19777325) · [Prior contribution and comparison](https://github.com/CrocSwap/integer-mult-bounds/pull/7776)
 

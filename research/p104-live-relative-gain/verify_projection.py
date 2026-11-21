@@ -54,6 +54,13 @@ def replay(graph, layout, delta):
     check(len(q) == 305 and all(i not in main and starts[i] == 3 and ends[i] == 127 and q[i]
                                 for i in q), "lost helper coordinates")
     check(sum(v * h.get(i, 0) for i, v in q.items()) == 1, "projection normalization")
+    transfer, source, receiver = delta["repair"]["transfer"]
+    check(transfer not in forms and transfer >= 0 and (source, receiver) == (3, 117),
+          "fresh repair transfer from the chart that holds q")
+    controls = {k: Fraction(v) for k, v in delta["repair"]["controls"]}
+    check(len(controls) == len(delta["repair"]["controls"]) == 15 and controls.keys() <= forms.keys(),
+          "repair coefficients")
+    correction = {}
     needed = Counter(j for row in forms.values() for j, _ in row)
     stock = {~i: (chart, {i: 1}, 1) for i, chart in enumerate(starts)}
     dag = TopologicalSorter({k: [j for j, _ in row if j >= 0] for k, row in forms.items()})
@@ -61,6 +68,11 @@ def replay(graph, layout, delta):
     for k in dag.static_order():
         row = forms[k]
         chart = moves[k][0] if k in moves else ends[k - first]
+        check(k not in controls or chart in (source, receiver), f"repair signal available at {k}")
+        amplitude = controls.get(k, 0) + sum(Fraction(s) * correction[j]
+                                             for j, s in row if j in correction)
+        if amplitude and k in moves:
+            correction[k] = amplitude
         common = lcm(*(factor(s)[1] * stock[j][2] for j, s in row))
         result = {}
         for j, s in row:
@@ -83,6 +95,7 @@ def replay(graph, layout, delta):
             continue
         want = rows[k - first].copy()
         response = sum(v * h.get(i, 0) for i, v in want.items())
+        check(amplitude == response, f"repaired row {k - first}")
         if response:
             for i, v in q.items():
                 want[i] = want.get(i, 0) - response * v
@@ -93,7 +106,7 @@ def replay(graph, layout, delta):
     return main
 
 
-def repair_budget(graph, layout, main):
+def repair_budget(graph, layout, main, repair):
     caller = read("CALLER-CENSUS.json")
     calls = caller["calls"]
     spans = list(map(frame_span, layout["frames"]))
@@ -116,6 +129,12 @@ def repair_budget(graph, layout, main):
     lo, hi = margin(paid, targets, "0.00391884648")
     check(Fraction("2.2479132437") < lo / calls <= hi / calls < Fraction("2.2479132439"),
           "price available for an independent repair")
+    _, a, b = repair["transfer"]
+    check(grade(a, b) == 5, "repair grade")
+    paid[grade(a, b)] += calls
+    lo, hi = margin(paid, targets, "0.00391884648")
+    check(Fraction("-2.7206502971") < lo / calls <= hi / calls < Fraction("-2.7206502969"),
+          "complete repaired per-call margin")
 
 
 def main():
@@ -124,8 +143,8 @@ def main():
     check(canonical(layout) == read("EVENTS.json")["child_layout_sha256"], "layout")
     graph = reconstruct(parent, delta)
     main_roles = replay(graph, layout, delta)
-    repair_budget(graph, layout, main_roles)
-    print("PASS 1289 projected rows, rank 1288, 5696 paid transfers and the per-call repair budget")
+    repair_budget(graph, layout, main_roles, delta["repair"])
+    print("PASS 1289 projected and repaired rows, one grade-five transfer and both per-call budgets")
 
 
 if __name__ == "__main__":

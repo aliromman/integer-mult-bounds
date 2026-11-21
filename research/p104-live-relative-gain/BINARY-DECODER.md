@@ -61,3 +61,15 @@ python3 -I -B verify_decoder_spaces.py
 ```
 
 The output gives the number of subspaces, the certified lower bound and the five first-success counts. This stronger argument needs the input-line incidence of the stock at each chart. It does not need the finite bound on the number of small banks used in the first proof. A different decoder span requires a new calculation.
+
+## Can another decoder use eight common scalars?
+
+Give receiver i all inputs whose root is orthogonal to root i, together with the same linear summaries given to all receivers. It must recover its own input. The 111-root problem needs at least nine common scalars over every field. The original nine achieve this over GF(2). The lower bound still holds after deleting the inputs and receivers in any one of the 180 recorded six-dimensional charts. Thus no nine-summary solution can have one summary supported wholly inside such a chart. Setting those inputs to zero would leave an eight-summary solution to its complement.
+
+Suppose eight summaries suffice. For eight mutually nonorthogonal roots, the eight encoding columns and receiver rows must be dual bases. Their diagonal products are one and their cross products vanish. In these bases every other vertex may use only basis positions whose roots are orthogonal to its root. Its encoder and decoder must have a common nonzero position. Two nonorthogonal vertices whose lists share just one position cannot both choose it, since their cross product would have one nonzero term.
+
+The receipt gives an eight-root clique and two paths of forced choices for the full graph and for each chart complement. Each vertex on a path has one or two allowed positions. Each starting choice forces its own negation. The two paths use at most eight implications in total per case. The verifier checks each step against the physical roots and checks that the nine original binary summaries recover all inputs. This result concerns scalar linear summaries with the stated receiver information. Vector codes and other receiver stocks require their own test. [Implication receipts](INDEX-OBSTRUCTIONS.json.gz) · [Checker](verify_index_rank.py)
+
+```sh
+python3 -I -B verify_index_rank.py
+```

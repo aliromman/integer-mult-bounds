@@ -20,6 +20,12 @@ python3.12 -I -B research/p104-live-relative-gain/verify_projection.py
 
 The delta removes paid IDs 91075, 91373, 91580, 91582 and 103243. It adds ID 95 and specifies each changed scalar coefficient. The checker rebuilds the graph from the verified parent and checks its SHA-256. It uses integer arithmetic to check the map on every row and column, including the donor chart of each operand. The forward replay visits 13,380,291 terms. It then prices every transfer and listed endpoint with outward rounded arithmetic. [Compact delta and both vectors](Q117-DELTA.json.gz) · [Checker](verify_projection.py)
 
+## A repair with one grade-five transfer
+
+Chart 3 forms the scalar qᵀx from its public inputs. Send it to chart 117 on a fresh transfer, ID 96, before the other transfers. Add a multiple of this scalar to six existing rows at chart 3 and nine at chart 117. The delta gives the 15 coefficients. In the repaired circuit, let tₖ denote the coefficient of the extra signal at row k. Each tₖ is the sum of its local correction and the t values of its donors times their original coefficients. The checker evaluates this recurrence in dependency order and compares all 1,289 terminal values with Mh over the rationals. Thus the 5,697-transfer circuit computes M on independent inputs at the stated endpoints.
+
+The new transfer has grade five. At the trial its price exceeds the available margin by between 2.7206502969 and 2.7206502971 per call. The calculation includes all 48 occurrences. This gives a constructive price for a full repair. A cheaper supply of the same signal or a separate transfer saving is still needed.
+
 ## Open next question
 
 Can existing receipts deliver the correction (Mh)(qᵀx) within the available price? A repair needs to supply the correct coefficients to each affected output in a valid order. The input coform is available at chart 3. A low price for moving it once does not establish that the recipients can use it at their required charts.

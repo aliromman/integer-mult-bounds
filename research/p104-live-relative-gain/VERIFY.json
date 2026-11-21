@@ -53,7 +53,17 @@
         "{package}/verify_projection.py"
       ],
       "timeout_seconds": 90,
-      "checks": "Rebuild the chart 117 circuit, verify its rank-one error on all public fields and compute the available price for an independent repair."
+      "checks": "Check the projected and repaired chart 117 maps on all public fields. Bound both tariffs."
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify_index_rank.py"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Prove the scalar index lower bound on the 111 binary roots and all 180 listed chart complements. Check the nine-summary binary construction."
     }
   ]
 }
