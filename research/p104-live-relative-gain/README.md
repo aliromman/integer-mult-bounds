@@ -14,6 +14,8 @@ python3.12 -B research/p104-live-relative-gain/verify_component.py
 
 The check reads the supplied graph and verifies all 1,289 independent input columns by reverse accumulation over the rationals. It visits 28,670,764 adjoint terms. It checks every source chart and each nested paid or productive transition. It rebuilds the two complete histograms and checks the signs at both reported endpoints. Successive integer square roots give outward bounds for the powers. [Independent checker](verify_component.py) · [Histograms and result](RATIONAL-RECEIPT.json)
 
+Clear1nsight independently replayed all 1,289 rows in both directions and checked the first reader of each of the 5,700 transfers. The 48 calls have 282,816 paid and 52,512 productive occurrences. An ordered check of the helper owners rejected a swap that preserved the sorted digests. [Independent audit in PR 7906](https://github.com/CrocSwap/integer-mult-bounds/pull/7906)
+
 The repository hook runs the same check with its source pins. Run `python3.12 -B scripts/research_package.py --package research/p104-live-relative-gain`. [Source manifest](SOURCES.json) · [Registered check](VERIFY.json)
 
 The forward replay uses the pinned parent word, layout and bank operations. To run it, use the three source files or directories listed below. Supply local copies at the indicated arguments.
