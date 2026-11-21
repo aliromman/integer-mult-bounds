@@ -76,6 +76,55 @@
       "pin": "head:89a67c404226d51028e135de2b9169e9020d57af:research/p104-iterated-returns/binary/WORD.json.gz",
       "git_blob": "efb2e9d1c3caec25bea36803ca6994997e3256b0",
       "sha256": "d28f0d28d9d87d5fe57b8ef19e12faf98014f0bbef781987ce22daaa82f21cb9"
+    },
+    {
+      "path": "research/p104-iterated-returns/SOURCE-LOCK.json",
+      "usage": "provenance",
+      "pin": "head:89a67c404226d51028e135de2b9169e9020d57af:research/p104-iterated-returns/SOURCE-LOCK.json",
+      "git_blob": "c4df7913475708c11784e16932d55ec9569c47cd",
+      "sha256": "b46b919292e1a1907345056b6925f5f1400d45650e2f0f610779a07163bb64ee"
+    },
+    {
+      "path": "research/p104-iterated-returns/prepare_sources.py",
+      "usage": "provenance",
+      "pin": "head:89a67c404226d51028e135de2b9169e9020d57af:research/p104-iterated-returns/prepare_sources.py",
+      "git_blob": "0511286ba3b78fbc710612850cb011f4ee6ebf16",
+      "sha256": "c70c3be6e48717c6a9a561ef2294d23437a60d7dbcbbddc1305a6fc54001bb3d"
+    },
+    {
+      "path": "research/p104-iterated-returns/binary/finite.py",
+      "usage": "provenance",
+      "pin": "head:89a67c404226d51028e135de2b9169e9020d57af:research/p104-iterated-returns/binary/finite.py",
+      "git_blob": "f4e8dff455fd8f574e087327b56743546f97b9bc",
+      "sha256": "c780cea060f4a9efef064b239636162a7e8e84e40369abc1a1c4679dfbeb3041"
+    },
+    {
+      "path": "research/p104-iterated-returns/continuation/qualify.py",
+      "usage": "provenance",
+      "pin": "head:89a67c404226d51028e135de2b9169e9020d57af:research/p104-iterated-returns/continuation/qualify.py",
+      "git_blob": "ddc62cc718cc22ec39e195d707187bb7f6604e09",
+      "sha256": "fdf559fbe15f52c2b31f2947712a46aa6b4c93f211ea9a0b1f05b07d69664227"
+    },
+    {
+      "path": "research/p104-iterated-returns/continuation/compiler.py",
+      "usage": "provenance",
+      "pin": "head:89a67c404226d51028e135de2b9169e9020d57af:research/p104-iterated-returns/continuation/compiler.py",
+      "git_blob": "0e0580ae4a977010ed30a4ba259c2f0ad20ab33f",
+      "sha256": "c160563bc51f984224bbb0a00f9e69b276fa618a83591c00f38fb9fa8d958d9c"
+    },
+    {
+      "path": "research/p104-iterated-returns/continuation/audit_expanded.py",
+      "usage": "provenance",
+      "pin": "head:89a67c404226d51028e135de2b9169e9020d57af:research/p104-iterated-returns/continuation/audit_expanded.py",
+      "git_blob": "6feff832d51b1909d6d73dcff6527db7f6c9ad54",
+      "sha256": "0316153c1822724e1a3d08066aec9601a891073b0209954eaf302ffa014bf5ac"
+    },
+    {
+      "path": "research/p104-iterated-returns/evidence/application.json",
+      "usage": "provenance",
+      "pin": "head:89a67c404226d51028e135de2b9169e9020d57af:research/p104-iterated-returns/evidence/application.json",
+      "git_blob": "0ca5af670cdea99c002ba992d92b2b8647258244",
+      "sha256": "88486d49f2ba1fc0e6c9f4a7402c82e91c44026cf90cd1387d1e5c45cf5e88d3"
     }
   ]
 }

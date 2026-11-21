@@ -1,6 +1,6 @@
-# Rational P104 circuits and the remaining binary limit
+# A conditional P104 multiplication result
 
-An exact circuit with 5,676 paid transfers raises the 48-call rational crossing to [0.00389586937146, 0.00389586937147]. It keeps all 1,289 independent public fields and their charts. The verifier checks the complete rational map in both directions. The 36-call binary circuit still limits the complete multiplication result. [Construction, evidence and open obligations](BIDIRECTIONAL.md)
+The 36-call binary supplier admits 0.003887434312223. The 48-call rational supplier has a raw crossing between 0.00389749436514 and 0.00389749436515. Together they give **κ ≥ 0.00388743431214** under the five inherited assumptions. This is 0.19346% above the conditional 0.00387992804346 in PR 7863. This search aims to exceed the previous round’s 1.003070961944% gain. [Construction and full replay](APPLICATION.md) · [PR 7863](https://github.com/CrocSwap/integer-mult-bounds/pull/7863)
 
 ## The 5,700-transfer parent
 
@@ -54,6 +54,6 @@ An alternative change to the 5,700-transfer parent removes four paid transfers a
 
 A different choice at chart 117 removes another grade-four transfer. This raises the available repair price to 6.2262414658 per call. The source has one fewer exit than independent inputs, and the receiver has one fewer arrival than independent outputs. The complete correction must cover both cuts. [Grade-four removal and exact replay](RATIONAL-REPAIR.md#removing-transfer-99044)
 
-At the trial 0.00391884648 the 5,676-transfer circuit raises the rational signed margin from −36.15087585448 to −23.30640878687, rounded to 11 decimal places. The binary margin is in [−14.9873626241398933, −14.9873626241398932]. Both must become positive before qualification at this trial. The five framework assumptions apply to the parent complete result. A change that clears both tariffs also needs a complete compiler, precision, ordinary BIT and outer application replay. [New rational replay](BIDIRECTIONAL.md) · [Coordination](https://github.com/CrocSwap/integer-mult-bounds/discussions/7111#discussioncomment-19777325) · [Prior contribution and comparison](https://github.com/CrocSwap/integer-mult-bounds/pull/7776)
+At the trial 0.00391884648 the two helper splits leave a rational deficit of 21.64908152169 across all 48 calls. The binary deficit is about 0.33536 per call. A word that closes either deficit must deliver and restore every independent field. A candidate for the higher complete bound must close both deficits and pass the application replay. [New rational replay](BIDIRECTIONAL.md) · [Coordination](https://github.com/CrocSwap/integer-mult-bounds/discussions/7111#discussioncomment-19777325) · [Prior contribution and comparison](https://github.com/CrocSwap/integer-mult-bounds/pull/7776)
 
 Ali Romman prepared this local research with substantial OpenAI Codex assistance. The circuit uses Clear1nsight's paid-chain contractions and the PR 7776 bank and helper operations. The retained construction credits DreamingOfClouds, CubeJerry, Rohan Arun, SYLforge, Cinna Davis and the other authors in the source notices. [Predecessor credits](https://github.com/CrocSwap/integer-mult-bounds/blob/87fbf4f7b35b0f18ab12b5767775a9a424cf0b15/research/p104-mixed-rank-supplier/NOTICE)

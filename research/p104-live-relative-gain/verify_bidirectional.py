@@ -114,6 +114,10 @@ def main():
         parent, _ = reconstruct(parent, read("BIDIRECTIONAL.json.gz"))
         check(canonical(parent) == read("BIDIRECTIONAL-RECEIPT.json")["new_word"], "intermediate word")
         prefix = "BIDIRECTIONAL-QUOTIENT"
+    verify_step(parent, prefix)
+
+
+def verify_step(parent, prefix):
     delta = read(prefix + ".json.gz")
     receipt = read(prefix + "-RECEIPT.json")
     word, edits = reconstruct(parent, delta)
@@ -122,7 +126,11 @@ def main():
           and len(delta["moves"]) == receipt["new_moves"], "changed transfers")
     check(edits == receipt["coefficient_edits"] and len(delta["differences"]) == receipt["changed_rows"],
           "coefficient count")
-    layout = read("LAYOUT.json.gz")
+    check_circuit(word, receipt, read("LAYOUT.json.gz"))
+    return word
+
+
+def check_circuit(word, receipt, layout):
     work, grid, bits = forward(word, layout)
     check([work, grid, bits] == [receipt["forward_terms"], int(receipt["minimum_product_grid"]),
                                  receipt["literal_peak_bits"]], "forward precision and work")

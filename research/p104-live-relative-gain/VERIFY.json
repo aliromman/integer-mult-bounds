@@ -70,21 +70,20 @@
         "{python}",
         "-I",
         "-B",
-        "{package}/verify_bidirectional.py"
+        "{package}/verify_split_helpers.py"
       ],
-      "timeout_seconds": 180,
-      "checks": "Rebuild the 5680-transfer graph. Check all rational rows and columns, the smallest product grid, both 48-call crossing signs and the trial deficit."
+      "timeout_seconds": 360,
+      "checks": "Rebuild both bidirectional circuits and the two helper splits. Check all three rational maps in both directions, their product grids, the 48-call crossing signs and trial margins."
     },
     {
       "argv": [
         "{python}",
         "-I",
         "-B",
-        "{package}/verify_bidirectional.py",
-        "--quotient"
+        "{package}/verify_application.py"
       ],
-      "timeout_seconds": 180,
-      "checks": "Rebuild the 5676-transfer quotient. Check every terminal, every input column, the common product grid, the 48-call crossing and the trial margin."
+      "timeout_seconds": 420,
+      "checks": "Rebuild the 36-call binary and 48-call rational suppliers. Check the finite ordinary cap, dirty-bank program, integer product grid, signed invoices, and all 58 outer conditions."
     }
   ]
 }

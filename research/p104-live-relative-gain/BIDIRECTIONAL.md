@@ -46,8 +46,14 @@ The supplied delta goes directly from 5,680 to 5,676. It retires eight transfer 
 python3.12 -I -B research/p104-live-relative-gain/verify_bidirectional.py --quotient
 ```
 
+## Two independent helper splits
+
+With the same 5,676 paid transfers, split helper 233 at chart 750 and helper 205 at chart 34. The first grade-nine job becomes grade-three and grade-six jobs. The second becomes grade-one and grade-eight jobs. Each new input is independent. At each cut, a local expression reads a linear combination of source fields. The injection replaces that combination with the new input in the remaining program. A basis change within the original source and return banks keeps the other fields independent. The journal gives the two covectors, their nonzero pairings with the source directions, the literal readers and the injection coefficients. [Journal](HELPER-SPLITS.json) · [Reconstruction](verify_split_helpers.py)
+
+The word now delivers 1,291 independent fields. The forward check covers 25,038,131 products. The adjoint check covers 88,780,337 terms. The 48-call rational crossing is between 0.00389749436514 and 0.00389749436515. The full replay also checks the short scalar programs for the new 57-bit literals. [Split receipt](HELPER-SPLITS-RECEIPT.json) · [Complete application](APPLICATION.md)
+
 ## Open next questions
 
-At κ = 0.00391884648 the 48-call rational margin is between −23.306408786870 and −23.306408786869. It still needs 0.485551 per call, rounded up. The 36-call binary circuit needs 0.416316 per call. To test a further merge, first check whether a new carrier can reach all its readers in dependency order. A positive rational and binary tariff would also need a compatible dirty-bank implementation, a precision bound for the compiled program and the complete outer application under the inherited framework assumptions. [Binary trial and earlier repair variants](README.md#open-next-questions)
+At κ = 0.00391884648 the rational margin is between −21.649081521691 and −21.649081521690. Another circuit needs more than 0.45102 per rational call. A further split must identify where the independent return can be read and where the second input can enter in time for its readers. [Binary and rational budgets](README.md#open-next-questions)
 
 Ali Romman prepared the construction and replay with substantial OpenAI Codex assistance. The 48-call profile and parent come from Clear1nsight's PR 7830 and the preceding P104 constructions. [Pinned sources and attribution](README.md#check-the-result)
